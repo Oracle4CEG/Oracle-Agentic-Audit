@@ -1,0 +1,9 @@
+case_id,run_id,system,label,p_reject,action
+SYN-01,0,fixture-single-pass,0,0.1,uphold
+SYN-02,0,fixture-single-pass,1,0.8,reject
+SYN-03,0,fixture-single-pass,1,0.6,investigate
+SYN-04,0,fixture-single-pass,0,0.7,reject
+SYN-01,0,fixture-defer-all,0,0.5,investigate
+SYN-02,0,fixture-defer-all,1,0.5,investigate
+SYN-03,0,fixture-defer-all,1,0.5,investigate
+SYN-04,0,fixture-defer-all,0,0.5,investigate

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "status": "BLOCKED",
+  "dataset_url": "https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1",
+  "dataset_revision": null,
+  "descriptor_arxiv_version": null,
+  "input_files": [],
+  "model_specification": null,
+  "replay_command": null,
+  "inference_command": null,
+  "reference_outputs": [],
+  "license_approval": null,
+  "scientific_review_receipt": null,
+  "boundary": "Descriptor owns full Atlas construction. Research owns experiment selection and evaluation."
+}
