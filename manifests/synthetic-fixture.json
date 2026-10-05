@@ -1,0 +1,7 @@
+{
+  "evidence_status": "SYNTHETIC",
+  "path": "data/fixtures/predictions.synthetic.csv",
+  "sha256": "28cc0750a5a7846984b705c309802c3346ffb13882ca3d136b0524c26126fcdc",
+  "unique_cases": 4,
+  "purpose": "Template mechanics only; no paper reproduction"
+}
