@@ -59,4 +59,4 @@ The descriptor arXiv identifier, research citation, code license and applicable 
 
 ## Validation and limitations
 
-See [the template validation receipt](docs/TEMPLATE_VALIDATION.md). Full scientific replication, real model inference, GPU requirements, independent replay, hosted CI and hosted Colab remain unverified. Synthetic examples must remain clearly separated from observed research outputs.
+See [the template validation receipt](docs/TEMPLATE_VALIDATION.md). [Hosted template CI passed](https://github.com/sunshineluyao/Oracle-Agentic-Audit/actions/runs/37261897236) at commit `f3470203438591d1139d2628b34f8197cf6d83c9`. Full scientific replication, real model inference, GPU requirements, independent replay and hosted Colab remain unverified. Synthetic examples must remain clearly separated from observed research outputs.

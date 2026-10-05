@@ -6,4 +6,6 @@ Commands: `python -m oracle_audit smoke`, `python -m unittest discover -s tests 
 
 Expected gate behavior: `python -m oracle_audit release-check` exits nonzero because real inputs, model specification, result records, output references, a scientifically reviewed evaluation and license approval are absent.
 
-No real model inference, historical-result replay, independent scientific review, hosted CI or hosted Colab execution is certified. The workflow tests template mechanics only. Huaiyu must replace this receipt with measured commands, environment, counts, outputs, hashes and all failures/skips when the real implementation is complete.
+Hosted template CI subsequently passed at commit `f3470203438591d1139d2628b34f8197cf6d83c9`: [workflow receipt](https://github.com/sunshineluyao/Oracle-Agentic-Audit/actions/runs/37261897236). This covers template checks only.
+
+No real model inference, historical-result replay, independent scientific review or hosted Colab execution is certified. The workflow tests template mechanics only. Huaiyu must replace this receipt with measured commands, environment, counts, outputs, hashes and all failures/skips when the real implementation is complete.
