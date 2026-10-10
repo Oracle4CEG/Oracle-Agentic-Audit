@@ -1,5 +1,9 @@
 # Public research reproduction
 
+[Open the commit-pinned Colab notebook](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/86a900e6a8add44cabd15b11b3f61ce2206addcb/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
+Its implementation commit is `33ec7020e97fc6b8dd0005415d3184ce889d3e28`; the notebook
+itself is frozen at `86a900e6a8add44cabd15b11b3f61ce2206addcb`.
+
 The fixed Hugging Face commit and archive hashes are in
 [public-release.json](../manifests/public-release.json). Archives have separate
 `atlas/selected-inputs/2026-10-10/` and `research/agentic-audit/2026-10-10/` prefixes.
@@ -61,7 +65,8 @@ running locally or passing GitHub Actions does not satisfy that condition.
 
 The established dataset license covers original curated data; source snapshots
 and third-party content retain their original terms. No model weights or private
-manuscript are included. The research repository still needs the corresponding
-author's code-license decision. No new code license is inferred from Atlas's MIT
-license. The descriptor's actual arXiv version, independent review and hosted-Colab
+manuscript are included. The author confirmed MIT for original research code on 10 October 2026; see
+[LICENSE](../LICENSE) and [the confirmation record](../manifests/license-approval.json).
+This includes the original scientific implementation at commit
+`33ec7020e97fc6b8dd0005415d3184ce889d3e28`. Third-party rights are unchanged. The descriptor's actual arXiv version, independent review and hosted-Colab
 receipt remain final publication gates, separate from an executable draft PR.

@@ -4586,7 +4586,11 @@
       "sha256": "8d7421965b5fa02aa1461e4a2ab0891ede1afde8d99140abdde8b07a5989f6e3"
     }
   ],
-  "license_approval": null,
+  "license_approval": {
+    "license": "MIT",
+    "receipt": "manifests/license-approval.json",
+    "scope": "Original research code"
+  },
   "scientific_review_receipt": null,
   "boundary": "Descriptor owns full Atlas construction. Research owns experiment selection and evaluation.",
   "inference_scope": "User-reduced necessary-only scope: 483 validation + 320 existing B2 (repeat IDs 3,4) + 480 A1-only guard. Low temperature cancelled. Original 1600 main + 320 robustness are frozen inputs.",

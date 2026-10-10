@@ -33,4 +33,4 @@ The template tests cover only the scaffold's hash checks, evidence cutoff helper
 
 ## Licenses and access
 
-Record source/data/model licenses independently of the code license. Never commit credentials, confidential manuscripts, model weights without permission or private artifacts. Confirm the code license with the corresponding author; no release license is assumed here.
+Record source/data/model licenses independently of the code license. Never commit credentials, confidential manuscripts, model weights without permission or private artifacts. The original contract required corresponding-author confirmation before choosing a code license. The user reported that confirmation on 10 October 2026 and authorized MIT; see LICENSE and manifests/license-approval.json. Data and third-party rights remain separate.

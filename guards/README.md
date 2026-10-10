@@ -1,5 +1,5 @@
-# Guards — implementation required
+# Safeguard experiments
 
-Implement citation and temporal guards, clean-case checks, corrupted/future evidence tests and guard-on/off comparisons.
+`fixtures.py` constructs clean and five corrupted evidence conditions. `experimental_mcp_server.py` controls source admission. `run_experiment.py` records model responses and final enforced actions with guards on and jointly all off.
 
-Status: PLANNED. No scientific implementation exists in this directory yet. Update the result index when the implementation and its evidence are validated.
+The necessary panel contains 40 paired cases, six conditions and two modes for A1: 480 runs. Existing outputs are published and analyzed by analysis/guard_delivery.py and analysis/guard_results.py. Future identifier citation is distinguished from receipt of future record content. Clean abstention includes output-contract failures; identifier validity does not establish semantic correctness. No new inference is needed for saved-record replay.

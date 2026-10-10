@@ -9,6 +9,9 @@ The scientific implementation is present. Completion is checked from per-case ru
 
 ## Install and replay
 
+[Open the pinned public reproduction notebook in Google Colab](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/86a900e6a8add44cabd15b11b3f61ce2206addcb/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
+The notebook clones scientific code commit `33ec7020e97fc6b8dd0005415d3184ce889d3e28` and downloads the dataset revision recorded there. The separate notebook commit avoids a circular self-reference. A link alone is not a hosted execution receipt.
+
 Python 3.12.7, Linux:
 
 ```bash
@@ -44,6 +47,6 @@ The 64 public demonstrations all overlap training. They are not an extra held-ou
 
 The research repository owns experiment selection, evidence, model/guard experiments, policies, evaluation and selected economics. Atlas construction belongs to the descriptor. [Project boundary](docs/PROJECT_BOUNDARY.md).
 
-The public dataset revision is pinned in the release manifest. The descriptor arXiv version, author-confirmed research-code licensing, independent scientific review and actual hosted-Colab test remain separate requirements. `python -m oracle_audit release-check` reports blockers. Local replay and GitHub Actions are not hosted Colab.
+The public dataset revision is pinned in the release manifest. The descriptor arXiv version, independent scientific review and actual hosted-Colab test remain separate requirements. `python -m oracle_audit release-check` reports blockers. Local replay and GitHub Actions are not hosted Colab.
 
-The original `python -m oracle_audit smoke` example is synthetic and excluded from research findings. No new research-code license or descriptor arXiv identifier is asserted.
+The original `python -m oracle_audit smoke` example is synthetic and excluded from research findings. Original research code is [MIT licensed](LICENSE), as confirmed by the author. [Data and third-party terms](DATA_LICENSE.md) are separate. No descriptor arXiv identifier is invented.
