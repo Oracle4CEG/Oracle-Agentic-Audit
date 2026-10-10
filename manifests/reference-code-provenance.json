@@ -1,0 +1,23 @@
+[
+  {
+    "source": "data/local/qwen_original/scripts/applications/trustworthy_ai/run_agentic_oracle_auditor.py",
+    "source_sha256": "860a17974ab159eab2ff889233fc951408d661f7ad7a258f99115726b052d7f4",
+    "adapted": "models/reference/run_agentic_oracle_auditor.py",
+    "adapted_sha256": "bf8006f5d031a877362087e030e0868addda2edd0d5d28390edf705deb35444e",
+    "diff": "--- scripts/applications/trustworthy_ai/run_agentic_oracle_auditor.py\n+++ models/reference/run_agentic_oracle_auditor.py\n@@ -38,8 +38,8 @@\n from sklearn.metrics import brier_score_loss, roc_auc_score\n \n \n-ROOT = Path(__file__).resolve().parents[3]\n-sys.path.insert(0, str(ROOT / \"src\"))\n+ROOT = Path(__file__).resolve().parents[2]\n+sys.path.insert(0, str(Path(__file__).resolve().parent))\n \n from oracle_ledger.oracle_auditor_store import (  # noqa: E402\n     EvidenceStore,\n"
+  },
+  {
+    "source": "data/local/qwen_original/scripts/applications/trustworthy_ai/oracle_auditor_mcp_server.py",
+    "source_sha256": "a176150b2953918e1fe901e582a7dbf98bb389135e3dc862ca9e3e740e3b2872",
+    "adapted": "models/reference/oracle_auditor_mcp_server.py",
+    "adapted_sha256": "c4b1e323a6fca3a9a036f8ec001b111ed5dab7800d4430e432c033f729bc5d92",
+    "diff": "--- scripts/applications/trustworthy_ai/oracle_auditor_mcp_server.py\n+++ models/reference/oracle_auditor_mcp_server.py\n@@ -12,8 +12,8 @@\n from mcp.server.fastmcp import FastMCP\n \n \n-ROOT = Path(__file__).resolve().parents[3]\n-sys.path.insert(0, str(ROOT / \"src\"))\n+ROOT = Path(__file__).resolve().parents[2]\n+sys.path.insert(0, str(Path(__file__).resolve().parent))\n \n from oracle_ledger.oracle_auditor_store import EvidenceStore, ValidationResult, sha256_json  # noqa: E402\n \n"
+  },
+  {
+    "source": "data/local/qwen_original/src/oracle_ledger/oracle_auditor_store.py",
+    "source_sha256": "8765a79bdef84c4a51e22392f09d8ad07dbaea8ea41f0d6a5b2604723586096f",
+    "adapted": "models/reference/oracle_ledger/oracle_auditor_store.py",
+    "adapted_sha256": "8765a79bdef84c4a51e22392f09d8ad07dbaea8ea41f0d6a5b2604723586096f",
+    "diff": ""
+  }
+]

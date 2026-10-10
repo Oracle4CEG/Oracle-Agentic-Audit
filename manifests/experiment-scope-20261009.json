@@ -1,0 +1,1349 @@
+{
+  "scope_id": "necessary-only-20261009",
+  "created_utc": "2026-10-09T07:28:23.567328+00:00",
+  "authorization": "User: 减少实验，只做必要的",
+  "original_planned_case_runs": 2563,
+  "required_case_runs": 1283,
+  "validation": {
+    "required": true,
+    "systems": [
+      "B1",
+      "A1",
+      "B2"
+    ],
+    "repeats": [
+      0
+    ],
+    "cases": 161,
+    "case_runs": 483
+  },
+  "matched_test": {
+    "required": true,
+    "systems": [
+      "B2"
+    ],
+    "repeats": [
+      3,
+      4
+    ],
+    "cases": 160,
+    "case_runs": 320,
+    "selection": "Reuse the two already complete repeats (zero-based IDs 3 and 4); chosen by completion status to avoid additional inference, not by prediction metrics. This is a post-start resource-driven amendment, not a preregistered two-repeat experiment.",
+    "paired_comparison": "Use the same case IDs and repeat IDs in A1; retain five-repeat B1/A1 main results separately.",
+    "frozen_completion_records": [
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/00f469b93372b3a6170c2911fa1f54bf9746a66c4723e2ef4eab014372455271/run_meta.json",
+        "sha256": "da97de85e329d02cb786468994e1ca1bdb8453c0691d6b5dffe2bf515a91fa2e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/040d202452f8e584c3db4bc8616a10e559d46878e5f11cfdc8b1df645ed50bf6/run_meta.json",
+        "sha256": "2cfb4613f5c70d34e3455f2d335f830c6955f8ed0f608c4cec1c814d850bb9db"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/06365dbce8dd3fc975e14318c9f7642b093abd6505a1c430370cddb82e03ec89/run_meta.json",
+        "sha256": "8f04f627320e70b9312427c310be7f25bc31352b9e874d20572968dff88d9213"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/084a811c7213e9581c4bde648a325178a2e32212a0e13ef72c12a7929b42d2b2/run_meta.json",
+        "sha256": "5c2697dfadc05b3517b6e6e00a5d00d0a062a88a911e03361b837d8d7490467b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/08f0ee8744c81df9f9d68302b50b75af2545a137f2161a14c669ba179cdccd43/run_meta.json",
+        "sha256": "684d53177dc725a942a144d2a18ef1edf1a33d1d1053cb7aeefd04f7e666f90a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0a4725513dc52c86dbe5f232309a0ef7a6f45518da3ac19bf1f732514c4d8d86/run_meta.json",
+        "sha256": "a97315e2e7882949ec76b30c35acb518c1d9e865ca4d65e29b32b9591457b112"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0a774bf6996e8cf34412223093cccb8b7a78b8bf0bcf339bc18bae784e8a7d39/run_meta.json",
+        "sha256": "37c6c72e918762a8afbfa6820bd846a0be8cab0a3fcb61834e2cc19fd8d55548"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0b5b446c4b460c4624a795cceac23108b7e9afc35aaf1e9f3841e2c0cd2404f6/run_meta.json",
+        "sha256": "d20fbc32363a6852116713267bc45658fa9a4d194048e3ef3142c2aa2a6223e1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0b7a13df9aefcdb4504067fbb745e34edf666e2f5f8995a66315f07da17c50d9/run_meta.json",
+        "sha256": "099fe5e4063486bc4f8c6f62c9b2330392dac12b5aaf92291e2c90a5edceecb9"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0cee4439eb6ad3103306585907c96f490fbb78c53225c5c938eba438c17d1446/run_meta.json",
+        "sha256": "32627aaa36c1cf0e937d373bd81491bc23957f0becd684c4a434c4415b49d8fd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0d50ad2a872a4c15395d9dec2bf52d46b558e3c0c9259556f1347716b4e7544a/run_meta.json",
+        "sha256": "179b209c10a3f3386feb29764e0ecccf9c4cb41e7f611084ca3ad4272a22fa32"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0de629781003cc43240d290140954cb2b6c6fa48b757b86e6c1c11c7f38d9f36/run_meta.json",
+        "sha256": "fd5b3f2c73b34a36a0225ee40cb2def70acadb97f4f7cc3d288b38de7ba0ff73"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0e0fa492e117faf933fced89e3f42c191d3f838ea9828d8ba2ec4de434dbe059/run_meta.json",
+        "sha256": "878cd48550f500b283ef67ddb8407a3f52b028717fb096eaa946cd59b8c077b1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/0fa55d36cabcea83ef995bbc8309ac1f8b98a208fd0e9872c721fce9fc753829/run_meta.json",
+        "sha256": "bb3edb3bf056b477c5eebed721115d02ba1af61909cd6405e2211b2791788e0d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/1132b807a3375528a2de8e1b42c5289cd634d7ce3d9c72b818d922f35983dc2c/run_meta.json",
+        "sha256": "cf3e6831cc3e5d40d61535d80e7055f571848b42709d3aca9aa4a400caa60ea9"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/165dba5b1e712113405e8274ef0d2770a92d2a5adb6e156a1318a5084a047fd0/run_meta.json",
+        "sha256": "367a8758457fc2dc1c19cc1b4568bb769f7f764b33e3fed61347ec7eb84f2fe1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/17f396931004b888e28d3d044c63094e19f2986405672fd724a53989d5d3f40c/run_meta.json",
+        "sha256": "bd2f11ea364783f3badbce2975112798462f93ba2f0a0375f957c7f674b22436"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/19e894cc96d65024da65bc8101c1c28ace87243bf04e948cf447615962921eda/run_meta.json",
+        "sha256": "aa4a7af298c714be9135bc086d61d5b4a61231809a9549a82cdf9d06799d0fc7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/1c1103a5193b84bab2186bda2c4f460983d86bf9ca2ffddb0a5a25479755da9c/run_meta.json",
+        "sha256": "cfb738370f0597566466b776d11b20dba0968384dd56834bb5f0f56232d40348"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/1c8c345043b4e701ee7369fae844b559ca0afd1e9f133897186d950e0a904351/run_meta.json",
+        "sha256": "3538634a7e07201478db15bfa90b4bc82311c75845dfcd9b539c01805bd615a6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/1e91f8f991ccedb83b0af6183fe31f255abd6688486bd7342d6af7a28d7b8eea/run_meta.json",
+        "sha256": "fff2af538c24754faea9bccc6ac6fee8495eb0910f3937c2745df0d63c5376de"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/22e8250406a5ae1678e5359f55c190491035e485a4f43a00c75cdc7ed6842118/run_meta.json",
+        "sha256": "60fdb45c75cdf0fb531594e393be3c41fcda9a1c78dbe01c11c63da2422d0c5e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/24c8782e2ccdc386f1302938c2449dc8332c6dea4c0bade0edeaabc603a1d0e4/run_meta.json",
+        "sha256": "22984b3da9801ab106f5e9323c08130abc287fac198f035e0dd4c5d38b09b98a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/26a5d623b01402c520cf4383e4a7e517bdef59b5f709d0d9eb191376a53ed9c5/run_meta.json",
+        "sha256": "6b962a655c8fb3d726e427a74c51a303a75ba14e25476fefcbe934fee8048c4e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/282a61439d7369f9c896994d272674c18225afbc5d784cb6ac0d65521aa5816d/run_meta.json",
+        "sha256": "75b794054f3a4244a981044bf0b471866cc33325fe27f29aab2f026ca3637747"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/28df439f2d62378183b82729be848e1553b7c5f73f6b5bca34b1256576ffd370/run_meta.json",
+        "sha256": "9ffb806e03e5930fa4ffa4ff179dd38a18e8f3030031c109049e47c79bd606a8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/29c1f4c56a8913cf2ff4604a3581c2a6865d12f91695afa0b2ea39d5ee4276ca/run_meta.json",
+        "sha256": "c2d341ca5f79f84d8c53d69a50d6d1437bc2500c0d8c6176c299ff238e9f9fd1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/2ca7875752f6e9fe7e8d0234787774017fa9d7f3f3c46275da0058facf55077c/run_meta.json",
+        "sha256": "1386fc0834dd87fc0a0fbf20fcaf96e636d8cfbb8070eb14ebbc8a9a2ea8cab3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/2f1fb7f5b3342bd15891eb317e9fa8ea57c0796f43482f28b871d7d55a2382ec/run_meta.json",
+        "sha256": "3cad822bab2a496a3c647fb79ab59c62382cfe1323c572375944c1d47ef9b35c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/2f4de90e4bbd0566d2c6b04d527ff719f7de326f6c618917cc6070cdb4f880a4/run_meta.json",
+        "sha256": "96c897c8a9b41d438bdf8486587ae766c5ebd271cc50cb2d8b3d0d01ddcb0f6d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3043353e1170943ef40ecf893bf17d7f976459775f2977ede3d4f925a6b44b26/run_meta.json",
+        "sha256": "aff7e6c6aa706e3d8f1794f2bf5bc02962f12ea2d2bd0bf28281dc8f5e0bf88b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3226c1fbc7d48c3dc062475a94d0b157825922d4ef24ed7f865480b11c2ed6f6/run_meta.json",
+        "sha256": "ae2b674cae1485ec13ee920738c0265227868ba648219286362f0d9a6e7c0f6f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/326382bec711ad9e359776cdaed4e2ef9a6820124aed915efe577a7858bcc783/run_meta.json",
+        "sha256": "0a03332fffbf9ef8f64bc6c65a6b9a943b94b049973e7874b507b13551544f06"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/37389e672a019f8527889ccca156f4a60ce7e0332abc680cf95cdefee1f7ef06/run_meta.json",
+        "sha256": "799d042f81b791a65213b1c0f469d507cd19a072aac231e12f43cfe74a017234"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3947ea60459b5330de46417d8231d8ec2abbc066ead537ae09f9147774bad53d/run_meta.json",
+        "sha256": "8d643a2372825c3d2cca981d834c4fe9e4a60b11ed8a2c237f83e7b864e962cb"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3bd6e118fdd9285fa7e5a1985b233cac533b59d332a5745741e9932b33237eb8/run_meta.json",
+        "sha256": "df99c0faf8b80325218dfd92bf5e368ad2a6e92e5fd94dddf9db339f9842b594"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3c33bee66a479edbc36fe15ec225aeb122cffadc6dbfa475091a42252a720fc8/run_meta.json",
+        "sha256": "c5f195917bd318b4e91a7c28e83a7fa6df3ec0e81b9b5bfc88749accb08a05a6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3c74ecdb4db12f06804e698845d17adbfbdebae97c49b87b4778657906eaff87/run_meta.json",
+        "sha256": "01025506939ea89a57abdbb8f76639ce98b6b6122d1f73f4804c5310ffe71e56"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3db5eeb30f0efb22b40ece906de3f95dc7d95cbfe8ba2f370172dccdbc05eda7/run_meta.json",
+        "sha256": "0260f25c8c271395a8399890dd9aa0e2a9b96d9a40de0aa8ce41b96ea2792884"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/3e79c2abeb445a9d898a29728ff596dfde391aae3f545e8274639db356a49edd/run_meta.json",
+        "sha256": "4411a37054fb51c67c3775df773cdb64ab4ec116b0cb506237d07b3ef62bf9b5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/40d5ade3d159ef32efd1bd91a4c5ed4af4aae0943a0258967f95fa86afe97120/run_meta.json",
+        "sha256": "375dcc17df8d1b6da249b818a27fdf910c1b43cc75f45330ee98ae59a2da3745"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4253cdc32b1a6adcc1f61d01c179387577ade4b3b7e7849d361ddef579c329d6/run_meta.json",
+        "sha256": "c07c231438450027cac36bf372ad55bcfb8b83a41485a4eec4889a0fbabc7aab"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/425d2b70625f449b341ee10d2b8583914f60d3e3a987d3c7cd50f9631362f5c5/run_meta.json",
+        "sha256": "f5de2fd795d99076e6032587277260120e1100f503f133172b769a417dee750f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4795fed337c8f4872d0774a65db81e89b9b101713d05fe338bbe78b95e657730/run_meta.json",
+        "sha256": "97902462041d55ca4131661dfa36e5d525f4ae7fa2956c0988ba4581229e307f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/47c39ed8c4d7ec5e90621cf972287fd2ba0e8adc05435d177c9256efcd1bea07/run_meta.json",
+        "sha256": "873a8c05ad2eaf17b6d58a89dba970c9448c397f20b76a7355a60eb589dd06ba"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/48c4f83fff1b73f62b9ca878e88bc72a16eb4bdf46349bcdd4a3c6a56a580a21/run_meta.json",
+        "sha256": "6ddb3554567e1a1a66bc18e44aaaa965cb30c36f187e2a523d3929cd8081eacb"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/48cc74d0e2243715324d3e405ea8595763892179d929b0de93fcbf0072be145a/run_meta.json",
+        "sha256": "d10b527d7f805122cea409f79bafed2845a1ecebeae2b77027db81c4e55dc778"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4a92b73e3d8038bd65620b3d821d55f80652d2db8eb151bcc1771bb4d3fc8a9b/run_meta.json",
+        "sha256": "d50c2212c6a1c6761e342fac752c458dd0e716f9de44f3af047107590c29f9ba"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4b3bcb5d46c9428d483116ebd0311b7c28647aad1dc1825b8e2970518c49ba61/run_meta.json",
+        "sha256": "109e4d85ae7f3a9f13df00f8fb64c1b630c27a7e4e979513d63aadf0324c48da"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4be73c17408eeac1c3e86e17f7f0931ea98750113e41d23bb79a1bd25f1f2f5b/run_meta.json",
+        "sha256": "6029466c49df2b44644c4a4320de5b973f69866bf2907e468e0c561efa8ccf67"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4ee0f448ee790039dc34c96285f965fc242b3a218335c34d100fd5f66b1b41fa/run_meta.json",
+        "sha256": "870325db3f6e25f65ba057c7c457c4513b106fff6b6c6f2beec596d34bd24032"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4f201e6e9f28248846c445c5551be59129f42391df7b585454b9292ab431792f/run_meta.json",
+        "sha256": "32791684d08ac70bbdf4db4c99e923e5e2f7dc1f1eaf11c0f737334988b7c807"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/4f90f1f683473d9ac24274568ea00cda97e2279959aef12ceeba21ee51454c7f/run_meta.json",
+        "sha256": "8b297460b32be975df57a629aff99fcfdfeaf6f8f676d9339f153d454a6f0cb8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/500da610f74b40d072e38dbcd74d8cca840bc5fe651acb926caa113d1110a4e7/run_meta.json",
+        "sha256": "995cff086741c66233a2103495731c19a8b70625f856f578ba86ff3e114d3c3d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/53c5b940afcdd062dd59c7f664df9e1bd15f599d865c0ba7e07fe9bd24856dfd/run_meta.json",
+        "sha256": "e62b515849b101ad15eb50f5cc4d244658de0e74e5eeac8b2c163a5d178742bd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/53d72331a10db7545e549130eacbbfd899f910edd94164fca5a768956da4e72d/run_meta.json",
+        "sha256": "18414a1f21913a649c44619206ebe13b16f82b19afbbca14ac20577be3d859fb"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/5467fcdf163f7a73e422ee2c015b02492f21ff915cb0855755bd8efad451b4ff/run_meta.json",
+        "sha256": "9d94f795a3c9df78c7d30a505289366326bbbd858adc16d2e205fac7dc2f9232"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/56a4cee05eba0d707c0241b735e472e6b1a1f77212086a9a35dfd5be25791437/run_meta.json",
+        "sha256": "9162634ea5b252005279c06278c0b3eaf1cb33bf10a03599ed774b83c4eb1f6b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/57dd1b170b1706f039b56724a9e756c3365b14294674af54b2015d2454686667/run_meta.json",
+        "sha256": "73d5bf930de94b697f05ff0d4f7a741af1eb13836bc7671b02d8785693793863"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/5927b77666d2a855f263251eed0ca24a1c7157380bbda82014f896bc3e29cc21/run_meta.json",
+        "sha256": "85fd0e59c40ae354010e473c1db1eca8361e1bc858dc39ecdc0e89cbce5040dc"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/5957b350fe38d7645ad41effa4bde59ab513764af7ad16db2b57f5967debe743/run_meta.json",
+        "sha256": "b9728d68c30e9d9cc99f0f96190ad60d579b3d5d3e6b97439bc850da69dd2009"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/5aba753a7ce33cae11e567ad218075feaa00fc61fcde803338fe897d0199f803/run_meta.json",
+        "sha256": "1f0e3b9ccf789a9f27ce09ab029e24f69491250e6a2949a2691127db689961e2"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/605bd42dc72c5971b5a71fe71e4c3d41d38b4dbc5a906c531d0df29602523c41/run_meta.json",
+        "sha256": "c23846e9692bec7d3f70c1809a5bb42416ac655d1c2e95102daa5cabc0077fbd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/60a4e6709ac4f9cd680b251829d01d0edbde070002d4c39a34bb9d4c49f39e8b/run_meta.json",
+        "sha256": "9ec731be2488df0b63b3ef50c3600c17cbeb843daff6f24a21883ae2237a2b0b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/627c568d8f680dca6a9ff54b21de9cdd2ef1ad36b7c1c8f24a80b655d2b329bc/run_meta.json",
+        "sha256": "c3b8afc505433f2cbe249c270d8146317034bf048adc9331dc79ec26002be41b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/63806c3697784d9f4d250b16d686489ba2e3d8520fd3c5ddee88efc38b03a0ed/run_meta.json",
+        "sha256": "4779bf03c5bbcf6bbbca5dc97fbd040f7248abbe15b515a37822d99e7bd1f1c2"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/638b13a9b45ca53dc9674bb60ce0629faec0030240c827d78fd28a989ff0da8d/run_meta.json",
+        "sha256": "cc8fb798cf7cfa892a808b426316d3593f6cc5a86cc3098247bcf18042b9f33c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/6461b0e36ae200f0e81fe9702907444f51e2f29c388e295c83de69cf2e3abe7e/run_meta.json",
+        "sha256": "b106f6db5befeae279dc5a84ff44bc69cf8d45e4c8e3b0937e719bd08707ce60"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/647994b163b8e07bac3d0c07a9b94d32b2e1bf4424f589488cb50e932a803c7e/run_meta.json",
+        "sha256": "fe99b9542b754e7bac29b026f3b6404947d4746827b553881d17abcf6fcb71b3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/649926688de7396805bab210d642aa33dc9bd62e843880dc25d490a821e06649/run_meta.json",
+        "sha256": "459adda1b95017ede45a20ad1dc1e0e44c18edd667c4688b18ef7f47d42e4425"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/674778acaabeba7c8ef82129cfe4d548065fe46ded85c474eabfbd06374161f2/run_meta.json",
+        "sha256": "4112a9c30015d071b460e8071001a6cde41ae9872b71fbc7247d5b4eb0d8c972"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/698846d3a33c05575338e8c1ff5a43361639477b459dbe887d49fd614255f9f2/run_meta.json",
+        "sha256": "ab6d9c9f54c86a9cd30c90bfabc0f04f2164fab831fa0a3437ae99f6fc7f09aa"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/6b0a202db1c5d5f56c5abbda3501570315782274864134698f1efc0dc97be36b/run_meta.json",
+        "sha256": "502366aa68655e8b1304c7f43442080325dbf39757ef32e46c8753d120b1e48b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/6e058aa83b07ffb296037cf22d4fe658284580b6b264963525acd0d1b211a814/run_meta.json",
+        "sha256": "37ee96d55896031cfc9bc87620a6139f125ecf98d2110da9d1e3e5700672a838"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/6f0539e7d57cff88e9fb6ead9ce1bd9701fca7aa7cd5d8df98f1b55efe826b42/run_meta.json",
+        "sha256": "71bf7b3fc890faeeb4de06a8e6d7cc02b8142739bc831aeac5dd7b3d30c1d154"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/70c36ecc8c0e2f4998cffdb288d808f3dfcb84712996306d9896b7dd6e44feff/run_meta.json",
+        "sha256": "efb555b474f96f7ce14c75a1f7a3ccabb1eb9494e0fef4f988ef47ecabbd349c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/737c2acd40ae2b2b14c0e793d761c68531726ba51326e53201e2b9b1645464a3/run_meta.json",
+        "sha256": "f9e2bbc1bb6a7a670031f67747877d050decdd35ce571a2af68e9be6e60599e6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/739965be1528523831eca30ae5d6bbeaa1223eb467ff32a84991f1fddfe7429a/run_meta.json",
+        "sha256": "873a4bb8c4d7bc389f73feefe4bfede510dd1c6863c1e41c7430f929779b5691"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/74d9582351ccc94cd3569a8de150c2b9324a88cc1ad7c5f454361a44ea0560d8/run_meta.json",
+        "sha256": "c6b7b5f91cc08c153920fc08e1b9e3cf95721a8a61fd13884feef8159b8803e8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/75174c943cad1e968496e47ac0c1022ad1af85375c2e28ef5d1b264efc90d387/run_meta.json",
+        "sha256": "4c2e6f06b50cdb756422aaabceff9b1fedd462fc3e7ea62ca2ece133322d4403"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/76475c46e4a1065b4b1b65dbb2eb7b51179c9b98582833fcbf13342d7a367542/run_meta.json",
+        "sha256": "2b348b975b9414d1f2713f486d2a24992bec813a742d1b565de3d8c82610dc58"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7758748cffc00a337d57ebd83c6d480c31057cf43f2ed81e8db4a199ad935f1a/run_meta.json",
+        "sha256": "1d461ed35dcd9860716cebe27b3e5e8809f1e26e501abb6f341f39b1bd6685de"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/78090f401aff067dc2f5b4d998b52ba45ee7c6937afeb951b5007a0eefc397f8/run_meta.json",
+        "sha256": "76d72f4214e362d1b845f94caa184be352bfa2bcf73c757133ede3f364107521"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/786645ac6779e80d1b92c273fb91657e31db3ff6bdead360adbd41dfa86fc275/run_meta.json",
+        "sha256": "d9a81762728871f5542fcbe2c3d8ad12841a62059663b038267509ad95a16813"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7abd99fce04ad1c7fbfe4805957657102897613e1a2bc9b81b7cc4792699fd36/run_meta.json",
+        "sha256": "2fe70a06fafc083c05c80d3036702f06bbea593906e6e935d0ffdfe7d0bd605c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7b54779938ce55e0221cfa91542f51d5d2349b6c3d1f441f0192b5405ac8ab77/run_meta.json",
+        "sha256": "9f4fe552e31de32eb5421b3a3e979b8a501b7d0760f6dd00225c852c9eda1602"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7d5b4b27881ade156c824f7f8af7df95537d74b6736d7b4257dd638a42148207/run_meta.json",
+        "sha256": "54d0b5c5d2fcb687c62e8070cdeca6502a0723a967e548fa4ed1e11f4cf1c605"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7e654418a369a9782a89ee6751ad980c0b5a433f9b2ff54b8b1cac16d100bcee/run_meta.json",
+        "sha256": "f3aff8ca7839cef01d2efb02b0b1f409c792ae73107dabf759e9e78325ebb936"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7e77e5a73f629dd91853874c3a9012e7ff8ba10d33eb913063eeb6c359ab3fd0/run_meta.json",
+        "sha256": "e80a6b23f13055b9a8e45538bbce9fce0e174af69b8e1df99f24bba5bef1c51b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7e8cd4e6e16e9f274ac226450c6d7577ebc826bd340fc7603eb2a126393c5838/run_meta.json",
+        "sha256": "99f2ad40850c997460f0368325c2ec5bd72ac54d8e9610a660b385dcf3a49670"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/7f6433b79a4c70bf2938e756d0bea4f6e6e21a3b0af9e4f43d065ec888e5ca34/run_meta.json",
+        "sha256": "6c4c1fee5e7488101a5850b6324b75bcf9ffc650ab56c912128075887545dba3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/818fb600ca57262753b9d8acd95b83bd8f8c45cb0d69e8b3db9b7334ce30c12a/run_meta.json",
+        "sha256": "0c05dbcad4eb6ee5a3d9ec85c1a769c95ce8864f9e4f530a034ac0e8bbc26af0"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/831c941a8414eea692a18eb6f10a26f82e7bf9eda6846fa069d3e0ffed80f8a1/run_meta.json",
+        "sha256": "e312f49ca0f951b75784961aebe19a4ea1c08d32603f0a8c48344997b951e75b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/86212231a9fa2c03af116072e1e4df465db7245c35542c993303ed7972ec7c73/run_meta.json",
+        "sha256": "c1884ced3e3ac8e952b06808a4fd591673b505260b397db372add278970dcca5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/863dd2af2086b84ec0259d57225b8cd7b7fcef30be681343e4ed30dd0395e93c/run_meta.json",
+        "sha256": "cba05c33766f9b482ef907542341bd9abf3eb887bf4519bc665f882e1aa52f54"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/874abfa708fc31f4c79890c15f34dd13bfbf82af34c7c6c8e5d7fa6d8da9dd6e/run_meta.json",
+        "sha256": "714dc2c5832ee57df02caad0a23291e4f5efb3ab2b94324b5e70061311846294"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/89ffd13200c49403d50c7707ba818a89ff3f8581f71567eb6d9609987603c570/run_meta.json",
+        "sha256": "40f64c01e2099f363ffefea886cfc5a0f11b239aba01fd48be42b594c96daf55"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8a27a2f22d084672fa8cf30060d85e6d3398d831d6a43a1f9111d6c473b8ceb8/run_meta.json",
+        "sha256": "a5f8ce74151238d1cd7b58570043c49ea62a1fb1fd03a6d1cb7501be4a314e31"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8bca2723645d7ea6a4cc8476420979383fa61beb7fcb5fef73f3abdaedd4c185/run_meta.json",
+        "sha256": "e9dba10d11eb3eda54cb57b62370f8016b36d9f366a1e46e832b5635acb56565"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8dda181f3cf551e24a299e349ed365ee9989fe9975825b481ae7ed1e73d9ddbd/run_meta.json",
+        "sha256": "42364ac449f4710de9605db96fdf8a136136676409044bc67435794a5b0ac3f4"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8e4132e8fd6f5edfad30982a941c1fa090f3ae473d753c43071f8e32bfb2fd13/run_meta.json",
+        "sha256": "3c97b524be3991c8c2f56f08e831ceeae1275c875f0302ddf57bd9733f0ef834"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8e6d5e7e3b7c40e2454a2f175b3eae32d8d33a74ca33512e2051415aa93fc6a4/run_meta.json",
+        "sha256": "e6ae07b027a330831dd8603fa4c06e0694770fd3ad7ad588ad967508ef848bb5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8fd3976c3dc6849e87fa9944d58377ab3c5ff348610dbadd26c0d09445411540/run_meta.json",
+        "sha256": "fbade2d878754513447c0e2bfe181172c9e5eb92bad53189260c6b1e60c50b96"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/8ff733508afb5617681d14c9da7882d52a9796ff253b31678bb00a7b99635290/run_meta.json",
+        "sha256": "b9f1889cf275e7979159c0c464bd7d76d732c0f5424e02597e301ee98b1dd57e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/9269f69f72c1be901cf8bb7bcd529282c0d5c82aaf02af347c9109ac2e5fff1b/run_meta.json",
+        "sha256": "2d2e37c0298bb26867474a8be38dba6e0b0da04a3687a96c89d1db14552c1d22"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/95fd8ee7242c00edc0a4a84eac34a9503d3eb5a45a901d9c8156abe9a02dfba1/run_meta.json",
+        "sha256": "548de0a59a75633c92e1a51108d0dd6cd64dcc171e8da7b986592642acb52efc"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/96eff4a7fd58a0de179bf5ccc15f9dd0ee9f013a7370727f34e4594ec6677af9/run_meta.json",
+        "sha256": "8fb345c7b7e224840feff2916273cbabc08687d52b2777a8d2fd7f6bc77e71c3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/97a941ef31c10770307ccf7bda7ba1d130f33060c6bece59b1d3d2106aa2b0ac/run_meta.json",
+        "sha256": "934f23a1627cec40d19e932b31391af73feb08405f647ddda653e797a9b7c479"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/97ba326e29ccfba8302ff122d577acc431eafcdf2e2b2e38bca28f88f8364c2e/run_meta.json",
+        "sha256": "4ec6c581b39ed758fbca23108972180e770fbf6db0a75fe0c1758fbb69b1c4be"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/97f5035721e8813d6f309bb65986f49b7f7a10a0877754c90e8c31340b5a2008/run_meta.json",
+        "sha256": "a6098d135bd1703c3669de70c5b78f554cde19b55094d471aa6dd523bc5471a5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/98815c41cb6ec35a15067328cf76f78be31fe58c205787d2c033f4769d20d2d3/run_meta.json",
+        "sha256": "677e8ac1d3c19eaf2645bf985568e50e971be6d161d77d7b3dd3bd0a947eca19"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/98aa3f1d251b1301c2fa4fd64418fb24d92582af4398da4f15ad677d1e51e7f8/run_meta.json",
+        "sha256": "0b8cb26ef162cb9441de4910b4b1f2c37d6cbc8e002068e4aa229f6093e8345f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/998be0a668cfa82698e759036d90eeda13d064cf38402acc40b9760da34b8141/run_meta.json",
+        "sha256": "2b74cb01481559bcb4c3ff389c0b8c65d2e9352c43e0ba7800774500458d0563"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/9ad1e07ede9deea84547c9caad3559dbf6c6aab68fdd2c1b295554a16b7d0d18/run_meta.json",
+        "sha256": "32a902182d360b4183ed5f5dda902ec6da67c66327954e9632624701c8db71dd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/9cd1d51677a14cfc9f449442aaca9708a39c92a3b560e34de67371bf50c1d2f7/run_meta.json",
+        "sha256": "6c650a7d995c073dd341ae0787a483964096b325f0417854709482b6c3c48149"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/a1176242ca85daef8c06cdd4ec75f768472d07ea40bf5b797767ee0c9aee2c2b/run_meta.json",
+        "sha256": "3a89ef84813531e85bc4469ab05eb577e4b35cda4e76aa00eb236f2ce88ee85c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/a2742699fc03f17489c918e359ff84e635f387e81390acc9d50de11890db4cd0/run_meta.json",
+        "sha256": "69221f59c26da77a381477317f5ed844314d87be51f49e12d17f3cd7afd17383"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/a2e8f7970893a441e832efe60f95de79628450f77b2b4b95ef557efb49ed18a4/run_meta.json",
+        "sha256": "297fcf744761060c21e1066030efe9a2a5ea5ead4d44d955367f00a1ceab704d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/a969073c739071b36af781441fe0d029c5a28678b1293216f1459c32c49da647/run_meta.json",
+        "sha256": "159a22a7646f306d3f93850d01d255fd019de156db00d0d01cbc8c9659c20527"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/aa045900631a4d66a540d8ec29d3af1accd090575dfe830ee926588adc363926/run_meta.json",
+        "sha256": "033e8f456e78c5497bc62d9357b094de91a76d72ef7a5bb74cb825153139d8ef"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/ab8bbe6364f4b083ada7927434b6cf5c2ac4b3756e0f53eff33e9d78e86a3961/run_meta.json",
+        "sha256": "7299c426d664c8a161476a80087dae192f6a0db8410e2f0179d066f7c275939b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/ad47d23d5566e4587d92d7348733d50a0a78529a61c0187a88ec19dc26f571ce/run_meta.json",
+        "sha256": "4865c86f79e289f97bd7a331af14ba796c4d6b12f1ec3d7dc8194b2bca5258b1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/ada8ca0a149cb51802aa3aa5f2b5f898a313306ce5986243aadfa1e8c265aeb1/run_meta.json",
+        "sha256": "4aaffc2b398923d75b0609464b03a9d93a93612cada7f1229947a0ecb1090b5d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/b3b69f9655608adf6cdbcfc51138bbdc9b0471ab42f0ca1bd3ea9e38b8b894e1/run_meta.json",
+        "sha256": "4065620ac15742f7d5998dc3117ae5ff2b132b89b122bd82c0b7d3c9225cde59"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/b43213c0a372518a79b863abeb6ec1f785f5e07a153d7bdae9ae0a4845355cca/run_meta.json",
+        "sha256": "de3fc962b4498062f6d72fe64c8aa1aa517b73f6bc6911084f127ee85dc0fc5e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/b788a3d109709ee34e374f5c622e5c6c6a42feb9f344d78b922da0f1f31c932f/run_meta.json",
+        "sha256": "3e3d73372fe1a6f97035f1e95af2e3c0f63516da51003ba829649c8c5e2de7e5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/bb1ddb2350eeb112beac3cb15e0b90a4f440d5c06c99ea1b8f69d7c27f381dd8/run_meta.json",
+        "sha256": "82298654e9f68dcf5520724cc3d6a371d17d9c6881339a397853b9d786ff5728"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/bdd435441a77355b0b9493844ef2ec2a7331861e2481f90ea8f2edbfdccc415d/run_meta.json",
+        "sha256": "12be852b788f52ecea88a0c7866282dc689b477e8aecffb00b8734505b4f886f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/be784c33d4df851fe200492e07fadb21f1332dc8df42837c4e933fc7b6a6ebbd/run_meta.json",
+        "sha256": "59bdba3e5eb3e94d5c34797628af5a109fb57b468d2fbea41aada1c48f041cb7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/bef9c5b3e26d6a0caf3250cd720c90660b6440d2102c756a7732281b7a32e75b/run_meta.json",
+        "sha256": "fa5f46ad34c03cdd3fd37470ed61c74446d7b4a047293bea15ebb93d73da8681"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/c305661e1ddc1018f63851e94bde0d4689ffb903480675647e0fa8a4cd52b823/run_meta.json",
+        "sha256": "1f513eb803db2b92b99bd4affbb86f3f8d6e35eccadfad750e8c4cc97bd711b4"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/c362b7106a8c4f1e4e43159ceed4b46219bcd1f2ad143669742b5a8e7ab54aa0/run_meta.json",
+        "sha256": "ecc8a689bef463df18688e3a27896d4d3ff8060aa1b2d2ae4948d5a3848ec4dd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/cac3803bd7a50c81d4931a9d13c53c57251e0131bb871def20dffdb6949798bc/run_meta.json",
+        "sha256": "d866b7d9bdd5ff812a8d656d4acb4a163c117b2f51048b602c2808dbde0283a7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d00242b748af08e04e76a02c52b0abafa82e762936ade75375fbdd2920017700/run_meta.json",
+        "sha256": "014d945fe4b07be078f5cfff710667fa9ca364c253a228c3bd314380ef1eae4a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d226b8c4572ac35450077164944060f53001deea4559af834837401bb834157e/run_meta.json",
+        "sha256": "44de4c0301598db91dfc5daf00d22d262f0b911784008107b4c37951e43f1696"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d24ec1e4efef764cb87f4a38024856c63f6b11d1db7e2902a2693f283fa0221c/run_meta.json",
+        "sha256": "d4a16cac8e516819d7b4471d22ef965fe6714711a6c173f91f773d2e88ddd35d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d50a8a91594d1f5a05336e1152d7626d75d799460719e0285257e47b4027613b/run_meta.json",
+        "sha256": "1d196558626c34129263d46b40e837101c553ddf77db1f0fa6ad0f1260dbf2b4"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d53793cfa0156daae5a298f8fe796631def5bf2d2b2036b8fbfd4c146ec61cf4/run_meta.json",
+        "sha256": "ab45ab1e6390f5aef9cb698d76e601e531784343acdb780db40730ecc4ec4a8c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d6117bc68634ca63bfb87975bd339e2b6ec91b19c325aa6d1236b66d5b35947f/run_meta.json",
+        "sha256": "863ddc88ddc0968c7777727bfbbb72020ca160279b2d1eb1948e8a98793b9e72"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/d69b632259a888f1fc40cdd3f33b1c72898a45d55bed9c24f4f09fddf5e53d45/run_meta.json",
+        "sha256": "0c7ec92d1d4e63dcc354dc181b27ce3fc837efabf75e9836b9ab4d6c82c3e3ed"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/dbb9a0b93b0679afa738dd19a14f0404cf84863aa9e7c6367a68eef928cae274/run_meta.json",
+        "sha256": "944281305a07cf4d37661a44e26ef069759c6ea2528956d2121a35ffea0c4e6b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/dda940806a00140ffdb166a5b8739b0e2c8c8a2c542d8913745005d91f816fd5/run_meta.json",
+        "sha256": "af9b7fa7019a72926cb3ca5658427fc834dc38b775e99c9aae173d9d5e66ad7e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/dee9b3ddd5d2575918e768fe1efee504b9bc1b72308f6d199d8b4084fde1c4e5/run_meta.json",
+        "sha256": "b401b65dd66de35645f663c0fa9d05aed7ad07b9598ae5ea36b02730079ec297"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e0757c5e7a549868cf54df258fdf8564f9d1580e3a051b4edafd187160d0feec/run_meta.json",
+        "sha256": "d9cd4231020fb0d4c0df5e6108811b1b9ca1ad473adecb8414dc964df756add6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e236f273027bf5ca3468cc338b9b32b85154749d71d78edc9bfd98acc70d95bf/run_meta.json",
+        "sha256": "c82f412940d89343851e4ea6b52cd70100de203c73f34d1981aee87295422cc5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e5842d20e97c022715fccdc3215386a17ee252d3f984c7f0ba987be63d72861d/run_meta.json",
+        "sha256": "90cbd8bc7d97798ad09d3f8a8384f2b04c3f55fed2c87a43d38d6de7639a4202"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e6226bf61919519643466a603e6fba2117ec3578cf399643be7937341b9b6322/run_meta.json",
+        "sha256": "1268ed7c4312bb92fa7389f4d806bf97506689c14f8bc400684387cd62cf7171"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e649d5de6d485746e22ccf4ff80055988b7cbe07777d1bc68f63948c3b46e245/run_meta.json",
+        "sha256": "46acd981a8045b287d8ffa0bee3d21f398aebed4a0267cf22b3c4d929fe719f7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e6abd5091e7e9f71a0723333eb267bba0503b7e744829dfbbf0ab8ecd88a87ba/run_meta.json",
+        "sha256": "09f2d56391da645d768dbb73c0bcdd41d09e7bce8aac9ae1c13ae377b62757b8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/e93718f3bbaa42f6efdf85745f8c81a0f01bc1963480bb9393ed915fd8f0a918/run_meta.json",
+        "sha256": "e650105614c50f178e4fbf2ffc7dcd54f8aade4e89ea8f23ab1ebeb9afff42e8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/eca0bbe133f694b276ca2f9e9a3c6cc5b3fedbc94b808d8087c47be91860a4e7/run_meta.json",
+        "sha256": "6b905e39aea61648cea66c1cb14ba2ce635c8bce08d5d3db5057be3d92c56b95"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/ee7d2558f9a3b6422a7ce6b9d263bede6ac242de80f753c6f1606787877edb21/run_meta.json",
+        "sha256": "b3ad6faf3e34c8db897a2215728d642c663b018c0ba6b4a4c405f1d6f7f7971a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/f06ae57bef0470d3f7ca833435ab933599e60460712186141a2055e57251ed91/run_meta.json",
+        "sha256": "146f4327dd41f5628d6e01701765b0f429e90bfcd90b4a71196053b495906bc3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/f118e877194bc653383edc5d1430a577f2b3376b6f24ce84e8203806b18627d1/run_meta.json",
+        "sha256": "719c84cba325bdc6ac376c1ee8b15c4408fd05d328e0e8f4a894072b202cc93b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/f1f38485ca7cefa3b46840973ba919f2db9cf5dc7dd7d9ae21e431eb17e885ce/run_meta.json",
+        "sha256": "5a74e626eb75d4d169df47bccbfa9367f51df48e116f9744dbb6b9401d566dcb"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/f8ef8173c262337d510b5295052acb98bd0d27c966d9fc46a56fa3b0394801ba/run_meta.json",
+        "sha256": "8f9a42cf0b75496f5303d49b6ead27475f92a2e5ca121201b54d8f4139ed33d0"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/fab3648c96bcc7ce00d74fcbafb2d2072a040d4b076f7a49221edd5947aece10/run_meta.json",
+        "sha256": "55f1d18a9ff5f0246ef0c2ee5aaa0df86b41041c374f00f76e014b224608a695"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/fbbca2ad50b0b35800c71d6ee6f455ab1e5bee29653056527bd199960110d2a5/run_meta.json",
+        "sha256": "22e42e8bc7dedc124d8caa3c399fd977f399cbf33b1b370db2517e3c2d977b61"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/fcec74082b50cd50718a0b63d7ed930767d04d24cb57fca18f5a60dc6e23c1cc/run_meta.json",
+        "sha256": "29c6ea17bef847ad96aa50520d186239a489c823e59c7c326dec8fbbdd8a1f42"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_3/ff265a77c4ef2f6205169a694bddba22670c26d262bfbf870637b395877d14f2/run_meta.json",
+        "sha256": "9ccb7ee122a5f1492f839995e2f0ac093d7198e17ed75a0c8e2d5d6b2a6dcf30"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/00f469b93372b3a6170c2911fa1f54bf9746a66c4723e2ef4eab014372455271/run_meta.json",
+        "sha256": "15913ab5c913fa6704e144fa07ef8c65ca25b440e606b8993ec5b377b8af1f2d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/040d202452f8e584c3db4bc8616a10e559d46878e5f11cfdc8b1df645ed50bf6/run_meta.json",
+        "sha256": "e3e356033530e58988535f55c940f4b325313cdb0208de47ce2dcf666ee6dd5c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/06365dbce8dd3fc975e14318c9f7642b093abd6505a1c430370cddb82e03ec89/run_meta.json",
+        "sha256": "647a58acd9746605f7d75f58d0c67a3a55b96b2f79f482b0bd6b74da7d909860"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/084a811c7213e9581c4bde648a325178a2e32212a0e13ef72c12a7929b42d2b2/run_meta.json",
+        "sha256": "fef343699794d51c85540cc2bfa2d76593e7f9ef604436b5a8acf9aef7b6d77e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/08f0ee8744c81df9f9d68302b50b75af2545a137f2161a14c669ba179cdccd43/run_meta.json",
+        "sha256": "b9287d1e310077f9bc62c6d1ee858db6bc6a5510d1e8a7495dd1dbd45901a167"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0a4725513dc52c86dbe5f232309a0ef7a6f45518da3ac19bf1f732514c4d8d86/run_meta.json",
+        "sha256": "ef1371e26a3c28c588b15efe324ebc30bba2d032dab9d6271f421102b4e0f79d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0a774bf6996e8cf34412223093cccb8b7a78b8bf0bcf339bc18bae784e8a7d39/run_meta.json",
+        "sha256": "21bc71a86f4e68517179a380df868767bc8ac2f9ee1fe101f300357c0fb907a5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0b5b446c4b460c4624a795cceac23108b7e9afc35aaf1e9f3841e2c0cd2404f6/run_meta.json",
+        "sha256": "391c9e9abc142ddf3401b34c82ce3c6f16dc076894f549b0d8f849ea0141a99a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0b7a13df9aefcdb4504067fbb745e34edf666e2f5f8995a66315f07da17c50d9/run_meta.json",
+        "sha256": "ee00625c47f0ca880c3c5e4913b306bdb6cbb7d45a0cfae99b1c0f2f00dfc832"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0cee4439eb6ad3103306585907c96f490fbb78c53225c5c938eba438c17d1446/run_meta.json",
+        "sha256": "a97659b80b5a111cf8d323d8da0375645fbe2abe3f2a42d8c2500e72d9d82648"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0d50ad2a872a4c15395d9dec2bf52d46b558e3c0c9259556f1347716b4e7544a/run_meta.json",
+        "sha256": "cb89909b8760996d5782b4691b4b586701d5e7ad40ee0d1058b2ef8fa468f844"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0de629781003cc43240d290140954cb2b6c6fa48b757b86e6c1c11c7f38d9f36/run_meta.json",
+        "sha256": "60df233b9f3c658576e2ab7c320bb96fa1e1460da1c5f2c50f1a5fecc7749e50"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0e0fa492e117faf933fced89e3f42c191d3f838ea9828d8ba2ec4de434dbe059/run_meta.json",
+        "sha256": "a41538c6e363691f8d0c2cdc5925da465ccd95bff68b11244983bd79ed8ebafa"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/0fa55d36cabcea83ef995bbc8309ac1f8b98a208fd0e9872c721fce9fc753829/run_meta.json",
+        "sha256": "088996379ae6e0840082a374fc26eb08c4c87cd827fe29a1cc4aaa2e9cc04e85"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/1132b807a3375528a2de8e1b42c5289cd634d7ce3d9c72b818d922f35983dc2c/run_meta.json",
+        "sha256": "194b998fc8d3d5d299fda96410fccd530b4dba94d859372a005fa551412605fe"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/165dba5b1e712113405e8274ef0d2770a92d2a5adb6e156a1318a5084a047fd0/run_meta.json",
+        "sha256": "f327a8eb3ec8b22ec2203cb06fd06a421be05d4dee84577c572d568a01dd96a7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/17f396931004b888e28d3d044c63094e19f2986405672fd724a53989d5d3f40c/run_meta.json",
+        "sha256": "9633eec36fa41c078547dda3578b36f52b1d2fedc9d6f77a9a404799ba383c8a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/19e894cc96d65024da65bc8101c1c28ace87243bf04e948cf447615962921eda/run_meta.json",
+        "sha256": "ca89993a2c43aaa4cae70d44758c41d7c15d10c53c76c29c150e874f76db3c94"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/1c1103a5193b84bab2186bda2c4f460983d86bf9ca2ffddb0a5a25479755da9c/run_meta.json",
+        "sha256": "2a3b8d846f4216dc54d0037329a5fe94752ce3ee4351467db8b712cb97ca6a8b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/1c8c345043b4e701ee7369fae844b559ca0afd1e9f133897186d950e0a904351/run_meta.json",
+        "sha256": "469b1cc51bba5d5537e329a9158821649d7f141deee0421a4114025563c3f7ea"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/1e91f8f991ccedb83b0af6183fe31f255abd6688486bd7342d6af7a28d7b8eea/run_meta.json",
+        "sha256": "8b514577e60a9d6ca522617537fe0122040865902d6ff277be27a3d601df92e8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/22e8250406a5ae1678e5359f55c190491035e485a4f43a00c75cdc7ed6842118/run_meta.json",
+        "sha256": "af2cc21a2c1a7197cf9e4deb13b2ff346ce0eaa0d08629d6f959d65b8d3a03b7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/24c8782e2ccdc386f1302938c2449dc8332c6dea4c0bade0edeaabc603a1d0e4/run_meta.json",
+        "sha256": "8f7ed1c73231169d696299589a39af6edecfad533023ac7a4eb34884ff99cf32"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/26a5d623b01402c520cf4383e4a7e517bdef59b5f709d0d9eb191376a53ed9c5/run_meta.json",
+        "sha256": "cf2ae6739e815d67fe01d62407ae47fc5f95b98e9b3ba1e574ae71e2f05bd6a1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/282a61439d7369f9c896994d272674c18225afbc5d784cb6ac0d65521aa5816d/run_meta.json",
+        "sha256": "fc7b88668f4e4872ca4cadd365d8fc511d280a95400386ff8c55edaf7245bc6a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/28df439f2d62378183b82729be848e1553b7c5f73f6b5bca34b1256576ffd370/run_meta.json",
+        "sha256": "6891bc299f7ed81395b66920c4b99a8d154d16332763748b87d5e003de4e368e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/29c1f4c56a8913cf2ff4604a3581c2a6865d12f91695afa0b2ea39d5ee4276ca/run_meta.json",
+        "sha256": "c743bdcdb55f12c2cadffac7142533e0fa225c4b079563354975c28f1f6903d6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/2ca7875752f6e9fe7e8d0234787774017fa9d7f3f3c46275da0058facf55077c/run_meta.json",
+        "sha256": "b9ceddf59cc8a2a0ab861bf09e0213890e62c2218421b0691bd4984e32d27bf1"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/2f1fb7f5b3342bd15891eb317e9fa8ea57c0796f43482f28b871d7d55a2382ec/run_meta.json",
+        "sha256": "16cd3d0b35a49eda05ee7bcbab4cf0ae24b4362cb63983b6c9fea31c2a1c5336"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/2f4de90e4bbd0566d2c6b04d527ff719f7de326f6c618917cc6070cdb4f880a4/run_meta.json",
+        "sha256": "7dbd3c626d480b736c7e03f041bb8e8096ba515cf363bb33b9d4d52703f8390a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3043353e1170943ef40ecf893bf17d7f976459775f2977ede3d4f925a6b44b26/run_meta.json",
+        "sha256": "d5a4c0e019c783e7d4013219735c78274f50628e3b288edebed4700439034dbd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3226c1fbc7d48c3dc062475a94d0b157825922d4ef24ed7f865480b11c2ed6f6/run_meta.json",
+        "sha256": "a2680c154d45ffaf79fa49f20926bbbcd3da303605c44faf33d63a94c90de0da"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/326382bec711ad9e359776cdaed4e2ef9a6820124aed915efe577a7858bcc783/run_meta.json",
+        "sha256": "e24c8d24bd8be126db0b9c6fccd46c663c3d121ee2e906ac71fd1e98ad6e4349"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/37389e672a019f8527889ccca156f4a60ce7e0332abc680cf95cdefee1f7ef06/run_meta.json",
+        "sha256": "08786c81b01d6771fa5b144bbc3315898de296751de126dbc7044cf634227f50"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3947ea60459b5330de46417d8231d8ec2abbc066ead537ae09f9147774bad53d/run_meta.json",
+        "sha256": "6126b05d14e3f65c09913941cc8d78e5fe1ada5662cf83361934cc63a6625692"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3bd6e118fdd9285fa7e5a1985b233cac533b59d332a5745741e9932b33237eb8/run_meta.json",
+        "sha256": "50d4555696026d269178be82ad6376a264a2161f682fb181168066b610678513"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3c33bee66a479edbc36fe15ec225aeb122cffadc6dbfa475091a42252a720fc8/run_meta.json",
+        "sha256": "26f13b23d4c4234a30ce948db3cd3b89df625987decb9439cad0b162f8dc9696"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3c74ecdb4db12f06804e698845d17adbfbdebae97c49b87b4778657906eaff87/run_meta.json",
+        "sha256": "a0d384cc8c3aa825e2fe8586677a1459548a5f71e97a3cd868831df631d33626"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3db5eeb30f0efb22b40ece906de3f95dc7d95cbfe8ba2f370172dccdbc05eda7/run_meta.json",
+        "sha256": "4a89125afed71874a6909a70662f10adaa6ef3eac2ae4af83696bf47a60a79d9"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/3e79c2abeb445a9d898a29728ff596dfde391aae3f545e8274639db356a49edd/run_meta.json",
+        "sha256": "e1f9e4ff69337b597844c4b45bf8f6093adf1bbf976e983d3990a04de1b1b57e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/40d5ade3d159ef32efd1bd91a4c5ed4af4aae0943a0258967f95fa86afe97120/run_meta.json",
+        "sha256": "128a3428b15fdb354a953b4a0b3d907f3a96fa4105ec193a518912fd66a3e4a7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4253cdc32b1a6adcc1f61d01c179387577ade4b3b7e7849d361ddef579c329d6/run_meta.json",
+        "sha256": "0fefd5a8bd72326b84cd8bb6d017c02afbc09714a623e586e5fd60c1c15fb448"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/425d2b70625f449b341ee10d2b8583914f60d3e3a987d3c7cd50f9631362f5c5/run_meta.json",
+        "sha256": "53491e6833f8df4c14ade414b59789ed0ccaeec9dd2146c50bdceafa9929594a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4795fed337c8f4872d0774a65db81e89b9b101713d05fe338bbe78b95e657730/run_meta.json",
+        "sha256": "09dfc88f7643eadd74d4c3601ba74d1c0be7f94ea694642eaffbdd157dc52e47"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/47c39ed8c4d7ec5e90621cf972287fd2ba0e8adc05435d177c9256efcd1bea07/run_meta.json",
+        "sha256": "f6fe1dfd5c132dd46bb419aa8ac130add8278328cefcc7583fed6eddcbdeff00"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/48c4f83fff1b73f62b9ca878e88bc72a16eb4bdf46349bcdd4a3c6a56a580a21/run_meta.json",
+        "sha256": "c770d6a25fd371f08a2c0d049109727c3ef4febe73c62624a3706ab39997824b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/48cc74d0e2243715324d3e405ea8595763892179d929b0de93fcbf0072be145a/run_meta.json",
+        "sha256": "0efdb32053b57199ccefb813f11629078d763c1ad692b929eb9766af71c0caca"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4a92b73e3d8038bd65620b3d821d55f80652d2db8eb151bcc1771bb4d3fc8a9b/run_meta.json",
+        "sha256": "c4a72acdbd95c8e6bdcc34f96e11b36ad2b160f99976173084c761d7770a021f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4b3bcb5d46c9428d483116ebd0311b7c28647aad1dc1825b8e2970518c49ba61/run_meta.json",
+        "sha256": "e20b46d162af629eaf504ba507bf55557bfb11e8acede235eb7b59a9da3b97d2"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4be73c17408eeac1c3e86e17f7f0931ea98750113e41d23bb79a1bd25f1f2f5b/run_meta.json",
+        "sha256": "348f59c46188c1f9bea25967add2284bce2f59aa310e7b31c59397096f48d823"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4ee0f448ee790039dc34c96285f965fc242b3a218335c34d100fd5f66b1b41fa/run_meta.json",
+        "sha256": "73107db7a93a5a5ceb4c3bb89f6ea8716a518f4dbed9ea9df998229d4ffeb690"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4f201e6e9f28248846c445c5551be59129f42391df7b585454b9292ab431792f/run_meta.json",
+        "sha256": "86bd52b13863b109e7dc4b53c4a1fefe9460d1c12fd180482c94c095057de531"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/4f90f1f683473d9ac24274568ea00cda97e2279959aef12ceeba21ee51454c7f/run_meta.json",
+        "sha256": "2ee2bd55cae3f0d6ef8fc2d3ff165e9c1c313eb72dfe9f5e7850b4b004423d94"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/500da610f74b40d072e38dbcd74d8cca840bc5fe651acb926caa113d1110a4e7/run_meta.json",
+        "sha256": "01cdcfca24e854c4c5de749785672872920c61990c40498cf79d6df288aa2660"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/53c5b940afcdd062dd59c7f664df9e1bd15f599d865c0ba7e07fe9bd24856dfd/run_meta.json",
+        "sha256": "b095d9d865778dbb17fb0b3c568a9cebffe75ccb4d9c449552f79c77e6ff6071"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/53d72331a10db7545e549130eacbbfd899f910edd94164fca5a768956da4e72d/run_meta.json",
+        "sha256": "d5f68df5ce2ff8beb70523ae2359d7ae1f00758382c672c18e63055ca77d694d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/5467fcdf163f7a73e422ee2c015b02492f21ff915cb0855755bd8efad451b4ff/run_meta.json",
+        "sha256": "b157312e8a0409e686ffdccfb11f56b9645397048ff79636433914cf133cb1a6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/56a4cee05eba0d707c0241b735e472e6b1a1f77212086a9a35dfd5be25791437/run_meta.json",
+        "sha256": "6778f6c43090f171b8060be1e2cc48a21f85a481be4c3b4cce412eec4d88a773"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/57dd1b170b1706f039b56724a9e756c3365b14294674af54b2015d2454686667/run_meta.json",
+        "sha256": "dfe033a403acd4b68f45a68be8b0febafd2078869ed522b7faf2ff86d23286bd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/5927b77666d2a855f263251eed0ca24a1c7157380bbda82014f896bc3e29cc21/run_meta.json",
+        "sha256": "29511b96de1dfb076e2a52a353bde9406b511a0afa635c92d0ebc4a87e1623de"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/5957b350fe38d7645ad41effa4bde59ab513764af7ad16db2b57f5967debe743/run_meta.json",
+        "sha256": "94aad0ab65ce9c7af3b105d1be89a5638552d228710fa16b87886c6175c2847c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/5aba753a7ce33cae11e567ad218075feaa00fc61fcde803338fe897d0199f803/run_meta.json",
+        "sha256": "1b81933a67b9d6d8a1c07f3f2ab9dd7d19b83d42267b21834a9b42d0902188dd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/605bd42dc72c5971b5a71fe71e4c3d41d38b4dbc5a906c531d0df29602523c41/run_meta.json",
+        "sha256": "7e3f044ce9b79f19fb0ba60c8abd7c331e6ea4cfc240b7a67b2e8e5bbde118f3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/60a4e6709ac4f9cd680b251829d01d0edbde070002d4c39a34bb9d4c49f39e8b/run_meta.json",
+        "sha256": "ce45a29d0beae7e687e1d7f09bfcf8c8cce42f2405658fa05ee994a6e60366c3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/627c568d8f680dca6a9ff54b21de9cdd2ef1ad36b7c1c8f24a80b655d2b329bc/run_meta.json",
+        "sha256": "5925f1c21f56033e9a8df8d080ce9ee1d5ac819f8d39c9e904605a3d30e7e8bf"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/63806c3697784d9f4d250b16d686489ba2e3d8520fd3c5ddee88efc38b03a0ed/run_meta.json",
+        "sha256": "388a5138da2806d8a1b81e0ffe0a5c251219279489ce64d431bd713053d9b527"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/638b13a9b45ca53dc9674bb60ce0629faec0030240c827d78fd28a989ff0da8d/run_meta.json",
+        "sha256": "5f13b64c190a5536c28c6fb9340f259e3ab2ee0a4549cde2f3067afa58c2d7cf"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/6461b0e36ae200f0e81fe9702907444f51e2f29c388e295c83de69cf2e3abe7e/run_meta.json",
+        "sha256": "3523f2c91c8929a0fc0d25ee973041878a04f0cc7fb0889fdccdd9588c526f05"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/647994b163b8e07bac3d0c07a9b94d32b2e1bf4424f589488cb50e932a803c7e/run_meta.json",
+        "sha256": "5da30881ed66b141366d98721d9dfde0cdcf4637c44cfa806859e3cc3fe22e19"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/649926688de7396805bab210d642aa33dc9bd62e843880dc25d490a821e06649/run_meta.json",
+        "sha256": "e2ea8c316b2bc199f0f4eae8562d9efe1988cab0307c73dc79b18b2daa6030a0"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/674778acaabeba7c8ef82129cfe4d548065fe46ded85c474eabfbd06374161f2/run_meta.json",
+        "sha256": "12f98b9009b24a8e8f20298a809fbaf30630385ac534b445f04c46f090c31e98"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/698846d3a33c05575338e8c1ff5a43361639477b459dbe887d49fd614255f9f2/run_meta.json",
+        "sha256": "86998c4e8816bda062d9538f7bea44db057eb74719f198ab6a3f49c299000bf8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/6b0a202db1c5d5f56c5abbda3501570315782274864134698f1efc0dc97be36b/run_meta.json",
+        "sha256": "04e036ffea2fc4b401aeb9319113468754313a105fe6fdb499b88b04d5d3144d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/6e058aa83b07ffb296037cf22d4fe658284580b6b264963525acd0d1b211a814/run_meta.json",
+        "sha256": "c3c48beabb0d079d8f812e2d33fb2f087100e62eaa582dbf27969de069f0a732"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/6f0539e7d57cff88e9fb6ead9ce1bd9701fca7aa7cd5d8df98f1b55efe826b42/run_meta.json",
+        "sha256": "d6bb03c920bec90284c95a0efad7a98525825181bfbda88ce2cafd7271cd769d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/70c36ecc8c0e2f4998cffdb288d808f3dfcb84712996306d9896b7dd6e44feff/run_meta.json",
+        "sha256": "ab1118ea30c4ddae1c4d593c1f8f348c194a4e8bc4768f07246b01f62520c2e7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/737c2acd40ae2b2b14c0e793d761c68531726ba51326e53201e2b9b1645464a3/run_meta.json",
+        "sha256": "7bb8ae1a87e00ec1bfdba5e3d3f7d95377ebeb054ac1dc7e4f76eeb660d99df5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/739965be1528523831eca30ae5d6bbeaa1223eb467ff32a84991f1fddfe7429a/run_meta.json",
+        "sha256": "bbaa251b93b5e03d30f42988c74fd913196f820214ce0f374dbfa570c29bc0e7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/74d9582351ccc94cd3569a8de150c2b9324a88cc1ad7c5f454361a44ea0560d8/run_meta.json",
+        "sha256": "64fe4411640407a4fff4f4fc9fff3efb32902d7c387fbe985b9da24c32ca5cfa"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/75174c943cad1e968496e47ac0c1022ad1af85375c2e28ef5d1b264efc90d387/run_meta.json",
+        "sha256": "4b51fef63c153c0b277657560febebf976c47d711ea512d5e6ec51021d2f9d9d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/76475c46e4a1065b4b1b65dbb2eb7b51179c9b98582833fcbf13342d7a367542/run_meta.json",
+        "sha256": "41fb916f58c6cd29499e0b0c90a2bfcc711258dc6002fe35b5bb4dba7a3709c9"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7758748cffc00a337d57ebd83c6d480c31057cf43f2ed81e8db4a199ad935f1a/run_meta.json",
+        "sha256": "f6e41605d25c314df95b4dc11ca57794be288784bb6003b744fdba4c0bab3e9b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/78090f401aff067dc2f5b4d998b52ba45ee7c6937afeb951b5007a0eefc397f8/run_meta.json",
+        "sha256": "6016a8e0fced2d848ca68a77dfe83993945420042dd738c03b247393e18579b5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/786645ac6779e80d1b92c273fb91657e31db3ff6bdead360adbd41dfa86fc275/run_meta.json",
+        "sha256": "737211e63db73b916d8333e809a45d133876348d8a14c9a12f07be03de7e8eb7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7abd99fce04ad1c7fbfe4805957657102897613e1a2bc9b81b7cc4792699fd36/run_meta.json",
+        "sha256": "51dda58ad2f7a2568bfb5aa2a9b3ed8a7dc0a870138edfba7f9246bfb1c8419f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7b54779938ce55e0221cfa91542f51d5d2349b6c3d1f441f0192b5405ac8ab77/run_meta.json",
+        "sha256": "bb936238cc024b00dfbac52d5a374dc03629ab9f580bf190c5a468e66ac29076"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7d5b4b27881ade156c824f7f8af7df95537d74b6736d7b4257dd638a42148207/run_meta.json",
+        "sha256": "2da042fc4210d22608cb49e1638a6ef2d0e6c263c58a781663d205ecdfc9d268"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7e654418a369a9782a89ee6751ad980c0b5a433f9b2ff54b8b1cac16d100bcee/run_meta.json",
+        "sha256": "5f774a50642797e3a08d896c69a71e93d59beaf01260d9849114453cf4d0678c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7e77e5a73f629dd91853874c3a9012e7ff8ba10d33eb913063eeb6c359ab3fd0/run_meta.json",
+        "sha256": "29953fa1ca7b0c9624533438abd62c6a67d92926a4f567f47862c921f74d59ef"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7e8cd4e6e16e9f274ac226450c6d7577ebc826bd340fc7603eb2a126393c5838/run_meta.json",
+        "sha256": "cee41c56f9755d4e991c64ac9886672241de2d4f4f2300e765dc59301e5b3ffe"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/7f6433b79a4c70bf2938e756d0bea4f6e6e21a3b0af9e4f43d065ec888e5ca34/run_meta.json",
+        "sha256": "1e7174299a7f5f1a6c63679651ae118ce7e1b31388bb684002471cf912e40921"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/818fb600ca57262753b9d8acd95b83bd8f8c45cb0d69e8b3db9b7334ce30c12a/run_meta.json",
+        "sha256": "d1c23f6a75d4e9559a0e79de37b6785a9eafe23f9ab839ed2e37af879d89bc27"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/831c941a8414eea692a18eb6f10a26f82e7bf9eda6846fa069d3e0ffed80f8a1/run_meta.json",
+        "sha256": "ba7d3a7903ba680248891d657f480890d49099b8a4022ba46399d2aad2caaaf0"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/86212231a9fa2c03af116072e1e4df465db7245c35542c993303ed7972ec7c73/run_meta.json",
+        "sha256": "ecd7f25412a29f4e12281edaa8a22dc44eb4d4aaeadb7d63a4d860ce2f492e54"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/863dd2af2086b84ec0259d57225b8cd7b7fcef30be681343e4ed30dd0395e93c/run_meta.json",
+        "sha256": "d070ca0f3cf2aecca49831d44b63aec274bce1489d03ffef90f9aba07786bfd2"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/874abfa708fc31f4c79890c15f34dd13bfbf82af34c7c6c8e5d7fa6d8da9dd6e/run_meta.json",
+        "sha256": "677950b1758b7f20355a04eb861797773a347da66db3c6247ae11673a8b8bfe9"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/89ffd13200c49403d50c7707ba818a89ff3f8581f71567eb6d9609987603c570/run_meta.json",
+        "sha256": "e47e5cad614aab5b631655995ae7fa2b760a2b548e9595d8a727f5a52af58b86"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8a27a2f22d084672fa8cf30060d85e6d3398d831d6a43a1f9111d6c473b8ceb8/run_meta.json",
+        "sha256": "c954579d040e4ff204f48db0e731705794c1425fa0c2a41cb239fe9d253058cc"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8bca2723645d7ea6a4cc8476420979383fa61beb7fcb5fef73f3abdaedd4c185/run_meta.json",
+        "sha256": "b1c00d6935111bb40c4cebe69922366c0636e596a94482401d4de5dbfa11f62c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8dda181f3cf551e24a299e349ed365ee9989fe9975825b481ae7ed1e73d9ddbd/run_meta.json",
+        "sha256": "283417835ec75034f947d596551b01ee06abcd6f74ae5c3fbccb9f2b2ccf3bb5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8e4132e8fd6f5edfad30982a941c1fa090f3ae473d753c43071f8e32bfb2fd13/run_meta.json",
+        "sha256": "fd9a1e965c004282d034c403c440ffaab29540c585947ce6bfe67b3f308bea30"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8e6d5e7e3b7c40e2454a2f175b3eae32d8d33a74ca33512e2051415aa93fc6a4/run_meta.json",
+        "sha256": "fd969b742909ff7eab030bd7ab0f9f84b129bcf739a7693805a4f29eedcf0321"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8fd3976c3dc6849e87fa9944d58377ab3c5ff348610dbadd26c0d09445411540/run_meta.json",
+        "sha256": "45ba6df5b8d812172aa431401db43d4855261bc0f1f2b8eedfeab4daff9b0fcf"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/8ff733508afb5617681d14c9da7882d52a9796ff253b31678bb00a7b99635290/run_meta.json",
+        "sha256": "b16b32757bf6a36d3a83f9c7fb65d61cfff765c823425c76ecec51a52a72a45c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/9269f69f72c1be901cf8bb7bcd529282c0d5c82aaf02af347c9109ac2e5fff1b/run_meta.json",
+        "sha256": "285dbfdb9c2cc24e0e1a46c5f8c8b64c956c767c0949f83ac55a8c601e84ff4f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/95fd8ee7242c00edc0a4a84eac34a9503d3eb5a45a901d9c8156abe9a02dfba1/run_meta.json",
+        "sha256": "e3b4354dd65cbd2dace8859572ca1def1e9141b020b66e7985a9491c510c3da0"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/96eff4a7fd58a0de179bf5ccc15f9dd0ee9f013a7370727f34e4594ec6677af9/run_meta.json",
+        "sha256": "b454de82e7da3d11faf8032a1bfc5202cdcaf5e6ec73ec1b117be55e8adef1cd"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/97a941ef31c10770307ccf7bda7ba1d130f33060c6bece59b1d3d2106aa2b0ac/run_meta.json",
+        "sha256": "aca1e2900f0c99d3bc7206e4f842a66439c9f10404888c32d8eb5b2887accd2f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/97ba326e29ccfba8302ff122d577acc431eafcdf2e2b2e38bca28f88f8364c2e/run_meta.json",
+        "sha256": "1fc0b258040c01e614a76b66d26d14faca997128f4a0882feb56ce78c4bc865c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/97f5035721e8813d6f309bb65986f49b7f7a10a0877754c90e8c31340b5a2008/run_meta.json",
+        "sha256": "e19d3af23e0a195dfa7f01139df8e11c15a34c89903737df5b036151685bc203"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/98815c41cb6ec35a15067328cf76f78be31fe58c205787d2c033f4769d20d2d3/run_meta.json",
+        "sha256": "98f9c0547e5ec58ea5d7a28dada524a43a51132c5e20eab6007e2c6957c3e825"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/98aa3f1d251b1301c2fa4fd64418fb24d92582af4398da4f15ad677d1e51e7f8/run_meta.json",
+        "sha256": "f29e3548125622a80c5f17d865387357a9444fd74738a84c8224940e6e59d59e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/998be0a668cfa82698e759036d90eeda13d064cf38402acc40b9760da34b8141/run_meta.json",
+        "sha256": "0248338a7011c1d687deff484b5febf7a5aa0d6ea2ad71dc9c6d9faeebaef19e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/9ad1e07ede9deea84547c9caad3559dbf6c6aab68fdd2c1b295554a16b7d0d18/run_meta.json",
+        "sha256": "18a64778128900aca4df1df9e91ce227d66c0ba701fd0b675727b85b392b39f5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/9cd1d51677a14cfc9f449442aaca9708a39c92a3b560e34de67371bf50c1d2f7/run_meta.json",
+        "sha256": "f5f2b0038d20756362dd1f07c3ff2a1b9fff574ae9e9ea8c7747b3741efa3090"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/a1176242ca85daef8c06cdd4ec75f768472d07ea40bf5b797767ee0c9aee2c2b/run_meta.json",
+        "sha256": "d9c4f0d0487938adf96f8874e8a2d308860fa29b23af8ce9623e24a239a6b73f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/a2742699fc03f17489c918e359ff84e635f387e81390acc9d50de11890db4cd0/run_meta.json",
+        "sha256": "12263a048a9177fd30be7dd974c559da9d5e360fd84ec0f2c98da6f566eb9f9f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/a2e8f7970893a441e832efe60f95de79628450f77b2b4b95ef557efb49ed18a4/run_meta.json",
+        "sha256": "2780ffb39f4bdf1ed2929d5e3fda9a8010ba9f1f24279ab296659164643cf2d3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/a969073c739071b36af781441fe0d029c5a28678b1293216f1459c32c49da647/run_meta.json",
+        "sha256": "f8d23733da5090f174cb0ae268dc871b7b780abfd7f3dee182c0e9a29122f77a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/aa045900631a4d66a540d8ec29d3af1accd090575dfe830ee926588adc363926/run_meta.json",
+        "sha256": "73c9a39963f292a10ac8e783c493d6e0b1fbddbc8e351ba4647f1a145ba226b8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/ab8bbe6364f4b083ada7927434b6cf5c2ac4b3756e0f53eff33e9d78e86a3961/run_meta.json",
+        "sha256": "38b0766876a8bc408aa4d7d3baf2b64e060c71351d18723bdb2ce02dde4fb8ef"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/ad47d23d5566e4587d92d7348733d50a0a78529a61c0187a88ec19dc26f571ce/run_meta.json",
+        "sha256": "a2ed751f06b4b3db19390c323570ec5e366b6310e8037b4dda1606e8713d4577"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/ada8ca0a149cb51802aa3aa5f2b5f898a313306ce5986243aadfa1e8c265aeb1/run_meta.json",
+        "sha256": "110d2cd285a4e53c405a5a6acbc4304c5c7382093edd50489e1377c2a326e4d5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/b3b69f9655608adf6cdbcfc51138bbdc9b0471ab42f0ca1bd3ea9e38b8b894e1/run_meta.json",
+        "sha256": "214f1102d0e890d5193cd959e434f2c4fa23a6fb61ccc34bb0cb6a9125435e23"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/b43213c0a372518a79b863abeb6ec1f785f5e07a153d7bdae9ae0a4845355cca/run_meta.json",
+        "sha256": "7016a5566a247512ffea2dfdbcd46ad110fbd2e157f3fb21f1fbbfe8bacd4906"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/b788a3d109709ee34e374f5c622e5c6c6a42feb9f344d78b922da0f1f31c932f/run_meta.json",
+        "sha256": "669dfd663eacc394dd4341da76d49e8e406ec95c8c8ec83ac4e3e7fe9bc97039"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/bb1ddb2350eeb112beac3cb15e0b90a4f440d5c06c99ea1b8f69d7c27f381dd8/run_meta.json",
+        "sha256": "9ced5ef75739326185f17993038a507cdc0c66ef400bc079140ff107519c439c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/bdd435441a77355b0b9493844ef2ec2a7331861e2481f90ea8f2edbfdccc415d/run_meta.json",
+        "sha256": "7a20f073bb6197457a4876e6337a9a4c72213edc587995cbfab3a2a7a096e02e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/be784c33d4df851fe200492e07fadb21f1332dc8df42837c4e933fc7b6a6ebbd/run_meta.json",
+        "sha256": "a20ce3052682e9e918f10dd38a6068e2b4a5b02b47b3f4a3d635db82b9ca1b12"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/bef9c5b3e26d6a0caf3250cd720c90660b6440d2102c756a7732281b7a32e75b/run_meta.json",
+        "sha256": "f74847819631ccda394ee141667b4a95352a6852fd98d56e75c90f022222563f"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/c305661e1ddc1018f63851e94bde0d4689ffb903480675647e0fa8a4cd52b823/run_meta.json",
+        "sha256": "3ab2358ed342410aa707dee9503135de3b496178c5df05788b3fb61990a1b3d3"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/c362b7106a8c4f1e4e43159ceed4b46219bcd1f2ad143669742b5a8e7ab54aa0/run_meta.json",
+        "sha256": "77daf000e7c6fb6a44626aca51f958a53275c47acca7478c7fec387ec8bce9a9"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/cac3803bd7a50c81d4931a9d13c53c57251e0131bb871def20dffdb6949798bc/run_meta.json",
+        "sha256": "26a0d9c750bfda4e4b02f39d22c60506cfa18c70dcdd6ffba65ef9e4e63dc773"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d00242b748af08e04e76a02c52b0abafa82e762936ade75375fbdd2920017700/run_meta.json",
+        "sha256": "9c09822e08d428356dacaaa909cd4540206391b4efddea48bad12592b20c773b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d226b8c4572ac35450077164944060f53001deea4559af834837401bb834157e/run_meta.json",
+        "sha256": "ed6ba788e5f5c05dcecc9359512db5e52e1a6b185b84add6e3b731a80882b910"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d24ec1e4efef764cb87f4a38024856c63f6b11d1db7e2902a2693f283fa0221c/run_meta.json",
+        "sha256": "823063e1a8d31626f84b93ced2dd61fc0fa5a04baa78f71a42d6169ac6931786"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d50a8a91594d1f5a05336e1152d7626d75d799460719e0285257e47b4027613b/run_meta.json",
+        "sha256": "8ce3858165d8e4e1c21a704c6fb0e99c408e58b60f0261f6409356e65c02048c"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d53793cfa0156daae5a298f8fe796631def5bf2d2b2036b8fbfd4c146ec61cf4/run_meta.json",
+        "sha256": "95e87a59e3b77cce674ba03b065e3ff2972328e28b361e3f55d5c45db6779ab8"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d6117bc68634ca63bfb87975bd339e2b6ec91b19c325aa6d1236b66d5b35947f/run_meta.json",
+        "sha256": "49acbb134d8d4870b8224125823cdb1cb7f33eecb0c084ba137013c7b666b8c5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/d69b632259a888f1fc40cdd3f33b1c72898a45d55bed9c24f4f09fddf5e53d45/run_meta.json",
+        "sha256": "d7ac22fcf23f704fcc6b6484cbf3401881aa29b3a2ad3fbe86ba15cf36416fd7"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/dbb9a0b93b0679afa738dd19a14f0404cf84863aa9e7c6367a68eef928cae274/run_meta.json",
+        "sha256": "f7fd2178e9db28ff1afc7a30250078596027459c2714a793d57cebda9baa3b61"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/dda940806a00140ffdb166a5b8739b0e2c8c8a2c542d8913745005d91f816fd5/run_meta.json",
+        "sha256": "4da1abf68bc9d5308161f4968e063111b37cab1818a5d1efd5efa281b0e9da0d"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/dee9b3ddd5d2575918e768fe1efee504b9bc1b72308f6d199d8b4084fde1c4e5/run_meta.json",
+        "sha256": "0f044d2422d4f3c6aed84fc505621a621fc37ad8f648203633b17381b8626f79"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e0757c5e7a549868cf54df258fdf8564f9d1580e3a051b4edafd187160d0feec/run_meta.json",
+        "sha256": "9e54e4bd09ffc5e7306196f2458e8844b70cf235b7d03f4623ebc110ce3008ba"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e236f273027bf5ca3468cc338b9b32b85154749d71d78edc9bfd98acc70d95bf/run_meta.json",
+        "sha256": "5a9866e9ad8f6be0b622ae900e819d1df597131a3432d4ce019e0d41d863fa34"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e5842d20e97c022715fccdc3215386a17ee252d3f984c7f0ba987be63d72861d/run_meta.json",
+        "sha256": "74fe02a04b71047a22f0271ff68dc9ac53ee625a787737ff64b0d79e18cf1d1e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e6226bf61919519643466a603e6fba2117ec3578cf399643be7937341b9b6322/run_meta.json",
+        "sha256": "a3c348c3426132c9426c3661b03a406bf99481b44a3a3ae1abcde372eb24f0f6"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e649d5de6d485746e22ccf4ff80055988b7cbe07777d1bc68f63948c3b46e245/run_meta.json",
+        "sha256": "454ff83b1d80e97f6c71a62deb65bcb728b8f125c9cd7f6a27ba6adae535c3ed"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e6abd5091e7e9f71a0723333eb267bba0503b7e744829dfbbf0ab8ecd88a87ba/run_meta.json",
+        "sha256": "5ed505cd8ddbffe8075dcaf8a6be43a31f28b66624a9e89c6ee8fb9af7df8193"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/e93718f3bbaa42f6efdf85745f8c81a0f01bc1963480bb9393ed915fd8f0a918/run_meta.json",
+        "sha256": "591845a0f158ae4b7c518f6f547097759e7c6a477cf4549f8f900ed878ee81ba"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/eca0bbe133f694b276ca2f9e9a3c6cc5b3fedbc94b808d8087c47be91860a4e7/run_meta.json",
+        "sha256": "fcb1d0e12b5edd8e4c90fa8e369ec961ec281292a1c1be34c79f12b5fa97008a"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/ee7d2558f9a3b6422a7ce6b9d263bede6ac242de80f753c6f1606787877edb21/run_meta.json",
+        "sha256": "3f9c3e4c67e3bf38c408dea44a019de9aca1f157fa1a1bca220faa98057d9ae2"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/f06ae57bef0470d3f7ca833435ab933599e60460712186141a2055e57251ed91/run_meta.json",
+        "sha256": "04c13df5f779f5d289b73dd2b313eb4e36ce7a3ecd8981c8cfed4d4e1958e2fa"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/f118e877194bc653383edc5d1430a577f2b3376b6f24ce84e8203806b18627d1/run_meta.json",
+        "sha256": "1f26a67423c964eeafba6f6c1e724048850edf0f5bc8bed4174f7be534b44c01"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/f1f38485ca7cefa3b46840973ba919f2db9cf5dc7dd7d9ae21e431eb17e885ce/run_meta.json",
+        "sha256": "19323600524fbb042596c29645b5f69a426b36e08122ebd81966702006080367"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/f8ef8173c262337d510b5295052acb98bd0d27c966d9fc46a56fa3b0394801ba/run_meta.json",
+        "sha256": "ca09f309111cba50f04e579cd1992c8695df8936a6444988e44254dddd5f7bbe"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/fab3648c96bcc7ce00d74fcbafb2d2072a040d4b076f7a49221edd5947aece10/run_meta.json",
+        "sha256": "502125ca875110c514828595409a634644b3ab611bfbfe21f8470e129b6ae41e"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/fbbca2ad50b0b35800c71d6ee6f455ab1e5bee29653056527bd199960110d2a5/run_meta.json",
+        "sha256": "71e7336a1c11c1bf56a8a51d5eeb72d535c1f26c8eeee8f1e79a755e9baf2b2b"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/fcec74082b50cd50718a0b63d7ed930767d04d24cb57fca18f5a60dc6e23c1cc/run_meta.json",
+        "sha256": "21aa5f01949015887a25079fb66edcfcf47b67d1311fd1a245890132810e43c5"
+      },
+      {
+        "path": "outputs/qwen_supplement/matched_test/B2/repeat_4/ff265a77c4ef2f6205169a694bddba22670c26d262bfbf870637b395877d14f2/run_meta.json",
+        "sha256": "8770f939d8b73b341ce129d23534b94cd6864c3767a4b42e36acdd4c5c0d477d"
+      }
+    ]
+  },
+  "guards": {
+    "required": true,
+    "systems": [
+      "A1"
+    ],
+    "scenarios": [
+      "clean",
+      "missing_required",
+      "conflicting_records",
+      "future_record",
+      "prompt_injection",
+      "plausible_wrong"
+    ],
+    "modes": [
+      "on",
+      "all_off"
+    ],
+    "repeats": [
+      0
+    ],
+    "cases": 40,
+    "case_runs": 480,
+    "scope": "A1 mechanism attribution only; no new B1 guard-ablation claim."
+  },
+  "low_temperature": {
+    "required": false,
+    "case_runs": 0,
+    "status": "CANCELLED_OPTIONAL_BY_USER_SCOPE_REDUCTION"
+  },
+  "outside_scope": "Keep all completed additional records separately, exclude them from required-panel metrics; no deletion or filtering by answer quality.",
+  "stopping_rule": "Complete all fixed validation and A1 guard cells. No significance-based or result-quality stopping; no fresh original main inference.",
+  "limitation": "Two-repeat matched evidence estimates have less replication than the original five-repeat main study; runtime/recovery differences and completion-based selection are disclosed.",
+  "interruption_receipt": "manifests/scope-reduction-execution-20261009.json"
+}

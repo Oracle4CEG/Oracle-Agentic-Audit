@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data/local/polygon_uma_request_rounds.parquet",
+    "source": "/mnt/sda/hy/oracle-nature-data/curated/parquet/polygon_uma_request_rounds.parquet",
+    "sha256": "aca73afae366cfb22a2076c1780124afc588f6f22075fb2919c584a4ceb85230"
+  },
+  {
+    "path": "data/local/uma_polygon_ethereum_grade_a_links.parquet",
+    "source": "/mnt/sda/hy/oracle-nature-data/curated/parquet/uma_polygon_ethereum_grade_a_links.parquet",
+    "sha256": "b17db4d2808afc5fcc29f8a60b5172a970408ba1abeee92033770c850808c359"
+  },
+  {
+    "path": "data/local/reward_source_code.py",
+    "source": "/home/hy/develop/oracle-nature/scripts/applications/rebuild.py",
+    "sha256": "4a2d76b69a9a0e0f0353e9fc228762f76f405f7935eb31db9f1ebfd9991d5bbc"
+  },
+  {
+    "path": "data/local/economic_events_source_code.py",
+    "source": "/home/hy/develop/oracle-nature/scripts/build_realized_economic_events.py",
+    "sha256": "4fed12f2a92dd9da874e8df9b0f467fa00533373c1cf214cd96080323b8ae4ed"
+  }
+]

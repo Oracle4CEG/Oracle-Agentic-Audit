@@ -1,0 +1,17 @@
+{
+  "services": [
+    {
+      "pid": 3422349,
+      "port": 30001,
+      "start_ticks": "929818229",
+      "command_sha256": "df8792f4b57587bbe29505507a15f8a86f2cdc1579319fb8b83d1bd4aea6a717"
+    },
+    {
+      "pid": 3495852,
+      "port": 30002,
+      "start_ticks": "929914160",
+      "command_sha256": "dcc6eadc169f3bb3ad9a891c4be0fa1bc8ee47d96288a145d4c5a88c225144f8"
+    }
+  ],
+  "scope": "Only services started for this task; original port 30000 is excluded."
+}

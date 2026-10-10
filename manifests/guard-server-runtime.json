@@ -1,0 +1,26 @@
+{
+  "version": "0.5.13.post1",
+  "server_args": {
+    "model_path": "/data/LLMzoo/Qwen3.8-27B",
+    "served_model_name": "Qwen3.8-27B",
+    "tp_size": 2,
+    "max_running_requests": 8,
+    "context_length": 32768,
+    "mem_fraction_static": 0.91,
+    "attention_backend": "triton",
+    "sampling_backend": "pytorch",
+    "reasoning_parser": "qwen3",
+    "tool_call_parser": "qwen3_coder",
+    "enable_cache_report": true,
+    "disable_cuda_graph": true,
+    "quantization": null
+  },
+  "gpus": [
+    6,
+    7
+  ],
+  "gpu_model": "NVIDIA GeForce RTX 5090",
+  "scope": "Dedicated camera-ready guard experiment; paired conditions share the same service. TP2 differs from the original main-run TP4 and must be reported in latency comparisons.",
+  "max_req_input_len": 32762,
+  "max_total_num_tokens": 38251
+}

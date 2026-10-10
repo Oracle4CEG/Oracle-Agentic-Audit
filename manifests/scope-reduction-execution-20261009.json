@@ -1,0 +1,277 @@
+{
+  "created_utc": "2026-10-09T07:27:08.643906+00:00",
+  "reason": "User explicitly requested fewer experiments: only necessary work.",
+  "stopped_processes": [
+    {
+      "pid": 1386689,
+      "marker": "experiments.durable_run",
+      "command_sha256": "5ef5b39c97a778a870a56f68ccf07c7eedc256ed99f1414a62c301076e919235"
+    },
+    {
+      "pid": 1386754,
+      "marker": "models.run_required",
+      "command_sha256": "73d085a3c12d75bd99556059d58e7dc46101bfc309cebf9fcf007b910de89dac"
+    },
+    {
+      "pid": 1386755,
+      "marker": "guards.run_experiment",
+      "command_sha256": "52092acd075bc34f0f4de949e97f93a93a168b3e40af0e4e19507aa7d409f11e"
+    }
+  ],
+  "interrupted_attempts": [
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/24d2fa43b43aa2654c5745ea19ca33016fbfffcb21e100ee94fb3a5201792326",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/24d2fa43b43aa2654c5745ea19ca33016fbfffcb21e100ee94fb3a5201792326",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "601be2e4906a7815ccfde080d450294c03d98cab7f93d1b63890f94f4e9ed1fb",
+          "bytes": 12381
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "082685d64d20414d0d78ccccb686ce5b98afbaae68df14023ef0bf06b040ae0c",
+          "bytes": 11350
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/2ad4619b0f1ac696eb999efe6b4254ca00b219b344866de1ad3421c4a1095fe9",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/2ad4619b0f1ac696eb999efe6b4254ca00b219b344866de1ad3421c4a1095fe9",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "3834045afd1e1fb2275d83ce6661fe541f5e4f92e966fb9492a94bade2e1613d",
+          "bytes": 12475
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "e501bcc22903c520059bacc4e5f8cb67b2e527084903a13f9a9245a67ef839da",
+          "bytes": 11392
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/2b2726d03e5e23680442b595bf53bdd4875c73a0f982299e9ed886367533e821",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/2b2726d03e5e23680442b595bf53bdd4875c73a0f982299e9ed886367533e821",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "dc4c41c7d048b9f994ba95247779fe6804bdeba72e0364fd33a13a2b972de246",
+          "bytes": 12149
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "0e8f8c6980fb09967779ba744af67d9521c79341f0f4497452636ba54c72f853",
+          "bytes": 11096
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/2e708ac9df6c4537020bf753a3237b9229d96df9d8d5547805d29233442b8e6d",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/2e708ac9df6c4537020bf753a3237b9229d96df9d8d5547805d29233442b8e6d",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "d1b389f28d6035c32d036a4953803c2e32864e642585a464afd6c513f26ee853",
+          "bytes": 23856
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "abc63b594b46d188a288896ae73cc52a976ebc44785c7c3e593a5a50933306ed",
+          "bytes": 22301
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/2efe85ef11caf49c7703b53fdec78dd3320e0fbcdb7970b4d1fe3f6fe83f68e5",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/2efe85ef11caf49c7703b53fdec78dd3320e0fbcdb7970b4d1fe3f6fe83f68e5",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "babfe65155540386f911ba629c6fc9f7eaf6dda066c79d26e2ef6fd1efbb0486",
+          "bytes": 13500
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "b1644d7dea5b1c6fdd3468e2e2648fa830f49c58cf5b5e5a74681850f714c9d7",
+          "bytes": 12403
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/2f56ae51be7d876ad4623e8cb929dfbcedd4b44a5912acc0792dcf02fa1bc050",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/2f56ae51be7d876ad4623e8cb929dfbcedd4b44a5912acc0792dcf02fa1bc050",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "ee82b026f5cab32f98fc530d30c89eab90f609a2cd180afdda999081b9d9c95f",
+          "bytes": 13260
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "2ea824f668c1fceb262d72c7b38c2ed22f7b352c49929223126ce00f787cb59a",
+          "bytes": 12191
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/315874c3d13f9a685f1e07cabed75c8cd39840c69023ea4043a597183f8620ac",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/315874c3d13f9a685f1e07cabed75c8cd39840c69023ea4043a597183f8620ac",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "efa4c4144320648779e58adada8781ebdcc4b357e63e6c7dd7ab437f77bb32be",
+          "bytes": 12655
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "759ea7932b617b1f6fd1331c807d2d7e704748957fde4f7541fd78cfef1c2f94",
+          "bytes": 11606
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/qwen_supplement/validation/B2/repeat_0/38a4b30fc19ab9b833b2d47c7157f104fadb9c4759d8d6fd74ef508cd2a4ab97",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/qwen_supplement/validation/B2/repeat_0/38a4b30fc19ab9b833b2d47c7157f104fadb9c4759d8d6fd74ef508cd2a4ab97",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "input_messages.json",
+          "sha256": "aada02d0297fb1a19528702fc4a46f78f5c5abb1c77c6e17bacc5f96cdce9d78",
+          "bytes": 23839
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "dc327a8c9e8e607df002d1c5455d0e5cf25c55895ea9508a3d9c3e730f23a7c6",
+          "bytes": 21960
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/guard_experiment/runs/clean/all_off/A1/3db5eeb30f0efb22b40ece906de3f95dc7d95cbfe8ba2f370172dccdbc05eda7",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/guard_experiment/runs/clean/all_off/A1/3db5eeb30f0efb22b40ece906de3f95dc7d95cbfe8ba2f370172dccdbc05eda7",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "fixture.json",
+          "sha256": "be8b57becbcd74a3201696fe1dc828b874cfdcc0a673534fe377acbbe729f504",
+          "bytes": 181
+        },
+        {
+          "path": "input_messages.json",
+          "sha256": "b6c098d23b58ed899a469450f0b19cb181b29e85b31bce3a7784edb45345b2ab",
+          "bytes": 1796
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "d40a0ae662c47b3966932179c8a022c7aff9f4b465a5068c563f85dc9f346b32",
+          "bytes": 1696
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/guard_experiment/runs/clean/all_off/B1/3e79c2abeb445a9d898a29728ff596dfde391aae3f545e8274639db356a49edd",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/guard_experiment/runs/clean/all_off/B1/3e79c2abeb445a9d898a29728ff596dfde391aae3f545e8274639db356a49edd",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "fixture.json",
+          "sha256": "876a813137585f798d5efdc0968669eb2e75b00dfa9de5e11463c64edb7fe7a8",
+          "bytes": 181
+        },
+        {
+          "path": "input_messages.json",
+          "sha256": "5d002ffb9291d9408dc9a67b1d7e8b4a50d8e7d7625954cba36cbd94da8e6b36",
+          "bytes": 19151
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "81ed0c4fd33b941d30e1a56b267868204da0a8a825adaad5829ca9b44f04eb5e",
+          "bytes": 18439
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/guard_experiment/runs/clean/on/A1/3db5eeb30f0efb22b40ece906de3f95dc7d95cbfe8ba2f370172dccdbc05eda7",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/guard_experiment/runs/clean/on/A1/3db5eeb30f0efb22b40ece906de3f95dc7d95cbfe8ba2f370172dccdbc05eda7",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "fixture.json",
+          "sha256": "be8b57becbcd74a3201696fe1dc828b874cfdcc0a673534fe377acbbe729f504",
+          "bytes": 181
+        },
+        {
+          "path": "input_messages.json",
+          "sha256": "b6c098d23b58ed899a469450f0b19cb181b29e85b31bce3a7784edb45345b2ab",
+          "bytes": 1796
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "d40a0ae662c47b3966932179c8a022c7aff9f4b465a5068c563f85dc9f346b32",
+          "bytes": 1696
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    },
+    {
+      "active_path": "outputs/guard_experiment/runs/clean/on/B1/3e79c2abeb445a9d898a29728ff596dfde391aae3f545e8274639db356a49edd",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/interrupted/outputs/guard_experiment/runs/clean/on/B1/3e79c2abeb445a9d898a29728ff596dfde391aae3f545e8274639db356a49edd",
+      "cause": "user_requested_scope_reduction_scheduler_restart",
+      "files": [
+        {
+          "path": "fixture.json",
+          "sha256": "876a813137585f798d5efdc0968669eb2e75b00dfa9de5e11463c64edb7fe7a8",
+          "bytes": 181
+        },
+        {
+          "path": "input_messages.json",
+          "sha256": "5d002ffb9291d9408dc9a67b1d7e8b4a50d8e7d7625954cba36cbd94da8e6b36",
+          "bytes": 19151
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "81ed0c4fd33b941d30e1a56b267868204da0a8a825adaad5829ca9b44f04eb5e",
+          "bytes": 18439
+        }
+      ],
+      "usage_status": "Unknown: no completed response saved"
+    }
+  ],
+  "configurations": [
+    {
+      "active_path": "outputs/qwen_supplement/execution_config_all.json",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/outputs/qwen_supplement/execution_config_all.json",
+      "sha256": "20dfb9a0d7e7f00323ac46f8b91c4cbd9350defb3e802de379b9df92c4c74135"
+    },
+    {
+      "active_path": "outputs/guard_experiment/execution_config.json",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/outputs/guard_experiment/execution_config.json",
+      "sha256": "7902d2a0f801a4424802b7fa27d302cd4b80e97493798a8f3f9c8fd281eb34d1"
+    },
+    {
+      "active_path": "outputs/guard_experiment/execution_plan.json",
+      "archive_path": "outputs/scope_amendment/20261009_minimal/outputs/guard_experiment/execution_plan.json",
+      "sha256": "9de9017f7ebeaf2f17f05cbaa2964b335513b7ea9be0daed9945d3ee9a7483de"
+    }
+  ],
+  "completed_records": "All retained unchanged; no model output quality used for exclusion"
+}

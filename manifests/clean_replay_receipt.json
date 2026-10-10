@@ -1,0 +1,668 @@
+{
+  "status": "PASS",
+  "scope": "CSV scientific outputs; elapsed runtime and changing collection snapshots excluded from partial checks",
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-10,
+  "compared_tables": 73,
+  "tables": [
+    {
+      "path": "a1_actual_received_evidence.csv",
+      "rows": 961,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "af6ebd3ff491e26467e6f145e6127ad90779b57a2d1ca6d64c3498a316e99c77",
+      "candidate_sha256": "af6ebd3ff491e26467e6f145e6127ad90779b57a2d1ca6d64c3498a316e99c77"
+    },
+    {
+      "path": "actor_group_confidence_intervals.csv",
+      "rows": 120,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "bcd7e2299e5749a01d87c3f9b0df763829c7b166e4cba180b4cdb5ad165c1045",
+      "candidate_sha256": "bcd7e2299e5749a01d87c3f9b0df763829c7b166e4cba180b4cdb5ad165c1045"
+    },
+    {
+      "path": "all_predictions.csv",
+      "rows": 6411,
+      "columns": 37,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "1600c898a62adcfa0af2b29304c4985828192ae05016dc58c71fafeaf61733f1",
+      "candidate_sha256": "1600c898a62adcfa0af2b29304c4985828192ae05016dc58c71fafeaf61733f1"
+    },
+    {
+      "path": "b2_exact_delivery_checks.csv",
+      "rows": 481,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "3b6e3458b78f58260eb1ae473e7902cff282abb820d439127a3ecd636e46017c",
+      "candidate_sha256": "3b6e3458b78f58260eb1ae473e7902cff282abb820d439127a3ecd636e46017c"
+    },
+    {
+      "path": "capacity_scenarios.csv",
+      "rows": 66,
+      "columns": 13,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "d017f09be0479f4db5586282f3414cfbf7e0ecdd94bd8f96b4b0a2617bdd6d33",
+      "candidate_sha256": "d017f09be0479f4db5586282f3414cfbf7e0ecdd94bd8f96b4b0a2617bdd6d33"
+    },
+    {
+      "path": "citation_case_error_rates.csv",
+      "rows": 3,
+      "columns": 8,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "7bf145520db026a6864f8cbf49c5d86a87eb7eda8292b861be1d128cb6ef704a",
+      "candidate_sha256": "7bf145520db026a6864f8cbf49c5d86a87eb7eda8292b861be1d128cb6ef704a"
+    },
+    {
+      "path": "citation_case_errors.csv",
+      "rows": 480,
+      "columns": 9,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "c5e309378fda229a00f74abb2d090e60bfbedf27166cf24a4b80db72c814dfdc",
+      "candidate_sha256": "c5e309378fda229a00f74abb2d090e60bfbedf27166cf24a4b80db72c814dfdc"
+    },
+    {
+      "path": "citation_cost_confidence_intervals.csv",
+      "rows": 21,
+      "columns": 8,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "8a21ccf193032144f9010162dbb1326474a2ef39a85a0224da8bc1f8c0737e11",
+      "candidate_sha256": "8a21ccf193032144f9010162dbb1326474a2ef39a85a0224da8bc1f8c0737e11"
+    },
+    {
+      "path": "citation_error_rates.csv",
+      "rows": 3,
+      "columns": 12,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "2156a8e926cf64c2ddefd46adbe448f86fdd16f3ca29ae899c432ef7c0cedb2b",
+      "candidate_sha256": "2156a8e926cf64c2ddefd46adbe448f86fdd16f3ca29ae899c432ef7c0cedb2b"
+    },
+    {
+      "path": "citation_id_breakdown.csv",
+      "rows": 6,
+      "columns": 4,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "dffd58942652b6dec294d98d664bf57df9a74caf68162ddf077095c5d60b83c0",
+      "candidate_sha256": "dffd58942652b6dec294d98d664bf57df9a74caf68162ddf077095c5d60b83c0"
+    },
+    {
+      "path": "citation_occurrence_rates.csv",
+      "rows": 6,
+      "columns": 5,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "7ca038f7e257284d857771daa0ff7971cadba4b0e1bf1abb86b81aec024bc4e4",
+      "candidate_sha256": "7ca038f7e257284d857771daa0ff7971cadba4b0e1bf1abb86b81aec024bc4e4"
+    },
+    {
+      "path": "citation_records.csv",
+      "rows": 8709,
+      "columns": 7,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "fd129f2706dc08de0acc0d408b91fe9d2483c568227e51e37309319c871eba2b",
+      "candidate_sha256": "fd129f2706dc08de0acc0d408b91fe9d2483c568227e51e37309319c871eba2b"
+    },
+    {
+      "path": "citation_run_errors.csv",
+      "rows": 1920,
+      "columns": 12,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "f759ea6588b095c0ed700bb0b1f2245fdd7d83c4cfc514aa485e34ef68b03dd4",
+      "candidate_sha256": "f759ea6588b095c0ed700bb0b1f2245fdd7d83c4cfc514aa485e34ef68b03dd4"
+    },
+    {
+      "path": "citation_taxonomy.csv",
+      "rows": 8709,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "65e9afe3849a4086eb5f994058ec007b434082c20299709a1ffa8cda076eaeae",
+      "candidate_sha256": "65e9afe3849a4086eb5f994058ec007b434082c20299709a1ffa8cda076eaeae"
+    },
+    {
+      "path": "citation_taxonomy_counts.csv",
+      "rows": 6,
+      "columns": 3,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "d1b555b0370e456f4fd661b168473b51219239086d4e8f9decfe11801b0f50a2",
+      "candidate_sha256": "d1b555b0370e456f4fd661b168473b51219239086d4e8f9decfe11801b0f50a2"
+    },
+    {
+      "path": "cohort_manifest.csv",
+      "rows": 810,
+      "columns": 41,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "41b60210b0be1bff0b84f42777aad8e4938e431c7fb49c623d6767f802ec53e9",
+      "candidate_sha256": "41b60210b0be1bff0b84f42777aad8e4938e431c7fb49c623d6767f802ec53e9"
+    },
+    {
+      "path": "cohort_summary.csv",
+      "rows": 3,
+      "columns": 10,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "c6e88f1f26c6fa77e7386f334cbfe231c289bec5e89a45006eac9b8312b39c13",
+      "candidate_sha256": "c6e88f1f26c6fa77e7386f334cbfe231c289bec5e89a45006eac9b8312b39c13"
+    },
+    {
+      "path": "corruption_effects.csv",
+      "rows": 40,
+      "columns": 10,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "586ed4a2048321a770fa062533dc5002af2add60153ab15d76ac0dbc661f02cb",
+      "candidate_sha256": "586ed4a2048321a770fa062533dc5002af2add60153ab15d76ac0dbc661f02cb"
+    },
+    {
+      "path": "cost_accounting.csv",
+      "rows": 3,
+      "columns": 34,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "0fa8bb79d5661397f368fa6f7453601e13f5257c7edfb5279bf3502fc375a463",
+      "candidate_sha256": "0fa8bb79d5661397f368fa6f7453601e13f5257c7edfb5279bf3502fc375a463"
+    },
+    {
+      "path": "cost_sensitivity.csv",
+      "rows": 132,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "2348c6c7e45ab1994fa69b320b36d8f40be6b034e2d10e32ad8f27655951a9d6",
+      "candidate_sha256": "2348c6c7e45ab1994fa69b320b36d8f40be6b034e2d10e32ad8f27655951a9d6"
+    },
+    {
+      "path": "economics/candidate_cohort_counts.csv",
+      "rows": 5,
+      "columns": 2,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "47538365d1408120700999358d512fdb76d5da5ea8964332213ffd88ac2a1ea9",
+      "candidate_sha256": "47538365d1408120700999358d512fdb76d5da5ea8964332213ffd88ac2a1ea9"
+    },
+    {
+      "path": "economics/capital_lock_coverage.csv",
+      "rows": 4,
+      "columns": 8,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "3dbc80f42cc8b0f59a8fe65a75e9a92d9c6e36cc67dbefa4592a29c72a1465b9",
+      "candidate_sha256": "3dbc80f42cc8b0f59a8fe65a75e9a92d9c6e36cc67dbefa4592a29c72a1465b9"
+    },
+    {
+      "path": "economics/cohort_exclusion_audit.csv",
+      "rows": 835,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "2eca729c3c6026fc3d4ef45895afa6dccd5cc4906f131e954b38eefd35571f02",
+      "candidate_sha256": "2eca729c3c6026fc3d4ef45895afa6dccd5cc4906f131e954b38eefd35571f02"
+    },
+    {
+      "path": "economics/cross_protocol_reward_concentration.csv",
+      "rows": 8,
+      "columns": 16,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "dafbcd866a712e3cedbd917f6fd1eab952989f984c7ed6e3525ee97a79984e9e",
+      "candidate_sha256": "dafbcd866a712e3cedbd917f6fd1eab952989f984c7ed6e3525ee97a79984e9e"
+    },
+    {
+      "path": "economics/economic_case_panel.csv",
+      "rows": 810,
+      "columns": 29,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "642b48ee2c43780803287fe8cf9a2e60db056fe92e9eb78ab73e2e61f2907729",
+      "candidate_sha256": "642b48ee2c43780803287fe8cf9a2e60db056fe92e9eb78ab73e2e61f2907729"
+    },
+    {
+      "path": "economics/incentives_and_realized_outcomes.csv",
+      "rows": 2,
+      "columns": 32,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "eebb2a36bbdcf8ac9a06062fce79024175beed0e7b18cb34d9758591becaebea",
+      "candidate_sha256": "eebb2a36bbdcf8ac9a06062fce79024175beed0e7b18cb34d9758591becaebea"
+    },
+    {
+      "path": "economics/label_audit.csv",
+      "rows": 810,
+      "columns": 10,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "5e3951dd898ce885403e3974f1d0daccf210de2a656ceb55546d162146f917f3",
+      "candidate_sha256": "5e3951dd898ce885403e3974f1d0daccf210de2a656ceb55546d162146f917f3"
+    },
+    {
+      "path": "economics/protocol_variable_availability.csv",
+      "rows": 25,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "9ff5bc49b50293e6ee35531454d1ad8bb942f56389759ce0ac111ce8df1c14e2",
+      "candidate_sha256": "9ff5bc49b50293e6ee35531454d1ad8bb942f56389759ce0ac111ce8df1c14e2"
+    },
+    {
+      "path": "economics/verification_activity_concentration.csv",
+      "rows": 2,
+      "columns": 10,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "e9e959c5508c3459916f626c59f35cbc20ee321b86ce3d183e957c9f204293d3",
+      "candidate_sha256": "e9e959c5508c3459916f626c59f35cbc20ee321b86ce3d183e957c9f204293d3"
+    },
+    {
+      "path": "evidence_availability.csv",
+      "rows": 15,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "5a3f26524b924ca39d4e7f7f64547589ae6b192dfda23362e14933ff72649e24",
+      "candidate_sha256": "5a3f26524b924ca39d4e7f7f64547589ae6b192dfda23362e14933ff72649e24"
+    },
+    {
+      "path": "evidence_manifest.csv",
+      "rows": 4035,
+      "columns": 14,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "b995b77f583ed02076dc664a2cecdffd9b20c249e8c551607e46924b02a3d464",
+      "candidate_sha256": "b995b77f583ed02076dc664a2cecdffd9b20c249e8c551607e46924b02a3d464"
+    },
+    {
+      "path": "exact_candidate_exclusions.csv",
+      "rows": 40534,
+      "columns": 3,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "31421875a5cfcaab405fea2ff1b19315d5ffa9f122c0785b47e6e356f91645ca",
+      "candidate_sha256": "31421875a5cfcaab405fea2ff1b19315d5ffa9f122c0785b47e6e356f91645ca"
+    },
+    {
+      "path": "feature_lineage_checks.csv",
+      "rows": 18,
+      "columns": 4,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "4acb0fa2bf6ad941d9c24e072866684fadeba421c1a9cfbe81c17a2f69885f61",
+      "candidate_sha256": "4acb0fa2bf6ad941d9c24e072866684fadeba421c1a9cfbe81c17a2f69885f61"
+    },
+    {
+      "path": "future_field_negative_controls.csv",
+      "rows": 6,
+      "columns": 3,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "08a04b189768a6da63a28777d5f37239777600399f529d5d173133b50b323c4b",
+      "candidate_sha256": "08a04b189768a6da63a28777d5f37239777600399f529d5d173133b50b323c4b"
+    },
+    {
+      "path": "guard_delivery_checks.csv",
+      "rows": 480,
+      "columns": 21,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "be05dc96d1c5a7b69f9f9bae77237589bf7a138b10ddfd974a23f6b3cab542cf",
+      "candidate_sha256": "be05dc96d1c5a7b69f9f9bae77237589bf7a138b10ddfd974a23f6b3cab542cf"
+    },
+    {
+      "path": "guard_pair_generation_checks.csv",
+      "rows": 240,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "b0a1bf8b6cc7f89a56495d293a445de2c4ed9f62e0103ae08fe53d23c333e73b",
+      "candidate_sha256": "b0a1bf8b6cc7f89a56495d293a445de2c4ed9f62e0103ae08fe53d23c333e73b"
+    },
+    {
+      "path": "guard_paired_bootstrap.csv",
+      "rows": 36,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "f67c64ab893600357d50ebcc4aa943ce83ccf4931d04790071de5ca9b73046a0",
+      "candidate_sha256": "f67c64ab893600357d50ebcc4aa943ce83ccf4931d04790071de5ca9b73046a0"
+    },
+    {
+      "path": "guard_replay_records.csv",
+      "rows": 1920,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "8b89d5c5484c4c85774e5afb4f8e7bb0eb455a890d2c92ccd54509cb5e3b7948",
+      "candidate_sha256": "8b89d5c5484c4c85774e5afb4f8e7bb0eb455a890d2c92ccd54509cb5e3b7948"
+    },
+    {
+      "path": "guard_replay_summary.csv",
+      "rows": 3,
+      "columns": 8,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "d8120e1b5e3ccdf9d4ee043737a3686f8e9233d3d11bd1f1e66885835d327b25",
+      "candidate_sha256": "d8120e1b5e3ccdf9d4ee043737a3686f8e9233d3d11bd1f1e66885835d327b25"
+    },
+    {
+      "path": "guard_runs.csv",
+      "rows": 480,
+      "columns": 40,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "fecf4c7e1af13813d472149e30a7fd3ddd36ffcea921e792019eb4f942bbd798",
+      "candidate_sha256": "fecf4c7e1af13813d472149e30a7fd3ddd36ffcea921e792019eb4f942bbd798"
+    },
+    {
+      "path": "guard_runs_audited.csv",
+      "rows": 480,
+      "columns": 47,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "878fcc7e3bf367876ecf811045781a65e515a1b125db93eb906727c24e5f7b62",
+      "candidate_sha256": "878fcc7e3bf367876ecf811045781a65e515a1b125db93eb906727c24e5f7b62"
+    },
+    {
+      "path": "guard_runs_outside_scope.csv",
+      "rows": 14,
+      "columns": 40,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "36256a67e476db16975e438cb777fb464020999015e960428fff39fa4bd1a348",
+      "candidate_sha256": "36256a67e476db16975e438cb777fb464020999015e960428fff39fa4bd1a348"
+    },
+    {
+      "path": "guard_scenario_metrics.csv",
+      "rows": 12,
+      "columns": 29,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "b13ff47758c5e70117bab5bd0f8ef665674b4a21e5f55313972d6aa844553241",
+      "candidate_sha256": "b13ff47758c5e70117bab5bd0f8ef665674b4a21e5f55313972d6aa844553241"
+    },
+    {
+      "path": "inference_window_records.csv",
+      "rows": 1920,
+      "columns": 7,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "07721fafb3539844821804d3ea1791ed5116903d5357dd5027642628a00cece1",
+      "candidate_sha256": "07721fafb3539844821804d3ea1791ed5116903d5357dd5027642628a00cece1"
+    },
+    {
+      "path": "inference_window_summary.csv",
+      "rows": 3,
+      "columns": 7,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "3f328f653d4ea21c19b08c68313c89cc0a5332dd0c85d236af14706abc24ac41",
+      "candidate_sha256": "3f328f653d4ea21c19b08c68313c89cc0a5332dd0c85d236af14706abc24ac41"
+    },
+    {
+      "path": "infrastructure_attempt_audit.csv",
+      "rows": 447,
+      "columns": 12,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "e1a1fa6e69d23e9c286af210c2494103e6217f5a7f892335d9ce87961d8a06dd",
+      "candidate_sha256": "e1a1fa6e69d23e9c286af210c2494103e6217f5a7f892335d9ce87961d8a06dd"
+    },
+    {
+      "path": "infrastructure_attempt_summary.csv",
+      "rows": 3,
+      "columns": 4,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "36726cd2c1ae7f0138e4d03c7e6bb088591312cc7d61842b4bff6e2345308d62",
+      "candidate_sha256": "36726cd2c1ae7f0138e4d03c7e6bb088591312cc7d61842b4bff6e2345308d62"
+    },
+    {
+      "path": "market_availability_summary.csv",
+      "rows": 3,
+      "columns": 7,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "30e6c82e23ef046277d28efe6b920dff140fb0ae492ca45b059bbc3dd0844bf7",
+      "candidate_sha256": "30e6c82e23ef046277d28efe6b920dff140fb0ae492ca45b059bbc3dd0844bf7"
+    },
+    {
+      "path": "market_lineage_audit.csv",
+      "rows": 810,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "e3afeb30334319d41d6c1dac66d8339e49e76add85938655f2ad90b0ab30207b",
+      "candidate_sha256": "e3afeb30334319d41d6c1dac66d8339e49e76add85938655f2ad90b0ab30207b"
+    },
+    {
+      "path": "matched_evidence_comparison_metrics.csv",
+      "rows": 52,
+      "columns": 13,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "b86b62c53f729d3880d2153894e560670c04b9aee1fd7d300aa20b2ef60e89f9",
+      "candidate_sha256": "b86b62c53f729d3880d2153894e560670c04b9aee1fd7d300aa20b2ef60e89f9"
+    },
+    {
+      "path": "missing_required_citations.csv",
+      "rows": 764,
+      "columns": 6,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "2844726e9ae6a07cd4fc0af075461fe0382e1b05de9759822caa82b8a4cb1463",
+      "candidate_sha256": "2844726e9ae6a07cd4fc0af075461fe0382e1b05de9759822caa82b8a4cb1463"
+    },
+    {
+      "path": "model_visible_fields.csv",
+      "rows": 44,
+      "columns": 3,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "6acebc69754d801c5129d36ed80b508222de7398a7c8ddedba4f08b3de378d44",
+      "candidate_sha256": "6acebc69754d801c5129d36ed80b508222de7398a7c8ddedba4f08b3de378d44"
+    },
+    {
+      "path": "normalized/qwen_original_runs.csv",
+      "rows": 1920,
+      "columns": 35,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "e23ec2c8a9052c028f727b8dc167cfef67a142ae6c852a025ad2fb49e6102b4c",
+      "candidate_sha256": "e23ec2c8a9052c028f727b8dc167cfef67a142ae6c852a025ad2fb49e6102b4c"
+    },
+    {
+      "path": "output_validity_sensitivity.csv",
+      "rows": 6,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "05c2e52dc4bb5a16c99ab3b25366dc0f7ad56c0fa86ed6779304edbb7c2d91c5",
+      "candidate_sha256": "05c2e52dc4bb5a16c99ab3b25366dc0f7ad56c0fa86ed6779304edbb7c2d91c5"
+    },
+    {
+      "path": "paired_bootstrap.csv",
+      "rows": 96,
+      "columns": 15,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "0b310f555c138ef322b2d0689a38ab0500b8df6bb18b4786dda7fcb2959995fd",
+      "candidate_sha256": "0b310f555c138ef322b2d0689a38ab0500b8df6bb18b4786dda7fcb2959995fd"
+    },
+    {
+      "path": "performance_confidence_intervals.csv",
+      "rows": 60,
+      "columns": 11,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "378bf11216e21bc2beb72c4c7cf491a6324408b37cc176f55f79529058da091c",
+      "candidate_sha256": "378bf11216e21bc2beb72c4c7cf491a6324408b37cc176f55f79529058da091c"
+    },
+    {
+      "path": "policy_metrics.csv",
+      "rows": 144,
+      "columns": 13,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "f0953c95e21fba9788422b8cf01a4a35a14a79bd79c9a1410ea5b00b84088004",
+      "candidate_sha256": "f0953c95e21fba9788422b8cf01a4a35a14a79bd79c9a1410ea5b00b84088004"
+    },
+    {
+      "path": "policy_predictions.csv",
+      "rows": 60480,
+      "columns": 39,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "f9913f8a11e0082fb02ed8d30da6afce9986a253e571db4dad4900ecd51d94fa",
+      "candidate_sha256": "f9913f8a11e0082fb02ed8d30da6afce9986a253e571db4dad4900ecd51d94fa"
+    },
+    {
+      "path": "public64_overlap.csv",
+      "rows": 64,
+      "columns": 2,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "356803a49f1e8d5f1d690f056dc24acb4a6e086bb7296f1b036f9cc84e40899a",
+      "candidate_sha256": "356803a49f1e8d5f1d690f056dc24acb4a6e086bb7296f1b036f9cc84e40899a"
+    },
+    {
+      "path": "reasoning_guard_review.csv",
+      "rows": 76,
+      "columns": 18,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "cad95ff087edd5b4fe67211e9dd5209fc2c50ac233e4c07a89102e762b41a881",
+      "candidate_sha256": "cad95ff087edd5b4fe67211e9dd5209fc2c50ac233e4c07a89102e762b41a881"
+    },
+    {
+      "path": "reasoning_guard_review_material.csv",
+      "rows": 76,
+      "columns": 10,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "17de0d3567aa91972ac835e7804eed99b842f3abe7f6223d5446238ebfbe4ea8",
+      "candidate_sha256": "17de0d3567aa91972ac835e7804eed99b842f3abe7f6223d5446238ebfbe4ea8"
+    },
+    {
+      "path": "reasoning_guard_review_summary.csv",
+      "rows": 4,
+      "columns": 7,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "5942425bcb4350d0a1230161acf4f15d94207bef0bce67aa012363a210cdf5cd",
+      "candidate_sha256": "5942425bcb4350d0a1230161acf4f15d94207bef0bce67aa012363a210cdf5cd"
+    },
+    {
+      "path": "request_composition.csv",
+      "rows": 15,
+      "columns": 4,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "94d4092f55762736abf0498bf2afd9bc46f1746ad0da1368a5413a532dfd9287",
+      "candidate_sha256": "94d4092f55762736abf0498bf2afd9bc46f1746ad0da1368a5413a532dfd9287"
+    },
+    {
+      "path": "scope_interrupted_attempts.csv",
+      "rows": 12,
+      "columns": 4,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "38b8fafdbc9401d2938183c8f645c0823ae4ecb91ffb54fec68de8f6b57898bc",
+      "candidate_sha256": "38b8fafdbc9401d2938183c8f645c0823ae4ecb91ffb54fec68de8f6b57898bc"
+    },
+    {
+      "path": "seen_unseen_actor_metrics.csv",
+      "rows": 44,
+      "columns": 12,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "e2e115d8e04ad88eb28b5e1221e418c71f7b9c092fecfd5b5b69e3f8ae89fbba",
+      "candidate_sha256": "e2e115d8e04ad88eb28b5e1221e418c71f7b9c092fecfd5b5b69e3f8ae89fbba"
+    },
+    {
+      "path": "serving_runtime_cohorts.csv",
+      "rows": 7,
+      "columns": 8,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "b8f1321996bcfc6b764fd3416c2dd6f253db73f6726f42a6ada0f00ca4f0f45a",
+      "candidate_sha256": "b8f1321996bcfc6b764fd3416c2dd6f253db73f6726f42a6ada0f00ca4f0f45a"
+    },
+    {
+      "path": "shuffled_label_negative_controls.csv",
+      "rows": 100,
+      "columns": 8,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "24f47a858c24cea4193fcf51086aa110c96c689d9bfd6032a67f5c6cc83cd1b2",
+      "candidate_sha256": "24f47a858c24cea4193fcf51086aa110c96c689d9bfd6032a67f5c6cc83cd1b2"
+    },
+    {
+      "path": "supplement_runs.csv",
+      "rows": 803,
+      "columns": 36,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "2c0e0335d606a6eb13f44a205569cd94556df0c77a9d3a01751a5017bab3142b",
+      "candidate_sha256": "2c0e0335d606a6eb13f44a205569cd94556df0c77a9d3a01751a5017bab3142b"
+    },
+    {
+      "path": "supplement_runs_outside_scope.csv",
+      "rows": 4,
+      "columns": 36,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "639915f93ca47eb7138b07fed22f5029bf60493cbbf73e3af31d055bacb0ef39",
+      "candidate_sha256": "639915f93ca47eb7138b07fed22f5029bf60493cbbf73e3af31d055bacb0ef39"
+    },
+    {
+      "path": "tabular/predictions.csv",
+      "rows": 1605,
+      "columns": 10,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "86d1fbfac40456975e1a2647a7e912a0d0d69bfb7cdb1152ea0ffa2f01ca825c",
+      "candidate_sha256": "86d1fbfac40456975e1a2647a7e912a0d0d69bfb7cdb1152ea0ffa2f01ca825c"
+    },
+    {
+      "path": "tool_budget_distribution.csv",
+      "rows": 6,
+      "columns": 7,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "daedfac3cf40b53c693a02dd4e920db3a4ba5a38a725169b88ebf1f6ef11b3a7",
+      "candidate_sha256": "daedfac3cf40b53c693a02dd4e920db3a4ba5a38a725169b88ebf1f6ef11b3a7"
+    },
+    {
+      "path": "tool_cap_performance.csv",
+      "rows": 4,
+      "columns": 13,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "8aee4e78d3b450c109822c919e2d91401d9770145fa01b2eea93df3953cd6e8f",
+      "candidate_sha256": "8aee4e78d3b450c109822c919e2d91401d9770145fa01b2eea93df3953cd6e8f"
+    },
+    {
+      "path": "validation_thresholds.csv",
+      "rows": 6,
+      "columns": 5,
+      "max_absolute_error": 0.0,
+      "status": "PASS",
+      "reference_sha256": "8d7421965b5fa02aa1461e4a2ab0891ede1afde8d99140abdde8b07a5989f6e3",
+      "candidate_sha256": "8d7421965b5fa02aa1461e4a2ab0891ede1afde8d99140abdde8b07a5989f6e3"
+    }
+  ],
+  "environment_receipt": "outputs/clean_replay/replay_receipt.json",
+  "hosted_colab": "NOT_RUN"
+}

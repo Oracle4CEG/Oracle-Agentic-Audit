@@ -1,0 +1,17 @@
+[
+  {
+    "path": "models/reference/cohort_source.py",
+    "sha256": "1b86228bab42eff702864809386dd4b2ec8843414cd25dc82678de30ec0ee78c",
+    "source": "/home/hy/develop/oracle-nature/scripts/applications/trustworthy_ai/run_challenge_benchmark.py"
+  },
+  {
+    "path": "data/local/polygon_oov2_events.parquet",
+    "sha256": "6f3b243a9df36affbdfb3ffd03fd78a5359557b16e9cce4e822d9b873a735db7",
+    "source": "/mnt/sda/hy/oracle-nature-data/curated/parquet/polygon_oov2_events.parquet"
+  },
+  {
+    "path": "data/local/polygon_uma_request_flow_qc.parquet",
+    "sha256": "fe025843c774765b9c7da16cfc9ef610bf02e44006d3b95fa94ae5177db4282c",
+    "source": "/mnt/sda/hy/oracle-nature-data/curated/parquet/polygon_uma_request_flow_qc.parquet"
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "status": "LOCAL_INPUTS_PINNED_PUBLIC_REVISION_UNVERIFIED",
+  "files": [
+    {
+      "path": "data/local/samples.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/trustworthy_ai_challenge/decision_samples.parquet",
+      "sha256": "f2c1f2226fb395ab9b69abc0af5b9fdb0daabe579795c6c31a2bc939a5f46864",
+      "bytes": 495481
+    },
+    {
+      "path": "data/local/splits.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/trustworthy_ai_challenge/splits.parquet",
+      "sha256": "acb96824ee165521b0c87764b0a685bb11c887990310a8fd2a56164143caecae",
+      "bytes": 60472
+    },
+    {
+      "path": "data/local/original_b0.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/trustworthy_ai_challenge/predictions.parquet",
+      "sha256": "943e0dd5ab9e6f305466594612cd442e98818ca7a2a621efe0f3bfb939acc05e",
+      "bytes": 59874
+    },
+    {
+      "path": "data/local/evidence_provenance.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/trustworthy_ai_challenge/evidence_provenance.parquet",
+      "sha256": "0cab72ecba603b6c31d6ee3d353f615ab8460d09dc2f72592ac922ecdf9e682c",
+      "bytes": 350127
+    },
+    {
+      "path": "data/local/evidence_store.json",
+      "source": "/home/hy/develop/oracle-nature/data/applications/agentic_oracle_auditor/evidence_store.json",
+      "sha256": "b2c6284f01d79c1b6dcbfcc9f80f28b398e5a84b144cc3b6fbdaf7f3af21c6b9",
+      "bytes": 9371399
+    },
+    {
+      "path": "data/local/evidence_store_manifest.json",
+      "source": "/home/hy/develop/oracle-nature/data/applications/agentic_oracle_auditor/evidence_store_manifest.json",
+      "sha256": "69e6d4f8ca05ebcbf4478a4ceed3b8adf45b513f634120fbce5b9e22c8e94f9a",
+      "bytes": 2546
+    },
+    {
+      "path": "data/local/public64.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/trustworthy_ai_public_source_demo/processed/decision_samples.parquet",
+      "sha256": "254115c294b67a4b3704885602056ed742e810fca8b19e19de429bb82840141a",
+      "bytes": 69171
+    },
+    {
+      "path": "data/local/reward_concentration.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/accountability_economics/reward_concentration.parquet",
+      "sha256": "c7f0664c921d16af97df5a20c649d49ba098a07d400f507f368785312599e065",
+      "bytes": 9887036
+    },
+    {
+      "path": "data/local/capital_lock.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/accountability_economics/capital_lock.parquet",
+      "sha256": "8b2d29b1b68bd2778855f3716054d9256f25f3975e328283e82f9966f9ce4235",
+      "bytes": 2085621
+    },
+    {
+      "path": "data/local/economic_outcomes.parquet",
+      "source": "/home/hy/develop/oracle-nature/data/applications/trustworthy_ai_requirements_audit/observed_economic_consequences.parquet",
+      "sha256": "99cd4f1f815ecb57e2dcee6c005caee608dfd78cf730811aef4c78e382125234",
+      "bytes": 155176
+    },
+    {
+      "path": "data/local/economic_dictionary.csv",
+      "source": "/home/hy/develop/oracle-nature/data/dictionaries/abc_economic_measure_dictionary.csv",
+      "sha256": "ab47c5fcaf6724cffc9720ce5e239ad4131d254e9a452a2264f514eba5a16e17",
+      "bytes": 30771
+    },
+    {
+      "path": "data/local/old_experiment_manifest.json",
+      "source": "/home/hy/develop/oracle-nature/Results/AgenticOracleAuditor/experiment_manifest.json",
+      "sha256": "a0173837a64dcc48094e65b8c61496e08f5dd4c27dc9bfd9856c21871164f0b3",
+      "bytes": 6000
+    },
+    {
+      "path": "data/local/historical_runs.parquet",
+      "source": "Normalized from checksum-indexed original run records",
+      "sha256": "ee23da76099c55ad4cface3080eed275d06f6c0b8a43e89b676aca351be76c7f",
+      "bytes": 314553
+    },
+    {
+      "path": "data/local/historical_log_checks.parquet",
+      "source": "Normalized from checksum-indexed original run records",
+      "sha256": "a76e700499b49ea17e29ee4207a1369fe84184108597c54a9116b4ac094519e8",
+      "bytes": 18041
+    },
+    {
+      "path": "data/local/historical_matched_evidence.jsonl",
+      "source": "Normalized from checksum-indexed original run records",
+      "sha256": "5225dede2cea740249f46c2993a0eaa67edd3dca5f6e1bc738be70244c5ec831",
+      "bytes": 23421465
+    },
+    {
+      "path": "data/local/historical_source_checksums.json",
+      "source": "Normalized from checksum-indexed original run records",
+      "sha256": "81e1b9c4512c3ce69e5dcd0044bafb18694daef6379edb1c591909e657db1b44",
+      "bytes": 2710108
+    }
+  ],
+  "historical_run_count": 1920,
+  "historical_models": {
+    "gpt-5.6-sol": 1920
+  },
+  "selected_new_model": "Qwen3.8-27B",
+  "public_dataset_revision": null
+}

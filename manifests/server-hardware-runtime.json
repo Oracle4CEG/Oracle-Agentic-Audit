@@ -1,0 +1,16 @@
+{
+  "cpu": "AMD EPYC 9554 64-Core Processor",
+  "logical_cpus": 256,
+  "ram_kib": 1188580612,
+  "kernel": "6.8.0-124-generic",
+  "python": "3.10.19",
+  "torch": "2.11.0+cu130",
+  "torch_cuda": "13.0",
+  "model_dtype": null,
+  "text_dtype": "bfloat16",
+  "model_type": "qwen3_5",
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "gpu_driver": "580.76.05"
+}

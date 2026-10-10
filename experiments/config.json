@@ -1,0 +1,92 @@
+{
+  "experiment_id": "camera-ready-necessary-only-20261009",
+  "selected_model": "Qwen3.8-27B",
+  "model_identity_status": "34 checkpoint files hash-matched to the formal Qwen run; manifests/model-snapshot-verification.json",
+  "model_training_cutoff": null,
+  "splits": {
+    "train": 489,
+    "validation": 161,
+    "test": 160
+  },
+  "main_repeats": 5,
+  "validation_repeats": 1,
+  "seeds": [
+    2026083101,
+    2026083102,
+    2026083103,
+    2026083104,
+    2026083105
+  ],
+  "temperature": 1.0,
+  "low_temperature": 0.0,
+  "top_p": 0.95,
+  "top_k": 20,
+  "max_completion_tokens": 4096,
+  "tool_budget": 8,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 20261009,
+  "investigation_costs": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "cost_interpretation": "Stylized terminal deferral loss; not actual monetary cost or measured human review performance.",
+  "calibration": "Regularized Platt; validation only; repeated cases equally weighted",
+  "threshold_grid": {
+    "lower": [
+      0,
+      0.025,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3
+    ],
+    "upper": [
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      0.975,
+      1
+    ]
+  },
+  "strong_baseline": {
+    "family": "LightGBM",
+    "n_estimators": 200,
+    "num_leaves": 7,
+    "max_depth": 3,
+    "learning_rate": 0.03,
+    "min_child_samples": 25,
+    "reg_lambda": 5,
+    "random_state": 20261009
+  },
+  "guard_scenarios": [
+    "clean",
+    "missing_required",
+    "conflicting_records",
+    "future_record",
+    "prompt_injection",
+    "plausible_wrong"
+  ],
+  "guard_modes": [
+    "on",
+    "all_off"
+  ],
+  "guard_repeats": 1,
+  "low_temperature_repeats": 0,
+  "historical_log_policy": "Retain original gpt-5.6-sol logs in a separate historical analysis; never label them Qwen.",
+  "matched_test_repeat_ids": [
+    3,
+    4
+  ],
+  "guard_systems": [
+    "A1"
+  ],
+  "low_temperature_status": "CANCELLED_OPTIONAL",
+  "scope_manifest": "manifests/experiment-scope-20261009.json"
+}

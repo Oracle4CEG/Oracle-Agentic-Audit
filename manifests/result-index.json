@@ -2,91 +2,206 @@
   {
     "result_id": "R01",
     "reported_result_or_boundary": "Decision quality, calibration and corrected action loss",
-    "original_sources": "PENDING: fixed public source receipt in descriptor release",
-    "query_code": "PENDING: public descriptor acquisition receipt",
-    "queried_data": "BLOCKED: verify released source partitions",
-    "process_code": "PENDING: descriptor transform plus research cohort code",
-    "processed_data": "BLOCKED: pin research input files and hashes",
-    "analysis_code": "PLANNED: implement research analysis",
-    "result_outputs": [],
-    "commands": [],
-    "evidence_status": "PLANNED",
-    "interpretation_boundary": "No result is reproduced or validated by this scaffold",
-    "data_revision": null
+    "original_sources": "Checksum-pinned curated partitions and archived model outputs; see research-inputs.json and original Qwen artifact index.",
+    "query_code": "Descriptor acquisition receipts are upstream; the experimental cohort and raw price snapshots are locally pinned.",
+    "queried_data": "Separate pinned Atlas-input and research-record archives in manifests/public-release.json",
+    "process_code": [
+      "experiments/prepare.py",
+      "experiments/qwen_records.py",
+      "analysis/cohort_lineage.py",
+      "analysis/evidence_lineage.py"
+    ],
+    "processed_data": [
+      "data/local/samples.parquet",
+      "data/local/evidence_store.json",
+      "data/local/qwen_original_runs.parquet"
+    ],
+    "analysis_code": [
+      "policies/decision.py",
+      "policies/calibration.py",
+      "analysis/evaluate.py",
+      "analysis/metrics.py"
+    ],
+    "result_outputs": [
+      "outputs/final/policy_metrics.csv",
+      "outputs/final/paired_bootstrap.csv",
+      "outputs/final/cost_sensitivity.csv"
+    ],
+    "commands": [
+      "python -m analysis.replay --retrain"
+    ],
+    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
+    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
   },
   {
     "result_id": "R02",
     "reported_result_or_boundary": "Evidence retrieval and citation validity",
-    "original_sources": "PENDING: fixed public source receipt in descriptor release",
-    "query_code": "PENDING: public descriptor acquisition receipt",
-    "queried_data": "BLOCKED: verify released source partitions",
-    "process_code": "PENDING: descriptor transform plus research cohort code",
-    "processed_data": "BLOCKED: pin research input files and hashes",
-    "analysis_code": "PLANNED: implement research analysis",
-    "result_outputs": [],
-    "commands": [],
-    "evidence_status": "PLANNED",
-    "interpretation_boundary": "No result is reproduced or validated by this scaffold",
-    "data_revision": null
+    "original_sources": "Checksum-pinned curated partitions and archived model outputs; see research-inputs.json and original Qwen artifact index.",
+    "query_code": "Descriptor acquisition receipts are upstream; the experimental cohort and raw price snapshots are locally pinned.",
+    "queried_data": "Separate pinned Atlas-input and research-record archives in manifests/public-release.json",
+    "process_code": [
+      "experiments/prepare.py",
+      "experiments/qwen_records.py",
+      "analysis/cohort_lineage.py",
+      "analysis/evidence_lineage.py"
+    ],
+    "processed_data": [
+      "data/local/samples.parquet",
+      "data/local/evidence_store.json",
+      "data/local/qwen_original_runs.parquet"
+    ],
+    "analysis_code": [
+      "analysis/citations.py",
+      "analysis/matching.py",
+      "analysis/audits.py"
+    ],
+    "result_outputs": [
+      "outputs/final/citation_error_rates.csv",
+      "outputs/final/citation_taxonomy_counts.csv",
+      "outputs/final/b2_exact_delivery_checks.csv"
+    ],
+    "commands": [
+      "python -m analysis.replay --retrain"
+    ],
+    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
+    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
   },
   {
     "result_id": "R03",
-    "reported_result_or_boundary": "Matched-evidence, stronger baseline and sampling ablations",
-    "original_sources": "PENDING: fixed public source receipt in descriptor release",
-    "query_code": "PENDING: public descriptor acquisition receipt",
-    "queried_data": "BLOCKED: verify released source partitions",
-    "process_code": "PENDING: descriptor transform plus research cohort code",
-    "processed_data": "BLOCKED: pin research input files and hashes",
-    "analysis_code": "PLANNED: implement research analysis",
-    "result_outputs": [],
-    "commands": [],
-    "evidence_status": "PLANNED",
-    "interpretation_boundary": "No result is reproduced or validated by this scaffold",
-    "data_revision": null
+    "reported_result_or_boundary": "Matched-evidence two-repeat comparison and stronger feature baseline; optional lower-temperature evaluation cancelled",
+    "original_sources": "Checksum-pinned curated partitions and archived model outputs; see research-inputs.json and original Qwen artifact index.",
+    "query_code": "Descriptor acquisition receipts are upstream; the experimental cohort and raw price snapshots are locally pinned.",
+    "queried_data": "Separate pinned Atlas-input and research-record archives in manifests/public-release.json",
+    "process_code": [
+      "experiments/prepare.py",
+      "experiments/qwen_records.py",
+      "analysis/cohort_lineage.py",
+      "analysis/evidence_lineage.py"
+    ],
+    "processed_data": [
+      "data/local/samples.parquet",
+      "data/local/evidence_store.json",
+      "data/local/qwen_original_runs.parquet"
+    ],
+    "analysis_code": [
+      "models/tabular.py",
+      "models/run_required.py",
+      "analysis/collect.py"
+    ],
+    "result_outputs": [
+      "outputs/final/policy_metrics.csv",
+      "outputs/final/matched_evidence_comparison_metrics.csv"
+    ],
+    "commands": [
+      "python -m analysis.replay --retrain"
+    ],
+    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
+    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
   },
   {
     "result_id": "R04",
     "reported_result_or_boundary": "Guard, leakage and corruption controls",
-    "original_sources": "PENDING: fixed public source receipt in descriptor release",
-    "query_code": "PENDING: public descriptor acquisition receipt",
-    "queried_data": "BLOCKED: verify released source partitions",
-    "process_code": "PENDING: descriptor transform plus research cohort code",
-    "processed_data": "BLOCKED: pin research input files and hashes",
-    "analysis_code": "PLANNED: implement research analysis",
-    "result_outputs": [],
-    "commands": [],
-    "evidence_status": "PLANNED",
-    "interpretation_boundary": "No result is reproduced or validated by this scaffold",
-    "data_revision": null
+    "original_sources": "Checksum-pinned curated partitions and archived model outputs; see research-inputs.json and original Qwen artifact index.",
+    "query_code": "Descriptor acquisition receipts are upstream; the experimental cohort and raw price snapshots are locally pinned.",
+    "queried_data": "Separate pinned Atlas-input and research-record archives in manifests/public-release.json",
+    "process_code": [
+      "experiments/prepare.py",
+      "experiments/qwen_records.py",
+      "analysis/cohort_lineage.py",
+      "analysis/evidence_lineage.py"
+    ],
+    "processed_data": [
+      "data/local/samples.parquet",
+      "data/local/evidence_store.json",
+      "data/local/qwen_original_runs.parquet"
+    ],
+    "analysis_code": [
+      "guards/fixtures.py",
+      "guards/experimental_mcp_server.py",
+      "guards/run_experiment.py",
+      "analysis/guard_delivery.py",
+      "analysis/guard_results.py",
+      "analysis/boundary.py"
+    ],
+    "result_outputs": [
+      "outputs/final/guard_scenario_metrics.csv",
+      "outputs/final/guard_paired_bootstrap.csv",
+      "outputs/final/guard_delivery_checks.csv",
+      "outputs/final/reasoning_guard_review_summary.csv"
+    ],
+    "commands": [
+      "python -m analysis.replay --retrain"
+    ],
+    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
+    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
   },
   {
     "result_id": "R05",
     "reported_result_or_boundary": "Token cost, calls and latency reconciliation",
-    "original_sources": "PENDING: fixed public source receipt in descriptor release",
-    "query_code": "PENDING: public descriptor acquisition receipt",
-    "queried_data": "BLOCKED: verify released source partitions",
-    "process_code": "PENDING: descriptor transform plus research cohort code",
-    "processed_data": "BLOCKED: pin research input files and hashes",
-    "analysis_code": "PLANNED: implement research analysis",
-    "result_outputs": [],
-    "commands": [],
-    "evidence_status": "PLANNED",
-    "interpretation_boundary": "No result is reproduced or validated by this scaffold",
-    "data_revision": null
+    "original_sources": "Checksum-pinned curated partitions and archived model outputs; see research-inputs.json and original Qwen artifact index.",
+    "query_code": "Descriptor acquisition receipts are upstream; the experimental cohort and raw price snapshots are locally pinned.",
+    "queried_data": "Separate pinned Atlas-input and research-record archives in manifests/public-release.json",
+    "process_code": [
+      "experiments/prepare.py",
+      "experiments/qwen_records.py",
+      "analysis/cohort_lineage.py",
+      "analysis/evidence_lineage.py"
+    ],
+    "processed_data": [
+      "data/local/samples.parquet",
+      "data/local/evidence_store.json",
+      "data/local/qwen_original_runs.parquet"
+    ],
+    "analysis_code": [
+      "analysis/audits.py",
+      "experiments/qwen_records.py"
+    ],
+    "result_outputs": [
+      "outputs/final/cost_accounting.csv",
+      "outputs/final/tool_budget_distribution.csv"
+    ],
+    "commands": [
+      "python -m analysis.replay --retrain"
+    ],
+    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
+    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
   },
   {
     "result_id": "R06",
     "reported_result_or_boundary": "Selected economic findings from versioned Atlas inputs",
-    "original_sources": "PENDING: fixed public source receipt in descriptor release",
-    "query_code": "PENDING: public descriptor acquisition receipt",
-    "queried_data": "BLOCKED: verify released source partitions",
-    "process_code": "PENDING: descriptor transform plus research cohort code",
-    "processed_data": "BLOCKED: pin research input files and hashes",
-    "analysis_code": "PLANNED: implement research analysis",
-    "result_outputs": [],
-    "commands": [],
-    "evidence_status": "PLANNED",
-    "interpretation_boundary": "No result is reproduced or validated by this scaffold",
-    "data_revision": null
+    "original_sources": "Checksum-pinned curated partitions and archived model outputs; see research-inputs.json and original Qwen artifact index.",
+    "query_code": "Descriptor acquisition receipts are upstream; the experimental cohort and raw price snapshots are locally pinned.",
+    "queried_data": "Separate pinned Atlas-input and research-record archives in manifests/public-release.json",
+    "process_code": [
+      "experiments/prepare.py",
+      "experiments/qwen_records.py",
+      "analysis/cohort_lineage.py",
+      "analysis/evidence_lineage.py"
+    ],
+    "processed_data": [
+      "data/local/samples.parquet",
+      "data/local/evidence_store.json",
+      "data/local/qwen_original_runs.parquet"
+    ],
+    "analysis_code": [
+      "analysis/economics.py"
+    ],
+    "result_outputs": [
+      "outputs/final/economics/verification_activity_concentration.csv",
+      "outputs/final/economics/incentives_and_realized_outcomes.csv",
+      "outputs/final/economics/cross_protocol_reward_concentration.csv",
+      "outputs/final/economics/protocol_variable_availability.csv"
+    ],
+    "commands": [
+      "python -m analysis.replay --retrain"
+    ],
+    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
+    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
   }
 ]
