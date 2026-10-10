@@ -9,7 +9,7 @@ The scientific implementation is present. Completion is checked from per-case ru
 
 ## Install and replay
 
-[Open the pinned public reproduction notebook in Google Colab](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/86a900e6a8add44cabd15b11b3f61ce2206addcb/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
+[Open the pinned public reproduction notebook in Google Colab](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/9edb0de1e1a28f98b5bc38d4c59e55cf679fb2fe/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
 The notebook clones scientific code commit `33ec7020e97fc6b8dd0005415d3184ce889d3e28` and downloads the dataset revision recorded there. The separate notebook commit avoids a circular self-reference. A link alone is not a hosted execution receipt.
 
 Python 3.12.7, Linux:
@@ -24,11 +24,21 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m analysis.replay --r
 .venv/bin/python -m analysis.verify_replay --reference outputs/final --candidate outputs/replay
 ```
 
-Replay uses public, immutable, checksum-pinned inputs and saved responses. It makes no inference requests. [The public-release manifest](manifests/public-release.json) binds separate Atlas selected-input and research-record archives to one Hugging Face commit. The downloader needs no authentication and refuses to overwrite differing existing records. Inputs and outputs are outside Git. See [the public reproduction guide](docs/PUBLIC_REPRODUCTION.md).
+Replay uses public, immutable, checksum-pinned inputs and saved responses. It makes no inference requests. [The public-release manifest](manifests/public-release.json) binds separate Atlas selected-input and research-record archives to one Hugging Face commit. The downloader needs no authentication and refuses to overwrite differing existing records. Raw inputs and the full generated-results archive are outside Git; the executed notebook and small acceptance receipts are included. See [the public reproduction guide](docs/PUBLIC_REPRODUCTION.md).
 
 The complete replay recomputes 73 scientific CSV tables, renders 18 numeric LaTeX tables plus the exact prompts, and generates eight figures. [The output index](manifests/manuscript-outputs.json) maps each camera-ready table and figure to its source results and generator. Baselines are refitted on CPU; published pickles are never loaded. This does not rerun the LLM or certify the old manuscript's superseded numerical claims.
 
 Strict replay rejects incomplete required panels. During inference, `python -m analysis.replay --partial --no-bootstrap --out outputs/progress` produces explicitly partial diagnostics. `outputs/final/RESULTS_zh.md` is the complete-results entry point only after strict replay passes. Tables have CSV/Parquet versions; original figures have PDF/PNG versions.
+
+Recorded acceptance: [the complete public notebook passed on GitHub Actions](https://github.com/virusLuke3/Oracle-Agentic-Audit/actions/runs/38053135664)
+in 12.70 minutes with all six code cells executed, 32 tests passed,
+73 CSV comparisons and 18 numeric LaTeX tables plus exact prompts verified.
+Eight figures were regenerated; their PNG bytes differ from the reference, so
+pixel-identical rendering is not claimed. [Actual execution evidence](reports/public_reproduction/README.md)
+includes the executed notebook, environment and per-output checks. Hosted Google
+Colab remains NOT_RUN. No new Qwen inference was started for this delivery.
+[The immutable acceptance deposit](https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1/tree/586e850ce504db0f4ffec9bea7b0f4db3fa45239/research/agentic-audit/2026-10-10/acceptance/github-notebook) includes the generated-results archive.
+The input revision remains `ee197fc6fd6b8d980e7c7dda4feae966efe5d28c`.
 
 ## Additional Qwen inference
 

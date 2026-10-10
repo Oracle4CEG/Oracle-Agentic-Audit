@@ -1,5 +1,6 @@
 {
   "status": "NOT_RUN",
   "notebook": "notebooks/Oracle_Agentic_Audit_Replay.ipynb",
-  "reason": "Notebook prepared and syntax checked locally; no actual fresh hosted Google Colab session executed."
+  "reason": "The complete public notebook passed in a fresh GitHub Actions environment; no actual fresh hosted Google Colab session has been executed.",
+  "separate_github_receipt": "reports/public_reproduction/acceptance.json"
 }

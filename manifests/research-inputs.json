@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "status": "PUBLIC_RECORDS_PINNED_REPLAY_ACCEPTANCE_PENDING",
+  "status": "PUBLIC_SAVED_RESPONSE_REPLAY_VERIFIED",
   "dataset_url": "https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1",
   "dataset_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
   "descriptor_arxiv_version": null,
@@ -4605,5 +4605,10 @@
     "analysis": "Recovered active panel with preserved timeout/interruption history; not first-attempt-only performance.",
     "accounting": "See infrastructure_attempt_audit.csv; unreported compute is unknown."
   },
-  "public_release_manifest": "manifests/public-release.json"
+  "public_release_manifest": "manifests/public-release.json",
+  "public_replay_acceptance": {
+    "receipt": "reports/public_reproduction/acceptance.json",
+    "scope": "GITHUB_ACTIONS_FRESH_NOTEBOOK",
+    "github_run_url": "https://github.com/virusLuke3/Oracle-Agentic-Audit/actions/runs/38053135664"
+  }
 }

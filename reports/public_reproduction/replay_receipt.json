@@ -1,0 +1,63 @@
+{
+  "status": "COMPLETE_OFFLINE_REPLAY",
+  "scope_id": "necessary-only-20261009",
+  "scope_manifest_sha256": "ad42aa73f42c2e5076aa960eed68e934e09cf110d38b4e35852e1e709dc18a0c",
+  "cancelled_optional_experiments": [
+    "low_temperature"
+  ],
+  "python": "3.12.7",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "elapsed_seconds": 666.117100046,
+  "original_main_case_runs": 1600,
+  "completion": {
+    "validation": {
+      "expected": 483,
+      "completed": 483,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "complete": true,
+      "transport_failures": 0,
+      "required": true
+    },
+    "matched_test": {
+      "expected": 320,
+      "completed": 320,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "complete": true,
+      "transport_failures": 0,
+      "required": true
+    },
+    "guards": {
+      "expected": 480,
+      "completed": 480,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "complete": true,
+      "transport_failures": 0,
+      "required": true
+    },
+    "low_temperature": {
+      "required": false,
+      "complete": false,
+      "expected": 0,
+      "completed": 0,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "transport_failures": 0,
+      "status": "CANCELLED_OPTIONAL_BY_USER_SCOPE_REDUCTION"
+    }
+  },
+  "bootstrap_resamples": 2000,
+  "input_manifest_sha256": "f4f0bd1fe14d1ffe4c68fbdbb31c0e530239c859fac51bbef1e46215a022e047",
+  "lock_sha256": "e27b3e91338b99f46fe41b093c5c6898a975065c32205f7bdb2469b3662df1b8",
+  "incomplete_panels_excluded_from_reported_metrics": true,
+  "hosted_colab": "NOT_RUN",
+  "inference_attempt_policy": "Recovered fixed-case panel; archived timeout/interruption history reported separately",
+  "public_dataset_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+  "training_cutoff": "UNVERIFIED"
+}

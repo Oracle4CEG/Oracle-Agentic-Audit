@@ -30,9 +30,10 @@
     "commands": [
       "python -m analysis.replay --retrain"
     ],
-    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
-    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
-    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
+    "evidence_status": "VERIFIED_PUBLIC_SAVED_RESPONSE_REPLAY",
+    "interpretation_boundary": "Public saved-response replay verified on GitHub Actions; consult RESULTS_zh.md for estimands and limitations. Fresh model generation, hosted Google Colab, full Atlas semantic clearance and independent scientific review are separate claims.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+    "verification_receipt": "reports/public_reproduction/acceptance.json"
   },
   {
     "result_id": "R02",
@@ -64,9 +65,10 @@
     "commands": [
       "python -m analysis.replay --retrain"
     ],
-    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
-    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
-    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
+    "evidence_status": "VERIFIED_PUBLIC_SAVED_RESPONSE_REPLAY",
+    "interpretation_boundary": "Public saved-response replay verified on GitHub Actions; consult RESULTS_zh.md for estimands and limitations. Fresh model generation, hosted Google Colab, full Atlas semantic clearance and independent scientific review are separate claims.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+    "verification_receipt": "reports/public_reproduction/acceptance.json"
   },
   {
     "result_id": "R03",
@@ -97,9 +99,10 @@
     "commands": [
       "python -m analysis.replay --retrain"
     ],
-    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
-    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
-    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
+    "evidence_status": "VERIFIED_PUBLIC_SAVED_RESPONSE_REPLAY",
+    "interpretation_boundary": "Public saved-response replay verified on GitHub Actions; consult RESULTS_zh.md for estimands and limitations. Fresh model generation, hosted Google Colab, full Atlas semantic clearance and independent scientific review are separate claims.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+    "verification_receipt": "reports/public_reproduction/acceptance.json"
   },
   {
     "result_id": "R04",
@@ -135,9 +138,10 @@
     "commands": [
       "python -m analysis.replay --retrain"
     ],
-    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
-    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
-    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
+    "evidence_status": "VERIFIED_PUBLIC_SAVED_RESPONSE_REPLAY",
+    "interpretation_boundary": "Public saved-response replay verified on GitHub Actions; consult RESULTS_zh.md for estimands and limitations. Fresh model generation, hosted Google Colab, full Atlas semantic clearance and independent scientific review are separate claims.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+    "verification_receipt": "reports/public_reproduction/acceptance.json"
   },
   {
     "result_id": "R05",
@@ -167,9 +171,10 @@
     "commands": [
       "python -m analysis.replay --retrain"
     ],
-    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
-    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
-    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
+    "evidence_status": "VERIFIED_PUBLIC_SAVED_RESPONSE_REPLAY",
+    "interpretation_boundary": "Public saved-response replay verified on GitHub Actions; consult RESULTS_zh.md for estimands and limitations. Fresh model generation, hosted Google Colab, full Atlas semantic clearance and independent scientific review are separate claims.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+    "verification_receipt": "reports/public_reproduction/acceptance.json"
   },
   {
     "result_id": "R06",
@@ -200,8 +205,9 @@
     "commands": [
       "python -m analysis.replay --retrain"
     ],
-    "evidence_status": "DERIVED_LOCAL_PUBLIC_RECORDS_PINNED",
-    "interpretation_boundary": "Observed local results with source checks; consult RESULTS_zh.md for each estimand and limitation. Public availability, hosted Colab and independent scientific review are separate.",
-    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c"
+    "evidence_status": "VERIFIED_PUBLIC_SAVED_RESPONSE_REPLAY",
+    "interpretation_boundary": "Public saved-response replay verified on GitHub Actions; consult RESULTS_zh.md for estimands and limitations. Fresh model generation, hosted Google Colab, full Atlas semantic clearance and independent scientific review are separate claims.",
+    "data_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+    "verification_receipt": "reports/public_reproduction/acceptance.json"
   }
 ]

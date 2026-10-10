@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "dataset_id": "Oracle4CEG/OracleEconLab-Oracle-Incentives-v1",
+  "dataset_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+  "previous_demo_revision": "aabcff2e1492df35f0aaa9abef657133fffe9b81",
+  "scope": "Four selected Atlas source tables and separate research replay records; not full Atlas",
+  "artifacts": [
+    {
+      "artifact": "atlas",
+      "path": "atlas/selected-inputs/2026-10-10/atlas-20261010.tar.gz",
+      "sha256": "ee03c3b44db567a1cc0202f17c8a87cd50c2d1610c58b508b723917c41add774",
+      "bytes": 60490297,
+      "files": 4
+    },
+    {
+      "artifact": "research",
+      "path": "research/agentic-audit/2026-10-10/research-20261010.tar.gz",
+      "sha256": "743e369d3a803d560b4e52dbc0b65e8e1c1f962296791254e73566d311480974",
+      "bytes": 127582036,
+      "files": 30028
+    }
+  ],
+  "hosted_colab_status": "NOT_RUN",
+  "model_weights_included": false
+}
+Verified and extracted atlas: 4 files
+Verified and extracted research: 30028 files
+
+test_bad_checksum_rejected (test_contract.ContractTests.test_bad_checksum_rejected) ... ok
+test_duplicate_run_rejected (test_contract.ContractTests.test_duplicate_run_rejected) ... ok
+test_future_and_outcome_evidence_excluded (test_contract.ContractTests.test_future_and_outcome_evidence_excluded) ... ok
+test_incomplete_research_release_rejected (test_contract.ContractTests.test_incomplete_research_release_rejected) ... ok
+test_missing_input_rejected (test_contract.ContractTests.test_missing_input_rejected) ... ok
+test_template_checksum_and_index (test_contract.ContractTests.test_template_checksum_and_index) ... ok
+test_zero_coverage_selective_error_undefined (test_contract.ContractTests.test_zero_coverage_selective_error_undefined) ... ok
+test_existing_different_scientific_records_are_preserved (test_public_download.PublicArchiveContract.test_existing_different_scientific_records_are_preserved) ... ok
+test_path_traversal_and_code_overwrite_rejected (test_public_download.PublicArchiveContract.test_path_traversal_and_code_overwrite_rejected) ... ok
+test_tampering_rejected_before_any_extraction (test_public_download.PublicArchiveContract.test_tampering_rejected_before_any_extraction) ... ok
+test_abstain_not_silently_removed_when_investigation_cost_increases (test_scientific_contract.DecisionContract.test_abstain_not_silently_removed_when_investigation_cost_increases) ... ok
+test_asymmetric_costs (test_scientific_contract.DecisionContract.test_asymmetric_costs) ... ok
+test_calibration_rejects_test_rows (test_scientific_contract.DecisionContract.test_calibration_rejects_test_rows) ... ok
+test_derived_thresholds_and_ties (test_scientific_contract.DecisionContract.test_derived_thresholds_and_ties) ... ok
+test_guard_constraint_and_constant_reference (test_scientific_contract.DecisionContract.test_guard_constraint_and_constant_reference) ... ok
+test_invalid_probability_rejected (test_scientific_contract.DecisionContract.test_invalid_probability_rejected) ... ok
+test_paired_cluster_bootstrap_identity_and_missing_runs (test_scientific_contract.DecisionContract.test_paired_cluster_bootstrap_identity_and_missing_runs) ... ok
+test_repetition_does_not_multiply_calibration_case_weight (test_scientific_contract.DecisionContract.test_repetition_does_not_multiply_calibration_case_weight) ... ok
+test_zero_coverage_and_constant_probability (test_scientific_contract.DecisionContract.test_zero_coverage_and_constant_probability) ... ok
+test_capacity_never_bypasses_mandatory_guards (test_scientific_contract.DeliveryAndCompleteness.test_capacity_never_bypasses_mandatory_guards) ... ok
+test_matched_context_excludes_private_answer_and_unconsumed_tool (test_scientific_contract.DeliveryAndCompleteness.test_matched_context_excludes_private_answer_and_unconsumed_tool) ... ok
+test_matched_pair_uses_source_repeats_and_rejects_missing_case (test_scientific_contract.DeliveryAndCompleteness.test_matched_pair_uses_source_repeats_and_rejects_missing_case) ... ok
+test_optional_cancellation_does_not_hide_missing_required_results (test_scientific_contract.DeliveryAndCompleteness.test_optional_cancellation_does_not_hide_missing_required_results) ... ok
+test_repeated_run_completeness_is_exact_not_row_count (test_scientific_contract.DeliveryAndCompleteness.test_repeated_run_completeness_is_exact_not_row_count) ... ok
+test_requested_stop_does_not_schedule_new_model_requests (test_scientific_contract.DeliveryAndCompleteness.test_requested_stop_does_not_schedule_new_model_requests) ... ok
+test_scope_selection_retains_failed_outputs_and_separates_extra_conditions (test_scientific_contract.DeliveryAndCompleteness.test_scope_selection_retains_failed_outputs_and_separates_extra_conditions) ... ok
+test_synthetic_attack_diagnostics_do_not_count_unrelated_failures (test_scientific_contract.DeliveryAndCompleteness.test_synthetic_attack_diagnostics_do_not_count_unrelated_failures) ... ok
+test_admission_prevents_actual_future_content (test_scientific_contract.FixtureContract.test_admission_prevents_actual_future_content) ... ok
+test_clean_required_records_not_falsely_blocked (test_scientific_contract.FixtureContract.test_clean_required_records_not_falsely_blocked) ... ok
+test_future_id_citation_without_received_content_is_counted (test_scientific_contract.FixtureContract.test_future_id_citation_without_received_content_is_counted) ... ok
+test_missing_conflict_and_future_fail_validation (test_scientific_contract.FixtureContract.test_missing_conflict_and_future_fail_validation) ... ok
+test_plausible_wrong_is_self_consistent_but_changes_facts (test_scientific_contract.FixtureContract.test_plausible_wrong_is_self_consistent_but_changes_facts) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 1.702s
+
+OK
+Template structure and synthetic checksum verified; paper replication unverified.
+
+{
+  "validation": {
+    "expected": 483,
+    "completed": 483,
+    "missing": 0,
+    "unexpected": 0,
+    "duplicates": 0,
+    "complete": true,
+    "transport_failures": 0,
+    "required": true
+  },
+  "matched_test": {
+    "expected": 320,
+    "completed": 320,
+    "missing": 0,
+    "unexpected": 0,
+    "duplicates": 0,
+    "complete": true,
+    "transport_failures": 0,
+    "required": true
+  },
+  "guards": {
+    "expected": 480,
+    "completed": 480,
+    "missing": 0,
+    "unexpected": 0,
+    "duplicates": 0,
+    "complete": true,
+    "transport_failures": 0,
+    "required": true
+  },
+  "low_temperature": {
+    "required": false,
+    "complete": false,
+    "expected": 0,
+    "completed": 0,
+    "missing": 0,
+    "unexpected": 0,
+    "duplicates": 0,
+    "transport_failures": 0,
+    "status": "CANCELLED_OPTIONAL_BY_USER_SCOPE_REDUCTION"
+  }
+}
+Every planned case-condition record is present; inspect recovery history, failures and results before interpretation.
+

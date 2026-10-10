@@ -1,8 +1,8 @@
 # Public research reproduction
 
-[Open the commit-pinned Colab notebook](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/86a900e6a8add44cabd15b11b3f61ce2206addcb/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
+[Open the commit-pinned Colab notebook](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/9edb0de1e1a28f98b5bc38d4c59e55cf679fb2fe/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
 Its implementation commit is `33ec7020e97fc6b8dd0005415d3184ce889d3e28`; the notebook
-itself is frozen at `86a900e6a8add44cabd15b11b3f61ce2206addcb`.
+itself is frozen at `9edb0de1e1a28f98b5bc38d4c59e55cf679fb2fe`.
 
 The fixed Hugging Face commit and archive hashes are in
 [public-release.json](../manifests/public-release.json). Archives have separate
@@ -45,6 +45,18 @@ The saved research notebook runs these same commands. A completed notebook with
 its actual outputs is an execution record. A hosted-Colab PASS requires execution
 in a fresh Google Colab runtime, with a timestamped receipt; preparing a Colab link,
 running locally or passing GitHub Actions does not satisfy that condition.
+
+## Recorded acceptance
+
+Recorded acceptance: [the complete public notebook passed on GitHub Actions](https://github.com/virusLuke3/Oracle-Agentic-Audit/actions/runs/38053135664)
+in 12.70 minutes with all six code cells executed, 32 tests passed,
+73 CSV comparisons and 18 numeric LaTeX tables plus exact prompts verified.
+Eight figures were regenerated; their PNG bytes differ from the reference, so
+pixel-identical rendering is not claimed. [Actual execution evidence](../reports/public_reproduction/README.md)
+includes the executed notebook, environment and per-output checks. Hosted Google
+Colab remains NOT_RUN. No new Qwen inference was started for this delivery.
+[The immutable acceptance deposit](https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1/tree/586e850ce504db0f4ffec9bea7b0f4db3fa45239/research/agentic-audit/2026-10-10/acceptance/github-notebook) includes the generated-results archive.
+The input revision remains `ee197fc6fd6b8d980e7c7dda4feae966efe5d28c`.
 
 ## Scope and provenance
 
