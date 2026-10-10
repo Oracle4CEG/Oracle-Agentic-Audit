@@ -7,3 +7,4 @@ __pycache__/
 outputs/
 data/local/
 *.log
+reports/public_reproduction/generated-results.tar.gz

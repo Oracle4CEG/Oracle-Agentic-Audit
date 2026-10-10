@@ -1,0 +1,4 @@
+# Notebook orchestration only; scientific code uses its separate requirements.lock.
+nbformat==5.10.4
+nbclient==0.8.0
+ipykernel==6.28.0

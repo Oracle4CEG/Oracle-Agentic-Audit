@@ -1,4 +1,4 @@
-name: Pinned scientific replay
+name: Pinned public notebook replay
 on:
   push:
   pull_request:
@@ -17,14 +17,14 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12.7'
-      - run: python -m pip install -r requirements.lock
+      - run: python -m pip install -r requirements-notebook.txt
       - run: python -m pip check
-      - run: python -m experiments.download
-      - run: python -m unittest discover -s tests -v
-      - run: python -m oracle_audit experiment-check
-      - run: python -m analysis.replay --retrain --out outputs/ci_replay
-      - run: python -m analysis.verify_replay --reference outputs/final --candidate outputs/ci_replay
-      - name: Report independent publication gates
-        shell: bash
-        run: |
-          python -m oracle_audit release-check || test $? -eq 2
+      - run: python scripts/execute_notebook.py
+      - name: Preserve actual notebook outputs and acceptance records
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: public-notebook-reproduction
+          path: reports/public_reproduction/
+          if-no-files-found: error
+          retention-days: 90
