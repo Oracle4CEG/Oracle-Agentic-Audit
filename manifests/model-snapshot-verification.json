@@ -1,0 +1,244 @@
+{
+  "verified_utc": "2026-10-09T01:14:08.931072+00:00",
+  "files": [
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/.msc",
+      "bytes": 2566,
+      "expected": "5980b8f4db73dea153df4fb1269474285a850524a6df1019676f4698a9e728f2",
+      "observed": "5980b8f4db73dea153df4fb1269474285a850524a6df1019676f4698a9e728f2",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/.mv",
+      "bytes": 36,
+      "expected": "07ab7ae541d88a1d127797e51e3952be136e4418e3d4ebc5ae0151d64377bb50",
+      "observed": "07ab7ae541d88a1d127797e51e3952be136e4418e3d4ebc5ae0151d64377bb50",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/LICENSE",
+      "bytes": 11343,
+      "expected": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+      "observed": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/README.md",
+      "bytes": 64430,
+      "expected": "b8bdd4c23ab87abda560e4061f0fe349aac2b02c5de66e5bca24ecd5a8113875",
+      "observed": "b8bdd4c23ab87abda560e4061f0fe349aac2b02c5de66e5bca24ecd5a8113875",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/chat_template.jinja",
+      "bytes": 8952,
+      "expected": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "observed": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/config.json",
+      "bytes": 4312,
+      "expected": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "observed": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/configuration.json",
+      "bytes": 29,
+      "expected": "8fa209ef18ac53dea0c47cf8d6f4e92c907565a4971bee413c1772e314a251fa",
+      "observed": "8fa209ef18ac53dea0c47cf8d6f4e92c907565a4971bee413c1772e314a251fa",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/crc32.txt",
+      "bytes": 238,
+      "expected": "b42dd291f5f98b05807e458f5b47849969a9b3326acbf0c97d28b05826740b83",
+      "observed": "b42dd291f5f98b05807e458f5b47849969a9b3326acbf0c97d28b05826740b83",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/generation_config.json",
+      "bytes": 202,
+      "expected": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+      "observed": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/merges.txt",
+      "bytes": 3353259,
+      "expected": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "observed": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00001-of-00018.safetensors",
+      "bytes": 3966730552,
+      "expected": "ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c",
+      "observed": "ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00002-of-00018.safetensors",
+      "bytes": 3043080328,
+      "expected": "06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb",
+      "observed": "06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00003-of-00018.safetensors",
+      "bytes": 2542796952,
+      "expected": "2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968",
+      "observed": "2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00004-of-00018.safetensors",
+      "bytes": 3988973152,
+      "expected": "511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a",
+      "observed": "511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00005-of-00018.safetensors",
+      "bytes": 2099339864,
+      "expected": "635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701",
+      "observed": "635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00006-of-00018.safetensors",
+      "bytes": 3979553696,
+      "expected": "0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0",
+      "observed": "0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00007-of-00018.safetensors",
+      "bytes": 2108759344,
+      "expected": "80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892",
+      "observed": "80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00008-of-00018.safetensors",
+      "bytes": 3979553696,
+      "expected": "7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79",
+      "observed": "7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00009-of-00018.safetensors",
+      "bytes": 2108759344,
+      "expected": "af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8",
+      "observed": "af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00010-of-00018.safetensors",
+      "bytes": 3979553696,
+      "expected": "163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9",
+      "observed": "163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00011-of-00018.safetensors",
+      "bytes": 2108759344,
+      "expected": "5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8",
+      "observed": "5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00012-of-00018.safetensors",
+      "bytes": 3979553696,
+      "expected": "a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55",
+      "observed": "a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00013-of-00018.safetensors",
+      "bytes": 2108759344,
+      "expected": "06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a",
+      "observed": "06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00014-of-00018.safetensors",
+      "bytes": 3979553696,
+      "expected": "4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b",
+      "observed": "4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00015-of-00018.safetensors",
+      "bytes": 2108759344,
+      "expected": "69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22",
+      "observed": "69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00016-of-00018.safetensors",
+      "bytes": 3979564040,
+      "expected": "73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe",
+      "observed": "73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00017-of-00018.safetensors",
+      "bytes": 2108759344,
+      "expected": "beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8",
+      "observed": "beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model-00018-of-00018.safetensors",
+      "bytes": 3392197344,
+      "expected": "1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06",
+      "observed": "1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/model.safetensors.index.json",
+      "bytes": 112216,
+      "expected": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+      "observed": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/preprocessor_config.json",
+      "bytes": 390,
+      "expected": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "observed": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/tokenizer.json",
+      "bytes": 12809320,
+      "expected": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "observed": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/tokenizer_config.json",
+      "bytes": 17928,
+      "expected": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "observed": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/video_preprocessor_config.json",
+      "bytes": 385,
+      "expected": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "observed": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "match": true
+    },
+    {
+      "path": "/data/LLMzoo/Qwen3.8-27B/vocab.json",
+      "bytes": 6722759,
+      "expected": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "observed": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "match": true
+    }
+  ],
+  "all_match": true
+}

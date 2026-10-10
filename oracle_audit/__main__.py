@@ -33,9 +33,29 @@ def release_check():
     for record in index:
         if record['evidence_status'] in ('PLANNED', 'BLOCKED', 'SYNTHETIC'):
             blockers.append(record['result_id'])
-    # The scaffold must never certify real replication merely by filling text fields.
-    blockers.append('real input/reference validation and scientific release gate not implemented')
-    raise ValueError('Research release BLOCKED: ' + '; '.join(blockers))
+    # Research execution and public release are distinct checked conditions.
+    from oracle_audit.io import verify_inputs
+    from analysis.collect import collect
+    try:
+        verify_inputs()
+        _,_,status=collect(ROOT/'outputs/status')
+        blockers.extend('incomplete_inference:'+k for k,v in status.items() if v.get('required',True) and not v['complete'])
+    except (ValueError,OSError,KeyError) as error:
+        blockers.append('input/run verification: '+str(error))
+    for name in ['clean_replay_receipt.json','hosted_colab_receipt.json']:
+        p=ROOT/'manifests'/name
+        if not p.exists() or json.loads(p.read_text()).get('status')!='PASS':blockers.append(name)
+    if blockers:raise ValueError('Research release BLOCKED: ' + '; '.join(blockers))
+    print('Checked release requirements passed.')
+
+
+def experiment_check():
+    from analysis.collect import collect
+    from experiments.scope import required_complete
+    _,_,status=collect(ROOT/'outputs/status')
+    print(json.dumps(status,indent=2))
+    if not required_complete(status,successful=True):raise ValueError('Required inference still incomplete or has transport failures.')
+    print('Every planned case-condition record is present; inspect recovery history, failures and results before interpretation.')
 
 
 def smoke():
@@ -55,12 +75,13 @@ def smoke():
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Oracle research scaffold, not paper replication')
-    parser.add_argument('command', choices=('smoke', 'template-check', 'release-check'))
+    parser = argparse.ArgumentParser(description='Oracle research execution and evidence checks')
+    parser.add_argument('command', choices=('smoke', 'template-check', 'release-check','experiment-check','replay'))
     args = parser.parse_args()
     try:
         {'smoke': smoke, 'template-check': template_check,
-         'release-check': release_check}[args.command]()
+         'release-check': release_check,'experiment-check':experiment_check,
+         'replay':lambda:__import__('analysis.replay',fromlist=['run']).run(ROOT/'outputs/final')}[args.command]()
     except (ValueError, OSError, KeyError) as error:
         parser.exit(2, f'{error}\n')
 

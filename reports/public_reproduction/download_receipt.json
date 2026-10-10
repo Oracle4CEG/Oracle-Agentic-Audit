@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "dataset": "Oracle4CEG/OracleEconLab-Oracle-Incentives-v1",
+  "revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+  "authentication": "anonymous HTTPS",
+  "artifacts": [
+    {
+      "artifact": "atlas",
+      "path": "atlas/selected-inputs/2026-10-10/atlas-20261010.tar.gz",
+      "sha256": "ee03c3b44db567a1cc0202f17c8a87cd50c2d1610c58b508b723917c41add774",
+      "bytes": 60490297,
+      "files": 4,
+      "verified_files": 4
+    },
+    {
+      "artifact": "research",
+      "path": "research/agentic-audit/2026-10-10/research-20261010.tar.gz",
+      "sha256": "743e369d3a803d560b4e52dbc0b65e8e1c1f962296791254e73566d311480974",
+      "bytes": 127582036,
+      "files": 30028,
+      "verified_files": 30028
+    }
+  ]
+}

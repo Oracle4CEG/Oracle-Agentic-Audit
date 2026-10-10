@@ -1,3 +1,5 @@
+> Current delivery note (10 October 2026): the implementation and fixed public inputs are available. See PUBLIC_REPRODUCTION.md and actual execution receipts for current status. The original instruction list below is retained as history. The user reduced the scope on 9 October: B2 uses repeats 3 and 4, A1 alone has a 480-run guard panel, and optional low-temperature work is cancelled. The notebook now runs the actual public replay; hosted Google Colab acceptance remains separate. The user confirmed MIT with the corresponding author on 10 October.
+
 # Huaiyu: research repository completion instructions
 
 This is the code project for the research paper. The Data Descriptor has an earlier, separate work plan. Your task here is to make the research experiment executable and align it with the revised research manuscript.

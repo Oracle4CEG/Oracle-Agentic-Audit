@@ -1,0 +1,13 @@
+{
+  "status": "PUBLISHED",
+  "acceptance_revision": "586e850ce504db0f4ffec9bea7b0f4db3fa45239",
+  "commit_url": "https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1/commit/586e850ce504db0f4ffec9bea7b0f4db3fa45239",
+  "input_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+  "prefix": "research/agentic-audit/2026-10-10/acceptance/github-notebook",
+  "public_acceptance_download_check": {
+    "status": "PASS",
+    "authentication": "anonymous HTTPS",
+    "url": "https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1/resolve/586e850ce504db0f4ffec9bea7b0f4db3fa45239/research/agentic-audit/2026-10-10/acceptance/github-notebook/acceptance.json",
+    "sha256": "80922107ac9b63e4342c111ab6ebd75b992826b4f9a44656f1b5a3ae27d3b687"
+  }
+}

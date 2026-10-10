@@ -1,0 +1,22 @@
+{
+  "scope": "Notebook delivery checks only; distinct from all published model-inference attempt records",
+  "local_attempts": [
+    {
+      "attempt": 1,
+      "status": "FAILED_SETUP",
+      "reason": "uv timed out downloading duckdb wheel; scientific analysis not started"
+    },
+    {
+      "attempt": 2,
+      "status": "STOPPED_SETUP",
+      "reason": "Slow uv download interrupted; scientific analysis not started"
+    },
+    {
+      "attempt": 3,
+      "status": "STOPPED_DOWNLOAD",
+      "reason": "pip setup passed; slow local Hugging Face download interrupted before scientific analysis"
+    }
+  ],
+  "continuation": "Execute the complete unchanged scientific pipeline through the public notebook on GitHub Actions; actual status comes from its acceptance receipt",
+  "qwen_inference_requests": 0
+}

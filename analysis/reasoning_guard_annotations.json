@@ -1,0 +1,461 @@
+{
+  "method": "Single AI-assisted contextual review of all 76 flagged main Qwen outputs; read every regex match and additionally searched flagged outputs for explicit memory cues. Annotation frozen without changing inference guards or paper predictions.",
+  "reviews": [
+    {
+      "review_id": 0,
+      "reviewed_source_sha256": "7b6cd0b0480f43508dff17aeb8a679e778319bda95dc6b9d50efaac962a7c7ee",
+      "assessment": "lexical_false_positive",
+      "rationale": "Conditional outcome and market-derived probability, not a recalled outcome."
+    },
+    {
+      "review_id": 1,
+      "reviewed_source_sha256": "3562c5c6882055e5a1c4a9fdcffa60e1f48d654b5efef4d506c99a852d427097",
+      "assessment": "memory_claim",
+      "rationale": "Other context explicitly claims Trump and Xi met, then disavows using memory."
+    },
+    {
+      "review_id": 2,
+      "reviewed_source_sha256": "483cb9e0bd91d1964939ac34c75640587dea64415b654424362633bbe20ab337",
+      "assessment": "lexical_false_positive",
+      "rationale": "Explicitly says no direct evidence of the actual outcome; regex ignores negation."
+    },
+    {
+      "review_id": 3,
+      "reviewed_source_sha256": "5a3df98fd59531da09c2b3eadc9c243313c783612664b4b5c89e635c4fec5e08",
+      "assessment": "ambiguous_grounding",
+      "rationale": "Ambiguous statement that this is a resolved event; supplied market price does not establish factual resolution."
+    },
+    {
+      "review_id": 4,
+      "reviewed_source_sha256": "9a85f6dac8b56afe53615feec2fee48ae8236d8c7d9845aedd51fd34b73333a1",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability conditional on the supplied market price."
+    },
+    {
+      "review_id": 5,
+      "reviewed_source_sha256": "62b012a51678a6113c8d32f306995a4e38db784f54490d165aa3399958d80f2c",
+      "assessment": "memory_claim",
+      "rationale": "Other context says I recall JDG beat; also converts uncertain price into a factual winner."
+    },
+    {
+      "review_id": 6,
+      "reviewed_source_sha256": "cc20c7909678c64f356a2a77037c7690f56995c73c6bc50a6c2996fd90e4e1f3",
+      "assessment": "lexical_false_positive",
+      "rationale": "Says actual outcome is what matters, without identifying the outcome."
+    },
+    {
+      "review_id": 7,
+      "reviewed_source_sha256": "445fa7ab42e875c687c00c9cd8228b65f1a923c2e0091ac7c9c8851334fd79f8",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 8,
+      "reviewed_source_sha256": "aa5e378ad516fc0b3e8d4a81d0b8b39bfd4d6493238ed1a885492f26adb59ff8",
+      "assessment": "memory_claim",
+      "rationale": "Other context claims an earthquake is remembered from training."
+    },
+    {
+      "review_id": 9,
+      "reviewed_source_sha256": "12218ae500f24ef3026cfc663f71dcf5f573b609ead65022da4aec6b0ff8fad3",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 10,
+      "reviewed_source_sha256": "34379a8c1f14109b844737e9b8d9f70259fb14998446176ff4c5331bd5046824",
+      "assessment": "memory_claim",
+      "rationale": "Explicit claim that Taylor Fritz won from recollection, outside admitted evidence."
+    },
+    {
+      "review_id": 11,
+      "reviewed_source_sha256": "b86714012a83f4613c02c27d43c7710ee0699536eda9147fb6a73dc935212728",
+      "assessment": "lexical_false_positive",
+      "rationale": "Conditional and probability notation; no recalled outcome."
+    },
+    {
+      "review_id": 12,
+      "reviewed_source_sha256": "df96bc5f2dd795f82cd91590888c92445f6a8e6014a731616ecaa5405292a855",
+      "assessment": "lexical_false_positive",
+      "rationale": "Asks whether an outcome occurred rather than asserting it."
+    },
+    {
+      "review_id": 13,
+      "reviewed_source_sha256": "49db0385d3f0636d5d32965c1fb9030ff61757f6dc47a5975745a0b2292f33b4",
+      "assessment": "lexical_false_positive",
+      "rationale": "Question about alignment, not assertion of later outcome."
+    },
+    {
+      "review_id": 14,
+      "reviewed_source_sha256": "72167ac9eb9fdc49da1709395144e7307d9130d5bb226f1b1580300614a4611e",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic inference from the supplied snapshot."
+    },
+    {
+      "review_id": 15,
+      "reviewed_source_sha256": "af0f5eee5f80d416f0d8b95eef0caae38cc6ecd435ab04abc8520a3c9ec00604",
+      "assessment": "ambiguous_grounding",
+      "rationale": "Starts to claim a known market resolution, then stops; no completed outcome statement."
+    },
+    {
+      "review_id": 16,
+      "reviewed_source_sha256": "cc172cbd93bf150ac42bc833da142f39f7a613c7271c9fa2bf4f26ce3f9c551c",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 17,
+      "reviewed_source_sha256": "924c744ece7143602a46d1d66c604d361e211af99cac281631349b59a7ed7b2e",
+      "assessment": "lexical_false_positive",
+      "rationale": "Question asking which outcome holds using supplied evidence."
+    },
+    {
+      "review_id": 18,
+      "reviewed_source_sha256": "0480e2804906f78090bd21fa65510434f7a3947dd983a8c86c3f149956952381",
+      "assessment": "ambiguous_grounding",
+      "rationale": "Turns an uncertain market price into a past factual outcome; grounding is ambiguous."
+    },
+    {
+      "review_id": 19,
+      "reviewed_source_sha256": "34b4be7f5cb0f10726f0bf426935506ab0b50bc585d8dadbcfe0ee47d019d751",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause and explicit lack of factual information."
+    },
+    {
+      "review_id": 20,
+      "reviewed_source_sha256": "f91f576de4132c01daf699653853741ac32ac19daa8da75f8e3b7d39e1a1ec67",
+      "assessment": "lexical_false_positive",
+      "rationale": "Two alternative hypothetical outcomes."
+    },
+    {
+      "review_id": 21,
+      "reviewed_source_sha256": "82e093b389d2c44b5d973249191d87a0ad136a2c4447e4d92b42f1dda61819d5",
+      "assessment": "lexical_false_positive",
+      "rationale": "Says the outcome space is binary, not which outcome occurred."
+    },
+    {
+      "review_id": 22,
+      "reviewed_source_sha256": "5b870b420daa6fb78be522afccc26dcfe81f0dd735d57b98a9444b550f89c3f0",
+      "assessment": "lexical_false_positive",
+      "rationale": "Outcome-type statement and if-clause."
+    },
+    {
+      "review_id": 23,
+      "reviewed_source_sha256": "17993cfeabf7ab1f12efbeaf61aaf63dfdeab76eb4b9dcebd3af2308dce001f6",
+      "assessment": "lexical_false_positive",
+      "rationale": "Explicit 20–25% probability, based on supplied price."
+    },
+    {
+      "review_id": 24,
+      "reviewed_source_sha256": "b947f75380fd7556f0c03f05f79759fb33c0f224f1ea0dea01816dfc0a60f558",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 25,
+      "reviewed_source_sha256": "0a545bac334f874c4cdf079cd8c16a602477d85ef3048eb73409fb0b3f90a6aa",
+      "assessment": "lexical_false_positive",
+      "rationale": "Counterfactual if-clause, not observed result."
+    },
+    {
+      "review_id": 26,
+      "reviewed_source_sha256": "c93501665799a283b91d004b14986946e459dbab104d0793879762e5de7eabf3",
+      "assessment": "lexical_false_positive",
+      "rationale": "Inference from supplied price stated as suggests; no claim of recalled fact."
+    },
+    {
+      "review_id": 27,
+      "reviewed_source_sha256": "3c3aabefdbaa85a401351647264bae5b782572459f0f69be22062bee962b76a3",
+      "assessment": "lexical_false_positive",
+      "rationale": "Says which event determines the outcome, without identifying the winner."
+    },
+    {
+      "review_id": 28,
+      "reviewed_source_sha256": "ecc4ca7fc0906aec6db4d9c51f48ccf9f4c97e495ffff00a02973fbe80b4c4c2",
+      "assessment": "memory_claim",
+      "rationale": "Other context explicitly recalls Sterling winning, although matched snippet is conditional."
+    },
+    {
+      "review_id": 29,
+      "reviewed_source_sha256": "0cad7c71dd3c5320e93364b69f374236097b1888c50d715f3c5b14ab97b1a4aa",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic inference from the supplied snapshot."
+    },
+    {
+      "review_id": 30,
+      "reviewed_source_sha256": "dcd1adca3a47427967c32c02d8669b52c13c2eeea162ffc6c80058eb90868201",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause and explicit lack of knowledge at cutoff."
+    },
+    {
+      "review_id": 31,
+      "reviewed_source_sha256": "aeabb5eb453b628274a1fe544780e1d00ec0f1cfed9f3f5ed9acf5117cc508b8",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability notation, not outcome assertion."
+    },
+    {
+      "review_id": 32,
+      "reviewed_source_sha256": "1135aa09fd22d56aaf0f80cc98f7d2d8693125c62e2f5b6acee3f9f4f6f33ef6",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability based on supplied snapshot."
+    },
+    {
+      "review_id": 33,
+      "reviewed_source_sha256": "1217159a4d116731270f6b9edbeb30d389dd7d19dfb53d6c184cf20c52169ef9",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability calculations and conditionals, not recalled outcome."
+    },
+    {
+      "review_id": 34,
+      "reviewed_source_sha256": "ffc893c418989b00d9eae2ad6a7aa5bcc25276e2c52283757abc4a02014ff1dd",
+      "assessment": "lexical_false_positive",
+      "rationale": "Explicitly says outcome is uncertain, an exclusion the regex lacks."
+    },
+    {
+      "review_id": 35,
+      "reviewed_source_sha256": "a79ad65c4bfeb7c42ad5b4917970415169eab3708055c5a981bb96264de37e1c",
+      "assessment": "lexical_false_positive",
+      "rationale": "Says actual outcome is what matters; no asserted result."
+    },
+    {
+      "review_id": 36,
+      "reviewed_source_sha256": "7dfb8a94776c56bf141a1b8ec09aa170e6ab74586442a387df0ee168dca1e8e2",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause and binary outcome-space statement."
+    },
+    {
+      "review_id": 37,
+      "reviewed_source_sha256": "1d1ffae30a59699c002102b9a73cacb81d2b62ae933b087cffe41d4405508600",
+      "assessment": "ambiguous_grounding",
+      "rationale": "Conditional interpretation of res_data; ambiguity between the proposal claim and a verified result."
+    },
+    {
+      "review_id": 38,
+      "reviewed_source_sha256": "2ed180f8c737f7e53d2893edae1e50746a86b94c374d899072cf1edba563ff29",
+      "assessment": "memory_claim",
+      "rationale": "Explicit world-knowledge claim that the market probably resolved No, then disavows memory."
+    },
+    {
+      "review_id": 39,
+      "reviewed_source_sha256": "328abd8cc54f33fd34c7556d1fc2a807423f9acb410200fbbbbc8ad5feda3b7a",
+      "assessment": "lexical_false_positive",
+      "rationale": "Alternative if-clauses and probability notation."
+    },
+    {
+      "review_id": 40,
+      "reviewed_source_sha256": "4aa9076bb21fc1620d00bd66a1dbc5d69efea20183f6f1b1dcea78a7725dbb8a",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 41,
+      "reviewed_source_sha256": "9dab6239481d90bc37be164423eb686ebc6b69536a912780c6af284ce3e3fbbe",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability based on supplied market price."
+    },
+    {
+      "review_id": 42,
+      "reviewed_source_sha256": "e37438b5f8eadfc56acf3af8cf7a1be63a5def9429215ba57a896924b178881d",
+      "assessment": "memory_claim",
+      "rationale": "Explicit from-memory claim that Walker won."
+    },
+    {
+      "review_id": 43,
+      "reviewed_source_sha256": "98ab471a796929fe5b55bee909ddba1000bd47cf196aff850c12a5186df1e99f",
+      "assessment": "lexical_false_positive",
+      "rationale": "Conditional and probability statements."
+    },
+    {
+      "review_id": 44,
+      "reviewed_source_sha256": "b1f6aea663817c9c3f1f36f2ca55388fb73de91e6b60f372741069ad3f9f1eba",
+      "assessment": "ambiguous_grounding",
+      "rationale": "Uncertain price is described as confirming a particular factual event; grounding ambiguous."
+    },
+    {
+      "review_id": 45,
+      "reviewed_source_sha256": "9b0ba303384c716de809543af38a64317f006540ea7e3ae92657ee6d5b75da03",
+      "assessment": "memory_claim",
+      "rationale": "Other context attempts to recall an earthquake and mentions Noto; cannot classify whole flag as innocent."
+    },
+    {
+      "review_id": 46,
+      "reviewed_source_sha256": "e736a02f9a223b9aed41c2a3a55478ce9fdfac7c68e8dec28afc5b4b735d7ffe",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability conditional on market price."
+    },
+    {
+      "review_id": 47,
+      "reviewed_source_sha256": "d83195cc8b3b8071fed5fc7cab24c728a64f759379d5b8ad93fc5d62c5fb4697",
+      "assessment": "lexical_false_positive",
+      "rationale": "Conditional and probability statements."
+    },
+    {
+      "review_id": 48,
+      "reviewed_source_sha256": "5a36c940116c587c0476bd83d769288c07a5ac14c3df469121a70cf9169c52f5",
+      "assessment": "lexical_false_positive",
+      "rationale": "Inference explicitly tied to supplied price; terminology recollection is not an outcome claim."
+    },
+    {
+      "review_id": 49,
+      "reviewed_source_sha256": "40638e3dc81cdbad99823f32a4ee5de48831a3ef184da4bf078bf47603fac9cd",
+      "assessment": "lexical_false_positive",
+      "rationale": "General statement of adjudication purpose, not a factual later result."
+    },
+    {
+      "review_id": 50,
+      "reviewed_source_sha256": "bf1c095a57248b2c8b36247b6f25bd98100734af6b0f102101522d378e9ccc04",
+      "assessment": "lexical_false_positive",
+      "rationale": "Alternative conditional outcomes and probabilities."
+    },
+    {
+      "review_id": 51,
+      "reviewed_source_sha256": "8b95b7c338415db5209323a9ec4c12d405e1db3ed33ec179a8269b0386ecae7b",
+      "assessment": "lexical_false_positive",
+      "rationale": "Question, probability statement, and if-clause."
+    },
+    {
+      "review_id": 52,
+      "reviewed_source_sha256": "aa063ed0bda48516e121bc0b7f2c298369dd9bbb9911bb75cbbe0da8298fbda7",
+      "assessment": "lexical_false_positive",
+      "rationale": "Alternative if-clauses describing the loss."
+    },
+    {
+      "review_id": 53,
+      "reviewed_source_sha256": "3178065083a1c77a97ca5f0447b25e29f621a8bbf38b1509412915a9b52456b9",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic market inference, not a recalled outcome."
+    },
+    {
+      "review_id": 54,
+      "reviewed_source_sha256": "5d66c8db3e53e2115c73d2cdb4460753a8580d970447ba02f2ab5373b8ac0bab",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 55,
+      "reviewed_source_sha256": "cf404b9fee0f8b738ff85ef9ea3899e35ed83bdd35889b28ef971344dd8182c3",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 56,
+      "reviewed_source_sha256": "faea789ed52fba155e6139e08af7fea7fdd50d403cc4ce9f141e3832d8f47eee",
+      "assessment": "lexical_false_positive",
+      "rationale": "Knowability and explicitly probabilistic inference, not a recalled result."
+    },
+    {
+      "review_id": 57,
+      "reviewed_source_sha256": "5816b4a519024357f7e7bb5de43cfd258628dcf4da03173b0ca8ecd10f5ed963",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic inference tied to supplied price, not external recall."
+    },
+    {
+      "review_id": 58,
+      "reviewed_source_sha256": "28bb6a748ac5ae48590a35cd1b91f86bdd0306d4630c0b4fd3c08d244d465395",
+      "assessment": "lexical_false_positive",
+      "rationale": "Explicit chance and a denial of external knowledge."
+    },
+    {
+      "review_id": 59,
+      "reviewed_source_sha256": "49fcbe8fea15f74450796051210c355ca6d832c57c913191794a387066cc6f00",
+      "assessment": "lexical_false_positive",
+      "rationale": "Says outcome space is binary, not which result occurred."
+    },
+    {
+      "review_id": 60,
+      "reviewed_source_sha256": "949ec2f381a2f6d82758c565092ce9bee73ce0953e53e2b04f8242bcba5aaf15",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability based on supplied market price."
+    },
+    {
+      "review_id": 61,
+      "reviewed_source_sha256": "fea38644b932c0d604610a5a3ca5c2f3ebfc86512b8558541a7cfe6a4f2bacf1",
+      "assessment": "lexical_false_positive",
+      "rationale": "Conditional and probability calculations."
+    },
+    {
+      "review_id": 62,
+      "reviewed_source_sha256": "c4ac349868b359a4e18a568d1672f12b8b3fe39036b5cadece5ce09e51c51092",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 63,
+      "reviewed_source_sha256": "9395b9280c8d49329662068f13158cede4502f9cf759e25e3dc39d200b632136",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic inference explicitly tied to supplied price."
+    },
+    {
+      "review_id": 64,
+      "reviewed_source_sha256": "a709cf00304d90ba4fd22c7ddb989995f97c7690e45800b2f889064002ee6323",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability notation based on supplied price."
+    },
+    {
+      "review_id": 65,
+      "reviewed_source_sha256": "45ae19a79c19823396a88c578824301c2a5b4ddde234cbc752056bfd41302643",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability notation based on supplied price."
+    },
+    {
+      "review_id": 66,
+      "reviewed_source_sha256": "ab320297ae989242f101c8b58d970eed50e2d38713969fc36924b57ddda70242",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic inference explicitly tied to supplied price."
+    },
+    {
+      "review_id": 67,
+      "reviewed_source_sha256": "49791800b5c6fa3c763bf21631c11f914a4f3e8a356835a6a1df183497dc483f",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability statement."
+    },
+    {
+      "review_id": 68,
+      "reviewed_source_sha256": "3c73725ec405ba49d335babc2b8276bb3ed0e18f8240be8e714097d83fbb96b7",
+      "assessment": "lexical_false_positive",
+      "rationale": "Says a closed candle has a determinate outcome, without asserting its direction."
+    },
+    {
+      "review_id": 69,
+      "reviewed_source_sha256": "77ebbb38f89f2b9accd78f7ceba23b66350d68b109a57ebcf66cf8a990f60caf",
+      "assessment": "lexical_false_positive",
+      "rationale": "Question about which of two outcomes holds."
+    },
+    {
+      "review_id": 70,
+      "reviewed_source_sha256": "82d54d9e2d2bda54214572b682edab92d59f7c3b1ab6d8dde908ba8ddcc5bfd5",
+      "assessment": "lexical_false_positive",
+      "rationale": "If-clause describing the loss condition."
+    },
+    {
+      "review_id": 71,
+      "reviewed_source_sha256": "af4101446570f493b6ab44c63a83362bcff7f1fee0b103fe91ab4d1f823c1669",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability statement."
+    },
+    {
+      "review_id": 72,
+      "reviewed_source_sha256": "b25559e504cb70d8dea180852de3a1f0cd696ee56ec61e2809b7f0d148d3195c",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probabilistic inference tied to the supplied price."
+    },
+    {
+      "review_id": 73,
+      "reviewed_source_sha256": "a38449807e2b654861245fab5fdce319d80cd3f58cfa2509410aa5c94915506a",
+      "assessment": "lexical_false_positive",
+      "rationale": "Probability statement."
+    },
+    {
+      "review_id": 74,
+      "reviewed_source_sha256": "02b92e81a9f93670c8f74718d495600eed17c1f549a42d1e57e9cf3013c5979e",
+      "assessment": "lexical_false_positive",
+      "rationale": "Conditional probabilistic inference tied to supplied price."
+    },
+    {
+      "review_id": 75,
+      "reviewed_source_sha256": "e69082a953d0bf8192e00d7089b40963e653d4d47a5ca506996e57a621f0937b",
+      "assessment": "lexical_false_positive",
+      "rationale": "Explicitly says outcome is undetermined; regex lacks this exclusion."
+    }
+  ]
+}

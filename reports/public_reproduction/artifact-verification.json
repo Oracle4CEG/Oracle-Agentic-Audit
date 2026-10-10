@@ -1,0 +1,65 @@
+{
+  "status": "VERIFIED",
+  "artifact_id": 11670288235,
+  "repository": "virusLuke3/Oracle-Agentic-Audit",
+  "github_run_url": "https://github.com/virusLuke3/Oracle-Agentic-Audit/actions/runs/38053135664",
+  "bytes": 29045598,
+  "sha256": "539c8f6bfec8d3b0ed126a5f5bb388bee0c3bec01add4f2b304e67d0d6c7451c",
+  "file_hashes": [
+    {
+      "path": "acceptance.json",
+      "bytes": 847,
+      "sha256": "80922107ac9b63e4342c111ab6ebd75b992826b4f9a44656f1b5a3ae27d3b687"
+    },
+    {
+      "path": "comparison_receipt.json",
+      "bytes": 28208,
+      "sha256": "be63c8be8bc33525d66ff0174f4f9b2956efb412bd9f523305aa5ac541c9f6e2"
+    },
+    {
+      "path": "delivery-attempts.json",
+      "bytes": 810,
+      "sha256": "07c57756ffaa0bb8b107983176b0925d2b406cd26a037fd333e45c9aec40da95"
+    },
+    {
+      "path": "download_receipt.json",
+      "bytes": 749,
+      "sha256": "715a420fd50e3f84dcadc63961059a18a8b8bd717e029b9d2a1264b2bf90fa0f"
+    },
+    {
+      "path": "environment.freeze.txt",
+      "bytes": 980,
+      "sha256": "dcf63e5e0933986047336cb04bb93248b5278e942c66c470cf4a9a93a10b92df"
+    },
+    {
+      "path": "generated-results.tar.gz",
+      "bytes": 27908461,
+      "sha256": "6129dfaa7a58285c7a119e6b29a114f67f09d5334eed440a6685ff7219b5db75"
+    },
+    {
+      "path": "notebook-ci.json",
+      "bytes": 2026,
+      "sha256": "6147ffb7428eedc0184e3e87ef5302a48bb8ef3bc54193af224b8efad4130743"
+    },
+    {
+      "path": "notebook_execution_receipt.json",
+      "bytes": 777,
+      "sha256": "045a5de1a2beb0633b9642f7360ee08479b6976d2921f3d7cbdd00131c2d861a"
+    },
+    {
+      "path": "replay_receipt.json",
+      "bytes": 1883,
+      "sha256": "624bc83e7c2d005eca4640be650d8159e3e6836e52fb4f90814f078898d59944"
+    },
+    {
+      "path": "research.executed.ipynb",
+      "bytes": 1653264,
+      "sha256": "3f78c7c07a91845e1943c92b75e89e32a6d351d01f7a3dcf91f1c2c6508d34be"
+    },
+    {
+      "path": "validation-output.txt",
+      "bytes": 6827,
+      "sha256": "d123d28cfbd2ff80d057bc85caa01d42715e6645c857a38d942e860fd9716da0"
+    }
+  ]
+}

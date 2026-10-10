@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-09T01:30:44.535608+00:00",
+  "gpu_assignment": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "gpu_model": "NVIDIA GeForce RTX 5090",
+  "model_path": "/data/LLMzoo/Qwen3.8-27B",
+  "served_model_name": "Qwen3.8-27B",
+  "revision": null,
+  "weight_version": "default",
+  "tp_size": 4,
+  "dtype": "auto",
+  "quantization": null,
+  "context_length": 32768,
+  "max_running_requests": 16,
+  "attention_backend": "triton",
+  "sampling_backend": "pytorch",
+  "reasoning_parser": "qwen3",
+  "tool_call_parser": "qwen3_coder",
+  "enable_cache_report": true,
+  "version": "0.5.13.post1",
+  "disable_cuda_graph": true
+}

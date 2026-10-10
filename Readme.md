@@ -1,62 +1,62 @@
 # Oracle-Agentic-Audit
 
-Reproducible evaluation of agentic auditing for blockchain oracle adjudication.
+> 2026-10-09 用户缩减范围（优先于下文的早期完整方案）：只保留验证集 483 条、已完成的 B2 两轮 320 条、A1 六场景 × 40 案例 × 开关对照 480 条，共 1,283 条。取消低温度实验，不再补齐 B2 五轮或 B1 防护消融。原 B1/A1 五轮主实验继续复用。B2 仅与 A1 的对应 repeat 3、4 配对；额外已完成记录单列保留。固定范围和修订理由见 `manifests/experiment-scope-20261009.json`。恢复期间更改服务配置、缩减时中断的尝试均单独保留；不按答案质量筛选。
 
-**Status: research scaffold.** The executable example uses four synthetic cases. It does not reproduce the paper, establish scientific validity, or certify the hosted Colab runtime. The paper reproduction gate intentionally fails until Huaiyu supplies and validates the real artifacts.
 
-## Quick start
+Evaluation of agentic auditing on 810 disputed UMA proposals: corrected policies, validation-only calibration, stronger feature baselines, matched-evidence single-pass inference, guard ablations and selected economic analyses.
 
-Python 3.12.14; no third-party runtime dependencies or credentials are needed for the template.
+The scientific implementation is present. Completion is checked from per-case run records, not inferred from this README. Public release and hosted Colab have separate requirements.
+
+## Install and replay
+
+[Open the pinned public reproduction notebook in Google Colab](https://colab.research.google.com/github/virusLuke3/Oracle-Agentic-Audit/blob/9edb0de1e1a28f98b5bc38d4c59e55cf679fb2fe/notebooks/Oracle_Agentic_Audit_Replay.ipynb).
+The notebook clones scientific code commit `33ec7020e97fc6b8dd0005415d3184ce889d3e28` and downloads the dataset revision recorded there. The separate notebook commit avoids a circular self-reference. A link alone is not a hosted execution receipt.
+
+Python 3.12.7, Linux:
 
 ```bash
-python -m oracle_audit smoke
-python -m unittest discover -s tests -v
-python -m oracle_audit template-check
-python -m oracle_audit release-check  # expected to fail while the research manifest is incomplete
+python -m venv .venv
+.venv/bin/python -m pip install -r requirements.lock
+.venv/bin/python -m experiments.download
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python -m oracle_audit experiment-check
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python -m analysis.replay --retrain --out outputs/replay
+.venv/bin/python -m analysis.verify_replay --reference outputs/final --candidate outputs/replay
 ```
 
-The smoke command checks a hashed synthetic input and regenerates a small metrics CSV. Generated outputs are ignored by Git. A green template check means the scaffold works; it says nothing about the paper's reported results.
+Replay uses public, immutable, checksum-pinned inputs and saved responses. It makes no inference requests. [The public-release manifest](manifests/public-release.json) binds separate Atlas selected-input and research-record archives to one Hugging Face commit. The downloader needs no authentication and refuses to overwrite differing existing records. Raw inputs and the full generated-results archive are outside Git; the executed notebook and small acceptance receipts are included. See [the public reproduction guide](docs/PUBLIC_REPRODUCTION.md).
 
-## The project boundary
+The complete replay recomputes 73 scientific CSV tables, renders 18 numeric LaTeX tables plus the exact prompts, and generates eight figures. [The output index](manifests/manuscript-outputs.json) maps each camera-ready table and figure to its source results and generator. Baselines are refitted on CPU; published pickles are never loaded. This does not rerun the LLM or certify the old manuscript's superseded numerical claims.
 
-| Product | Responsibility |
-| --- | --- |
-| Data Descriptor and its data/code release | Atlas acquisition, full protocol mapping, dictionary, provenance, lifecycle reconstruction, inventory, resource validation, dataset card and Croissant metadata. These follow the existing descriptor work plan. |
-| This research code repository | Experiment cohort and split, decision-time evidence filters, labels used by the experiment, model runners and prompts, baselines, calibration, action policies, guard tests, ablations, raw run records, paired analysis and table/figure generation. |
-| Research manuscript project | One scientific text, figures, tables and bibliography used by separate NeurIPS and ACM venue wrappers. Cite the public descriptor preprint and versioned data release. |
+Strict replay rejects incomplete required panels. During inference, `python -m analysis.replay --partial --no-bootstrap --out outputs/progress` produces explicitly partial diagnostics. `outputs/final/RESULTS_zh.md` is the complete-results entry point only after strict replay passes. Tables have CSV/Parquet versions; original figures have PDF/PNG versions.
 
-Consume the descriptor release through a fixed input manifest. Keep the full Atlas ingestion and data publication pipeline with the descriptor. Retain enough experimental detail here to reproduce the research. [Detailed boundary](docs/PROJECT_BOUNDARY.md).
+Recorded acceptance: [the complete public notebook passed on GitHub Actions](https://github.com/virusLuke3/Oracle-Agentic-Audit/actions/runs/38053135664)
+in 12.70 minutes with all six code cells executed, 32 tests passed,
+73 CSV comparisons and 18 numeric LaTeX tables plus exact prompts verified.
+Eight figures were regenerated; their PNG bytes differ from the reference, so
+pixel-identical rendering is not claimed. [Actual execution evidence](reports/public_reproduction/README.md)
+includes the executed notebook, environment and per-output checks. Hosted Google
+Colab remains NOT_RUN. No new Qwen inference was started for this delivery.
+[The immutable acceptance deposit](https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1/tree/586e850ce504db0f4ffec9bea7b0f4db3fa45239/research/agentic-audit/2026-10-10/acceptance/github-notebook) includes the generated-results archive.
+The input revision remains `ee197fc6fd6b8d980e7c7dda4feae966efe5d28c`.
 
-## Start here, Huaiyu
+## Additional Qwen inference
 
-1. Read [the completion instructions](docs/HUAIYU_COMPLETION.md).
-2. Fill [the research input manifest](manifests/research-inputs.json) with immutable versions and real checksums.
-3. Implement the experiment modules and fill [the result replication index](manifests/result-index.json).
-4. Provide an offline saved-prediction replay and a separate full-inference path. See [the reproduction contract](docs/REPRODUCIBILITY.md).
-5. Run the release gate and independent clean-environment replay before claiming paper replication.
+The original 1,600 main Qwen runs and 320 original corruption runs are frozen, hash-verified inputs. These commands execute the additional experiments:
 
-[Concise folder guide: what students should put in each folder](docs/FOLDER_GUIDE.md).
+```bash
+OPENAI_BASE_URL=http://127.0.0.1:33001/v1 .venv/bin/python -m models.run_required --suite all --workers 8
+OPENAI_BASE_URL=http://127.0.0.1:33002/v1 .venv/bin/python -m guards.run_experiment --workers 4
+```
 
-## Planned research modules
+Serve the pinned Qwen3.8-27B checkpoint. The main supplement uses TP4; the full guard experiment uses a separate TP2 service. Settings and hashes are in `manifests/*server-runtime.json` and [the protocol](docs/EXPERIMENT_PROTOCOL.md). The 9 October recovery preserves timeout/interruption attempts separately and labels the active panel as recovered, rather than first-attempt-only. Normal-return invalid model outputs remain in the analysis. New transport failures stop additional scheduling; changed attempts/configurations require archived provenance.
 
-| Area | Required implementation |
-| --- | --- |
-| `experiments/` | Cohort, chronological splits, evidence cutoffs and label validation |
-| `models/` | Exact checkpoints, serving adapters, prompts and response parsing |
-| `policies/` | Cost matrix, actions, thresholds and validation-only calibration |
-| `guards/` | Citation/time validity and corruption controls |
-| `analysis/` | Per-case metrics, paired case bootstrap, calibration, ablations and cost analysis |
-| `figures/` | Deterministic publication figure and table generation |
-| `notebooks/` | Hosted Colab walkthrough after the offline replay works |
+The 64 public demonstrations all overlap training. They are not an extra held-out cohort. Historical GPT-5.6-sol runs are analyzed separately and never called Qwen results.
 
-Each directory currently contains requirements rather than a completed scientific implementation. [Result-to-code index](manifests/result-index.json).
+## Scope and release
 
-## Data, citation and license
+The research repository owns experiment selection, evidence, model/guard experiments, policies, evaluation and selected economics. Atlas construction belongs to the descriptor. [Project boundary](docs/PROJECT_BOUNDARY.md).
 
-Canonical dataset: [OracleEconLab-Oracle-Incentives-v1](https://huggingface.co/datasets/Oracle4CEG/OracleEconLab-Oracle-Incentives-v1). Its current online presence alone does not establish that every experimental input is available. Pin the exact revision and file hashes after validation.
+The public dataset revision is pinned in the release manifest. The descriptor arXiv version, independent scientific review and actual hosted-Colab test remain separate requirements. `python -m oracle_audit release-check` reports blockers. Local replay and GitHub Actions are not hosted Colab.
 
-The descriptor arXiv identifier, research citation, code license and applicable input licenses are pending author confirmation. No license is granted by this scaffold. Do not create an invented DOI, model identifier or arXiv citation.
-
-## Validation and limitations
-
-See [the template validation receipt](docs/TEMPLATE_VALIDATION.md). [Hosted template CI passed](https://github.com/sunshineluyao/Oracle-Agentic-Audit/actions/runs/37261897236) at commit `f3470203438591d1139d2628b34f8197cf6d83c9`. Full scientific replication, real model inference, GPU requirements, independent replay and hosted Colab remain unverified. Synthetic examples must remain clearly separated from observed research outputs.
+The original `python -m oracle_audit smoke` example is synthetic and excluded from research findings. Original research code is [MIT licensed](LICENSE), as confirmed by the author. [Data and third-party terms](DATA_LICENSE.md) are separate. No descriptor arXiv identifier is invented.

@@ -1,0 +1,274 @@
+{
+  "scope": "18 numeric tables, 8 original figures, plus exact prompt listing for the revised camera-ready; no certification of old manuscript claims",
+  "command": "python -m analysis.replay --retrain",
+  "results": [
+    {
+      "result_id": "table:cohort",
+      "kind": "table",
+      "output": "tables/cohort.tex",
+      "sources": [
+        "cohort_summary.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:main_results",
+      "kind": "table",
+      "output": "tables/main_results.tex",
+      "sources": [
+        "policy_metrics.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:matched_evidence",
+      "kind": "table",
+      "output": "tables/matched_evidence.tex",
+      "sources": [
+        "matched_evidence_comparison_metrics.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:cost_summary",
+      "kind": "table",
+      "output": "tables/cost_summary.tex",
+      "sources": [
+        "cost_accounting.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:guard_summary",
+      "kind": "table",
+      "output": "tables/guard_summary.tex",
+      "sources": [
+        "guard_scenario_metrics.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:request_composition",
+      "kind": "table",
+      "output": "tables/request_composition.tex",
+      "sources": [
+        "request_composition.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:actor_groups",
+      "kind": "table",
+      "output": "tables/actor_groups.tex",
+      "sources": [
+        "seen_unseen_actor_metrics.csv",
+        "actor_group_confidence_intervals.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:policy_details",
+      "kind": "table",
+      "output": "tables/policy_details.tex",
+      "sources": [
+        "policy_metrics.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:sensitivity",
+      "kind": "table",
+      "output": "tables/sensitivity.tex",
+      "sources": [
+        "cost_sensitivity.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:paired_intervals",
+      "kind": "table",
+      "output": "tables/paired_intervals.tex",
+      "sources": [
+        "paired_bootstrap.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:guard_detail",
+      "kind": "table",
+      "output": "tables/guard_detail.tex",
+      "sources": [
+        "guard_scenario_metrics.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:citation_details",
+      "kind": "table",
+      "output": "tables/citation_details.tex",
+      "sources": [
+        "citation_error_rates.csv",
+        "citation_cost_confidence_intervals.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:cost_details",
+      "kind": "table",
+      "output": "tables/cost_details.tex",
+      "sources": [
+        "citation_cost_confidence_intervals.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:economic_activity",
+      "kind": "table",
+      "output": "tables/economic_activity.tex",
+      "sources": [
+        "economics/verification_activity_concentration.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:economic_incentives",
+      "kind": "table",
+      "output": "tables/economic_incentives.tex",
+      "sources": [
+        "economics/incentives_and_realized_outcomes.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:reward_concentration",
+      "kind": "table",
+      "output": "tables/reward_concentration.tex",
+      "sources": [
+        "economics/cross_protocol_reward_concentration.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:availability",
+      "kind": "table",
+      "output": "tables/availability.tex",
+      "sources": [
+        "economics/protocol_variable_availability.csv"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "table:uma_cashflow",
+      "kind": "table",
+      "output": "tables/uma_cashflow.tex",
+      "sources": [
+        "data/local/uma_case/token_flows.parquet",
+        "data/local/uma_case/economic_episode.json"
+      ],
+      "generator": "figures/tables.py",
+      "scope": "revised camera-ready table; see exported caption and notes"
+    },
+    {
+      "result_id": "figure:calibration",
+      "kind": "figure",
+      "output": "figures/calibration.pdf",
+      "sources": [
+        "all_predictions.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:citation_errors",
+      "kind": "figure",
+      "output": "figures/citation_errors.pdf",
+      "sources": [
+        "citation_error_rates.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:cost_performance",
+      "kind": "figure",
+      "output": "figures/cost_performance.pdf",
+      "sources": [
+        "policy_metrics.csv",
+        "cost_accounting.csv",
+        "performance_confidence_intervals.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:workflow",
+      "kind": "figure",
+      "output": "figures/workflow.pdf",
+      "sources": [
+        "cohort_summary.csv",
+        "guard_scenario_metrics.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:guard_ablation",
+      "kind": "figure",
+      "output": "figures/guard_ablation.pdf",
+      "sources": [
+        "guard_scenario_metrics.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:economic_concentration",
+      "kind": "figure",
+      "output": "figures/economic_concentration.pdf",
+      "sources": [
+        "economics/verification_activity_concentration.csv",
+        "economics/cross_protocol_reward_concentration.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:policy_sensitivity",
+      "kind": "figure",
+      "output": "figures/policy_sensitivity.pdf",
+      "sources": [
+        "cost_sensitivity.csv",
+        "capacity_scenarios.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    },
+    {
+      "result_id": "figure:tool_budget",
+      "kind": "figure",
+      "output": "figures/tool_budget.pdf",
+      "sources": [
+        "tool_budget_distribution.csv"
+      ],
+      "generator": "figures/render.py",
+      "scope": "workflow is a method schematic; other figures plot recorded results"
+    }
+  ]
+}

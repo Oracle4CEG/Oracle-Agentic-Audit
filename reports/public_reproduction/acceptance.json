@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "GITHUB_ACTIONS_FRESH_NOTEBOOK",
+  "notebook_commit": "9edb0de1e1a28f98b5bc38d4c59e55cf679fb2fe",
+  "notebook_source_sha256": "68d61f2ec27051fc8864320d1678ce872080c6580b4828825a57c7280eba3c27",
+  "code_revision": "33ec7020e97fc6b8dd0005415d3184ce889d3e28",
+  "dataset_revision": "ee197fc6fd6b8d980e7c7dda4feae966efe5d28c",
+  "executed_notebook_sha256": "3f78c7c07a91845e1943c92b75e89e32a6d351d01f7a3dcf91f1c2c6508d34be",
+  "executable_cells": 6,
+  "completed_cells": 6,
+  "elapsed_seconds": 762.123313099,
+  "scientific_csv_comparisons": 73,
+  "rendered_numeric_tables": 18,
+  "prompt_listings": 1,
+  "regenerated_figures": 8,
+  "figures_byte_identical": 0,
+  "hosted_colab": "NOT_RUN",
+  "inference_requests": 0,
+  "github_run_url": "https://github.com/virusLuke3/Oracle-Agentic-Audit/actions/runs/38053135664"
+}

@@ -1,8 +1,10 @@
 __pycache__/
 *.py[cod]
 .venv/
+.venv-*/
 .env
 .env.*
 outputs/
 data/local/
 *.log
+reports/public_reproduction/generated-results.tar.gz

@@ -1,0 +1,17 @@
+{
+  "services": [
+    {
+      "pid": 1015490,
+      "port": 30001,
+      "start_ticks": "931889474",
+      "command_sha256": "c127c14fd4a6db68de7028fa01ad25b1a53390042f1552a14a73aeee8c377a17"
+    },
+    {
+      "pid": 1015517,
+      "port": 30002,
+      "start_ticks": "931889485",
+      "command_sha256": "c65e124bd4be00963ccfe64e74cc5ad4f220c4e5a75db8cd72069d03744e2386"
+    }
+  ],
+  "scope": "Only recovery services started by this task; original port 30000 is excluded."
+}
